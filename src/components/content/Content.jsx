@@ -5,7 +5,10 @@ import { Flex, Grid } from '@chakra-ui/react'
 import SingleCategory from './SingleCategory.jsx'
 import SingleTopic from './SingleTopic.jsx'
 
-const Content = ({ data, isHomeScreen, selectedContentIndex }) => {
+const Content = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
+    const listOfTopics = data.content
+    const listOfCategory = data.content[selectedContentIndex].categoryList
+
     return (
         <Flex
             className={'content'}
@@ -28,21 +31,29 @@ const Content = ({ data, isHomeScreen, selectedContentIndex }) => {
                         }}
                         gap={4}
                     >
-                        {data.content.map((contentData, index) => {
+                        {listOfTopics.map((contentData, index) => {
                             return (
-                                <SingleTopic data={contentData} key={index} />
+                                <SingleTopic
+                                    data={data}
+                                    selectedContentIndex={selectedContentIndex}
+                                    key={index}
+                                />
                             )
                         })}
                     </Grid>
                 </>
             ) : (
-                data.content[selectedContentIndex].categoryList.map(
-                    (categoryData, index) => {
-                        return (
-                            <SingleCategory data={categoryData} key={index} />
-                        )
-                    }
-                )
+                listOfCategory.map((categoryData, index) => {
+                    return (
+                        <SingleCategory
+                            data={data}
+                            setData={setData}
+                            selectedContentIndex={selectedContentIndex}
+                            selectedCategoryIndex={index}
+                            key={index}
+                        />
+                    )
+                })
             )}
         </Flex>
     )

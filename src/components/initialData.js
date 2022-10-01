@@ -418,7 +418,7 @@ const initialData = {
                 author: 'Steve Jobs',
             },
         ],
-        darkMode: true,
+        darkMode: false,
         totalQuestions: 455,
         completedQuestions: 1,
     },

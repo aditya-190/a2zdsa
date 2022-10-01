@@ -1,12 +1,10 @@
 import { Flex, Text } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 
-const SubHeadings = ({
-    showBreadCrumbs,
-    contentHeading,
-    subtitle,
-    motivationalQuotes,
-}) => {
+const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
+    const contentHeading = data.content[selectedContentIndex].contentHeading
+    const subtitle = data.header.subtitle
+    const motivationalQuotes = data.header.motivationalQuotes
     const randomQuoteIndex = Math.floor(
         Math.random() * motivationalQuotes.length - 1
     )

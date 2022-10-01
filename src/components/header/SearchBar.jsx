@@ -8,7 +8,13 @@ import {
 
 import { Bookmark, Notes } from '../icons/ProjectIcons.jsx'
 
-const SearchBar = ({ contentCompletedQuestions, contentTotalQuestions }) => {
+const SearchBar = ({ data, setData, selectedContentIndex }) => {
+    const contentCompletedQuestions =
+        data.content[selectedContentIndex].contentCompletedQuestions
+
+    const contentTotalQuestions =
+        data.content[selectedContentIndex].contentTotalQuestions
+
     return (
         <Flex
             className={'searchBar'}

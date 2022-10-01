@@ -1,18 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import DSA from './components/index.jsx'
 import initialData from './components/initialData.js'
 
 function App() {
-    const [data, setData] = useState(null)
-
-    useEffect(() => {
-        const fetchData = localStorage.getItem('data')
-        fetchData === null
-            ? localStorage.setItem('data', JSON.stringify(initialData))
-            : setData(JSON.parse(fetchData))
-    }, [])
+    const [data, setData] = useState(initialData)
 
     return (
         data !== null && (
@@ -22,6 +15,7 @@ function App() {
                     element={
                         <DSA
                             data={data}
+                            setData={setData}
                             isHomeScreen={true}
                             selectedContentIndex={0}
                             is404={false}
@@ -36,6 +30,7 @@ function App() {
                             element={
                                 <DSA
                                     data={data}
+                                    setData={setData}
                                     isHomeScreen={false}
                                     selectedContentIndex={index}
                                     is404={false}
@@ -47,7 +42,13 @@ function App() {
                 <Route
                     path="*"
                     element={
-                        <DSA data={data} isHomeScreen={true} is404={true} />
+                        <DSA
+                            data={data}
+                            setData={setData}
+                            isHomeScreen={true}
+                            selectedContentIndex={0}
+                            is404={true}
+                        />
                     }
                 />
             </Routes>

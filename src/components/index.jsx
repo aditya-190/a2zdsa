@@ -5,7 +5,11 @@ import Footer from './footer/Footer.jsx'
 import Header from './header/Header.jsx'
 import { Reacteroids } from './NotFound/Reacteroids'
 
-const DSA = ({ data, isHomeScreen, selectedContentIndex, is404 }) => {
+const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
+    const originalDsaSheetLink = data.footer.originalDsaSheetLink
+    const originalAuthorLinkedInLink = data.footer.originalAuthorLinkedInLink
+    const gitHubLink = data.footer.gitHubLink
+
     return (
         <Flex
             className={'app'}
@@ -21,20 +25,20 @@ const DSA = ({ data, isHomeScreen, selectedContentIndex, is404 }) => {
                 <>
                     <Header
                         data={data}
+                        setData={setData}
                         isHomeScreen={isHomeScreen}
                         selectedContentIndex={selectedContentIndex}
                     />
                     <Content
                         data={data}
+                        setData={setData}
                         isHomeScreen={isHomeScreen}
                         selectedContentIndex={selectedContentIndex}
                     />
                     <Footer
-                        originalDsaSheetLink={data.footer.originalDsaSheetLink}
-                        originalAuthorLinkedInLink={
-                            data.footer.originalAuthorLinkedInLink
-                        }
-                        gitHubLink={data.footer.gitHubLink}
+                        originalDsaSheetLink={originalDsaSheetLink}
+                        originalAuthorLinkedInLink={originalAuthorLinkedInLink}
+                        gitHubLink={gitHubLink}
                     />
                 </>
             )}

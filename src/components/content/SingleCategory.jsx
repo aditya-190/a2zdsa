@@ -2,9 +2,20 @@ import { Flex, Text } from '@chakra-ui/react'
 
 import SingleQuestion from './SingleQuestion.jsx'
 
-const SingleCategory = ({ data }) => {
-    const isCategoryCompleted =
-        data.categoryTotalQuestions === data.categoryCompletedQuestions
+const SingleCategory = ({
+    data,
+    setData,
+    selectedContentIndex,
+    selectedCategoryIndex,
+}) => {
+    const current =
+        data.content[selectedContentIndex].categoryList[selectedCategoryIndex]
+    const categoryId = current.categoryId
+    const categoryName = current.categoryName
+    const listOfQuestion = current.questionList
+    const isCompleted =
+        current.categoryTotalQuestions === current.categoryCompletedQuestions
+
     return (
         <Flex className={'singleCategory'} p={'2'} flexDirection={'column'}>
             <Flex
@@ -19,7 +30,7 @@ const SingleCategory = ({ data }) => {
                     fontStyle={'normal'}
                     color={'textColor'}
                 >
-                    {'Step ' + data.categoryId + '.'}
+                    {'Step ' + categoryId + '.'}
                 </Text>
                 <Text
                     ml={4}
@@ -28,11 +39,9 @@ const SingleCategory = ({ data }) => {
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
                     color={'textColor'}
-                    textDecorationLine={
-                        isCategoryCompleted ? 'line-through' : 'none'
-                    }
+                    textDecorationLine={isCompleted ? 'line-through' : 'none'}
                 >
-                    {data.categoryName}
+                    {categoryName}
                 </Text>
             </Flex>
 
@@ -42,13 +51,15 @@ const SingleCategory = ({ data }) => {
                 alignItems={'start'}
                 justifyContent={'center'}
             >
-                {data.questionList.map((questionData, index) => {
+                {listOfQuestion.map((questionData, index) => {
                     return (
                         <SingleQuestion
-                            data={questionData}
+                            data={data}
+                            setData={setData}
+                            selectedContentIndex={selectedContentIndex}
+                            selectedCategoryIndex={selectedCategoryIndex}
+                            selectedQuestionIndex={index}
                             key={index}
-                            index={index}
-                            totalLength={data.questionList.length}
                         />
                     )
                 })}

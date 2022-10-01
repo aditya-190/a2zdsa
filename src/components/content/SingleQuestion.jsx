@@ -1,4 +1,5 @@
 import { Flex, Text } from '@chakra-ui/react'
+import { useState } from 'react'
 
 import {
     Bookmark,
@@ -10,17 +11,37 @@ import {
     YouTube,
 } from '../icons/ProjectIcons'
 
-const SingleQuestion = ({ data, index, totalLength }) => {
+const SingleQuestion = ({
+    data,
+    setData,
+    selectedCategoryIndex,
+    selectedContentIndex,
+    selectedQuestionIndex,
+}) => {
+    const [isHovering, setHovering] = useState(false)
+    const current =
+        data.content[selectedContentIndex].categoryList[selectedCategoryIndex]
+            .questionList
+    const totalLength = current.length
+    const isDone = current[selectedQuestionIndex].isDone
+    const questionHeading = current[selectedQuestionIndex].questionHeading
+
     return (
         <Flex
             w={'full'}
-            mb={index !== totalLength - 1 ? 2 : 0}
-            key={index}
+            mb={selectedQuestionIndex !== totalLength - 1 ? 2 : 0}
+            key={selectedQuestionIndex}
             flexDirection={'row'}
             alignItems={'center'}
             justifyContent={'space-between'}
+            onMouseEnter={() => {
+                setHovering(true)
+            }}
+            onMouseLeave={() => {
+                setHovering(false)
+            }}
         >
-            {data.isDone ? <Tick /> : <UnTick />}
+            {isDone || isHovering ? <Tick /> : <UnTick />}
 
             <Text
                 ml={4}
@@ -32,7 +53,7 @@ const SingleQuestion = ({ data, index, totalLength }) => {
                 fontStyle={'normal'}
                 color={'defaultColor'}
             >
-                {data.questionHeading}
+                {questionHeading}
             </Text>
 
             <Flex flexDirection={'row'} ml={6}>

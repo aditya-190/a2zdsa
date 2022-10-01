@@ -6,7 +6,8 @@ import SearchBar from './SearchBar.jsx'
 import SubHeadings from './SubHeadings.jsx'
 import TotalProgressBar from './TotalProgressBar.jsx'
 
-const Header = ({ data, isHomeScreen, selectedContentIndex }) => {
+const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
+    const numberOfTotalCompletedQuestions = data.header.completedQuestions
     return (
         <Flex
             className={'header'}
@@ -16,20 +17,14 @@ const Header = ({ data, isHomeScreen, selectedContentIndex }) => {
             justifyContent={'center'}
         >
             <Ads />
-            <Headings
-                heading={data.header.heading}
-                darkMode={data.header.darkMode}
-            />
+            <Headings data={data} setData={setData} />
             <SubHeadings
+                data={data}
+                selectedContentIndex={selectedContentIndex}
                 showBreadCrumbs={!isHomeScreen}
-                contentHeading={
-                    data.content[selectedContentIndex].contentHeading
-                }
-                subtitle={data.header.subtitle}
-                motivationalQuotes={data.header.motivationalQuotes}
             />
             {isHomeScreen ? (
-                data.header.completedQuestions === 0 ? (
+                numberOfTotalCompletedQuestions === 0 ? (
                     <Text
                         mt={4}
                         align={'center'}
@@ -42,24 +37,13 @@ const Header = ({ data, isHomeScreen, selectedContentIndex }) => {
                         Start Solving 🔥
                     </Text>
                 ) : (
-                    <TotalProgressBar
-                        completedQuestions={data.header.completedQuestions}
-                        percentageCompleted={(
-                            (data.header.completedQuestions /
-                                data.header.totalQuestions) *
-                            100
-                        ).toFixed(1)}
-                    />
+                    <TotalProgressBar data={data} />
                 )
             ) : (
                 <SearchBar
-                    contentCompletedQuestions={
-                        data.content[selectedContentIndex]
-                            .contentCompletedQuestions
-                    }
-                    contentTotalQuestions={
-                        data.content[selectedContentIndex].contentTotalQuestions
-                    }
+                    data={data}
+                    setData={setData}
+                    selectedContentIndex={selectedContentIndex}
                 />
             )}
         </Flex>

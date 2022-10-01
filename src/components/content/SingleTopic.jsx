@@ -9,23 +9,26 @@ import {
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const SingleTopic = ({ data }) => {
+const SingleTopic = ({ data, selectedContentIndex }) => {
     const [isHovering, setHover] = useState(false)
-    const completedPercentage =
-        (data.contentCompletedQuestions / data.contentTotalQuestions) * 100
+
+    const current = data.content[selectedContentIndex]
+    const completedQuestion = current.contentCompletedQuestions
+    const totalQuestion = current.contentTotalQuestions
+    const completedPercentage = (completedQuestion / totalQuestion) * 100
+    const topicLink = current.contentPath
+    const isStarted = current.contentCompletedQuestions !== 0
+    const contentHeading = current.contentHeading
+    const contentSubHeading = current.contentSubHeading
 
     return (
-        <Link to={data.contentPath}>
+        <Link to={topicLink}>
             <Flex
                 className={'singleTopic'}
                 flexDirection={'row'}
                 justifyContent={'space-between'}
                 alignItems={'center'}
-                background={
-                    data.contentCompletedQuestions !== '0'
-                        ? 'topicProgressBg'
-                        : 'topicStillBg'
-                }
+                background={isStarted ? 'topicProgressBg' : 'topicStillBg'}
                 p={2}
                 minH={'100px'}
                 borderRadius={16}
@@ -51,7 +54,7 @@ const SingleTopic = ({ data }) => {
                         fontStyle={'normal'}
                         color={'defaultColor'}
                     >
-                        {data.contentHeading}
+                        {contentHeading}
                     </Text>
                     <Text
                         fontWeight={'md'}
@@ -60,11 +63,11 @@ const SingleTopic = ({ data }) => {
                         fontStyle={'normal'}
                         color={'defaultColor'}
                     >
-                        {data.contentSubHeading}
+                        {contentSubHeading}
                     </Text>
                 </Flex>
 
-                {data.contentCompletedQuestions !== '0' ? (
+                {isStarted ? (
                     <CircularProgress
                         ml={6}
                         size={'70px'}
@@ -75,9 +78,7 @@ const SingleTopic = ({ data }) => {
                         value={completedPercentage}
                     >
                         <CircularProgressLabel>
-                            {data.contentCompletedQuestions +
-                                '/' +
-                                data.contentTotalQuestions}
+                            {completedQuestion + '/' + totalQuestion}
                         </CircularProgressLabel>
                     </CircularProgress>
                 ) : (
