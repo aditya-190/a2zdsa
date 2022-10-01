@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', serif;
+  color: black;
+}
+
+.game-wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.current-score {
+    font-weight: 800;
+    font-size: 16px;
+    left: 16px;
+    color: black;
+}
+
+.top-score {
+    font-weight: 800;
+    font-size: 16px;
+    right: 16px;
+    color: black;
+}
+
+.score {
+    display: block;
+    position: absolute;
+    top: 16px;
+    z-index: 1;
+}
+
+.controls {
+    color: black;
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.endgame {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+}
+
+.try-again-wrapper:hover {
+    background-color: black;
+    color: white;
+}
+
+.try-again-wrapper {
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+}

@@ -1,0 +1,45 @@
+import { Flex } from '@chakra-ui/react'
+
+import Content from './content/Content.jsx'
+import Footer from './footer/Footer.jsx'
+import Header from './header/Header.jsx'
+import { Reacteroids } from './NotFound/Reacteroids'
+
+const DSA = ({ data, isHomeScreen, selectedContentIndex, is404 }) => {
+    return (
+        <Flex
+            className={'app'}
+            w={'100vw'}
+            h={'100vh'}
+            flexDirection={'column'}
+            alignItems={'center'}
+            justifyContent={'space-between'}
+        >
+            {is404 ? (
+                <Reacteroids />
+            ) : (
+                <>
+                    <Header
+                        data={data}
+                        isHomeScreen={isHomeScreen}
+                        selectedContentIndex={selectedContentIndex}
+                    />
+                    <Content
+                        data={data}
+                        isHomeScreen={isHomeScreen}
+                        selectedContentIndex={selectedContentIndex}
+                    />
+                    <Footer
+                        originalDsaSheetLink={data.footer.originalDsaSheetLink}
+                        originalAuthorLinkedInLink={
+                            data.footer.originalAuthorLinkedInLink
+                        }
+                        gitHubLink={data.footer.gitHubLink}
+                    />
+                </>
+            )}
+        </Flex>
+    )
+}
+
+export default DSA

@@ -6,9 +6,14 @@ const SubHeadings = ({
     subtitle,
     motivationalQuotes,
 }) => {
+    const randomQuoteIndex = Math.floor(
+        Math.random() * motivationalQuotes.length - 1
+    )
+
     return (
         <Flex
             mt={0.5}
+            w={'80vw'}
             className={'subHeadings'}
             flexDirection={'column'}
             alignItems={'center'}
@@ -63,7 +68,10 @@ const SubHeadings = ({
                         fontStyle={'normal'}
                         color={'textColor'}
                     >
-                        {motivationalQuotes}
+                        {'" ' +
+                            motivationalQuotes[randomQuoteIndex].quote +
+                            ' " - ' +
+                            motivationalQuotes[randomQuoteIndex].author}
                     </Text>
                 </>
             )}
