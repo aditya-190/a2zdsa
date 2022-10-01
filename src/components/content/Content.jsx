@@ -35,7 +35,7 @@ const Content = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
                             return (
                                 <SingleTopic
                                     data={data}
-                                    selectedContentIndex={selectedContentIndex}
+                                    selectedContentIndex={index}
                                     key={index}
                                 />
                             )
