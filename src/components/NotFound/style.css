@@ -84,3 +84,27 @@ canvas {
     padding: 10px 20px;
     margin: 10px;
 }
+
+.homepage {
+    color: black;
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.6;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+}
+
+.homepage:hover {
+    background-color: black;
+    color: white;
+}

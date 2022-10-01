@@ -457,7 +457,7 @@ function App() {
             },
         ],
         footer: {
-            gitHubLink: 'https://github.com/aditya-190',
+            gitHubLink: 'https://github.com/aditya-190/A2Z-DSA-Tracker',
             originalDsaSheetLink:
                 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/',
             originalAuthorLinkedInLink: 'https://in.linkedin.com/in/rajarvp',

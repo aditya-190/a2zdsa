@@ -2,6 +2,7 @@ import './style.css'
 
 import { Show } from '@chakra-ui/react'
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 import Asteroid from './Asteroid.jsx'
 import { randomNumBetweenExcluding } from './helpers'
@@ -280,6 +281,10 @@ export class Reacteroids extends Component {
                         <br />
                         Use [SPACE] to SHOOT
                     </span>
+
+                    <Link to={'/'}>
+                        <span className="homepage">GO TO HOMEPAGE</span>
+                    </Link>
                 </Show>
                 <canvas
                     ref={'canvas'}

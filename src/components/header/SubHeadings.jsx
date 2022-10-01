@@ -1,4 +1,5 @@
 import { Flex, Text } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 
 const SubHeadings = ({
     showBreadCrumbs,
@@ -25,17 +26,19 @@ const SubHeadings = ({
                     alignItems={'center'}
                     justifyContent={'center'}
                 >
-                    <Text
-                        align={'center'}
-                        fontWeight={'md'}
-                        fontSize={'lg'}
-                        fontFamily={'customFamily'}
-                        fontStyle={'normal'}
-                        color={'highlightedColor'}
-                        cursor={'pointer'}
-                    >
-                        Topics
-                    </Text>
+                    <Link to={'/'}>
+                        <Text
+                            align={'center'}
+                            fontWeight={'md'}
+                            fontSize={'lg'}
+                            fontFamily={'customFamily'}
+                            fontStyle={'normal'}
+                            color={'highlightedColor'}
+                            cursor={'pointer'}
+                        >
+                            Topics
+                        </Text>
+                    </Link>
                     <Text
                         align={'center'}
                         fontWeight={'md'}

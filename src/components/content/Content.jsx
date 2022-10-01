@@ -1,6 +1,6 @@
 import './ProgressBar.css'
 
-import { Flex, Grid, Hide, Show } from '@chakra-ui/react'
+import { Flex, Grid } from '@chakra-ui/react'
 
 import SingleCategory from './SingleCategory.jsx'
 import SingleTopic from './SingleTopic.jsx'
@@ -21,30 +21,19 @@ const Content = ({ data, isHomeScreen, selectedContentIndex }) => {
         >
             {isHomeScreen ? (
                 <>
-                    <Show above={'md'}>
-                        <Grid templateColumns="repeat(3, 1fr)" gap={4}>
-                            {data.content.map((contentData, index) => {
-                                return (
-                                    <SingleTopic
-                                        data={contentData}
-                                        key={index}
-                                    />
-                                )
-                            })}
-                        </Grid>
-                    </Show>
-                    <Hide above={'md'}>
-                        <Grid templateColumns="repeat(1, 1fr)" gap={4}>
-                            {data.content.map((contentData, index) => {
-                                return (
-                                    <SingleTopic
-                                        data={contentData}
-                                        key={index}
-                                    />
-                                )
-                            })}
-                        </Grid>
-                    </Hide>
+                    <Grid
+                        templateColumns={{
+                            base: 'repeat(1, 1fr)',
+                            md: 'repeat(3, 1fr)',
+                        }}
+                        gap={4}
+                    >
+                        {data.content.map((contentData, index) => {
+                            return (
+                                <SingleTopic data={contentData} key={index} />
+                            )
+                        })}
+                    </Grid>
                 </>
             ) : (
                 data.content[selectedContentIndex].categoryList.map(
