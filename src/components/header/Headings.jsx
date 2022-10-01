@@ -17,11 +17,11 @@ const Headings = ({ heading, darkMode }) => {
             <Text
                 flexGrow={1}
                 align={'center'}
-                fontWeight={'600'}
-                fontSize={'24px'}
-                fontFamily={'?????'}
+                fontWeight={'lg'}
+                fontSize={'2xl'}
+                fontFamily={'customFamily'}
                 fontStyle={'normal'}
-                color={'black'}
+                color={'defaultColor'}
             >
                 {heading}
             </Text>

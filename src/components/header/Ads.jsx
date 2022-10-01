@@ -4,18 +4,19 @@ const Ads = () => {
     return (
         <Flex
             className={'ads'}
+            display={'none'}
             w={'100vw'}
             py={1}
             px={4}
-            bg={'#D9D9D9'}
+            bg={'adsBg'}
             alignItems={'center'}
             justifyContent={'center'}
         >
             <Text
-                fontSize={'12px'}
-                fontFamily={'?????'}
-                fontWeight={'400'}
-                color={'black'}
+                fontSize={'xs'}
+                fontFamily={'customFamily'}
+                fontWeight={'md'}
+                color={'textColor'}
             >
                 Ads Goes Here...
             </Text>

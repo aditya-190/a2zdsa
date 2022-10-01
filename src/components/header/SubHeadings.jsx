@@ -22,22 +22,22 @@ const SubHeadings = ({
                 >
                     <Text
                         align={'center'}
-                        fontWeight={'400'}
-                        fontSize={'18px'}
-                        fontFamily={'?????'}
+                        fontWeight={'md'}
+                        fontSize={'lg'}
+                        fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'#3090EA'}
+                        color={'highlightedColor'}
                         cursor={'pointer'}
                     >
                         Topics
                     </Text>
                     <Text
                         align={'center'}
-                        fontWeight={'400'}
-                        fontSize={'18px'}
-                        fontFamily={'?????'}
+                        fontWeight={'md'}
+                        fontSize={'lg'}
+                        fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'black'}
+                        color={'textColor'}
                     >
                         {'/' + contentHeading}
                     </Text>
@@ -46,22 +46,22 @@ const SubHeadings = ({
                 <>
                     <Text
                         align={'center'}
-                        fontWeight={'400'}
-                        fontSize={'18px'}
-                        fontFamily={'?????'}
+                        fontWeight={'md'}
+                        fontSize={'lg'}
+                        fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'black'}
+                        color={'defaultColor'}
                     >
                         {subtitle}
                     </Text>
                     <Text
                         mt={2}
                         align={'center'}
-                        fontWeight={'400'}
-                        fontSize={'14px'}
-                        fontFamily={'?????'}
+                        fontWeight={'md'}
+                        fontSize={'sm'}
+                        fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'black'}
+                        color={'textColor'}
                     >
                         {motivationalQuotes}
                     </Text>

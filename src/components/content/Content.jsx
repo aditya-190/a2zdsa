@@ -13,7 +13,8 @@ const Content = ({ data, isHomeScreen, selectedContentIndex }) => {
             w={'80vw'}
             flexGrow={'1'}
             flexDirection={'column'}
-            border={'2px solid #000000'}
+            borderColor={'defaultColor'}
+            borderWidth={'2px'}
             borderRadius={'6px'}
             p={2}
             overflowY={'scroll'}

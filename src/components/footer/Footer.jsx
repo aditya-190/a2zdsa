@@ -8,7 +8,7 @@ const Footer = ({
     return (
         <Flex
             className={'footer'}
-            bg={'#27AE60'}
+            bg={'footerBg'}
             w={'100vw'}
             px={4}
             py={1}
@@ -18,11 +18,11 @@ const Footer = ({
             justifyContent={'space-between'}
         >
             <Text
-                fontWeight={'400'}
-                fontSize={'12px'}
-                fontFamily={'?????'}
+                fontWeight={'md'}
+                fontSize={'xs'}
+                fontFamily={'customFamily'}
                 fontStyle={'normal'}
-                color={'white'}
+                color={'secondaryColor'}
             >
                 A Personal web-based progress tracker based on{' '}
                 {
@@ -53,13 +53,13 @@ const Footer = ({
                     h={'fit-content'}
                     px={4}
                     py={1}
-                    bg={'white'}
+                    bg={'secondaryColor'}
                     borderRadius={'16px'}
-                    fontWeight={'700'}
-                    fontSize={'12px'}
-                    fontFamily={'?????'}
+                    fontWeight={'lg'}
+                    fontSize={'xs'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'black'}
+                    color={'defaultColor'}
                 >
                     This Project
                 </Text>

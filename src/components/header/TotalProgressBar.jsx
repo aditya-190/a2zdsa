@@ -11,11 +11,11 @@ const TotalProgressBar = ({ completedQuestions, percentageCompleted }) => {
         >
             <Text
                 align={'center'}
-                fontWeight={'500'}
-                fontSize={'18px'}
-                fontFamily={'?????'}
+                fontWeight={'lg'}
+                fontSize={'lg'}
+                fontFamily={'customFamily'}
                 fontStyle={'normal'}
-                color={'black'}
+                color={'defaultColor'}
             >
                 Total Question Solved:{' '}
                 {completedQuestions + ' (' + percentageCompleted + '% Done)'}
@@ -23,13 +23,13 @@ const TotalProgressBar = ({ completedQuestions, percentageCompleted }) => {
 
             <Flex
                 mt={2}
-                bg={'#4F4F4F'}
+                bg={'totalColor'}
                 borderRadius={16}
                 minH={'12px'}
                 w={'calc(60vw)'}
             >
                 <Flex
-                    bg={'#F3C623'}
+                    bg={'completedColor'}
                     borderRadius={16}
                     w={percentageCompleted + '%'}
                 />

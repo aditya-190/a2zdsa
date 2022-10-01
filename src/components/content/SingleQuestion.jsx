@@ -26,11 +26,11 @@ const SingleQuestion = ({ data, index, totalLength }) => {
                 ml={4}
                 flexGrow={1}
                 vertical-align={'middle'}
-                fontWeight={'400'}
-                fontSize={'12px'}
-                fontFamily={'?????'}
+                fontWeight={'md'}
+                fontSize={'xs'}
+                fontFamily={'customFamily'}
                 fontStyle={'normal'}
-                color={'black'}
+                color={'defaultColor'}
             >
                 {data.questionHeading}
             </Text>

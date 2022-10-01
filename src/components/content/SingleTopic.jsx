@@ -20,7 +20,9 @@ const SingleTopic = ({ data }) => {
             justifyContent={'space-between'}
             alignItems={'center'}
             background={
-                data.contentCompletedQuestions !== '0' ? '#AAD6B9' : '#AAD0F6'
+                data.contentCompletedQuestions !== '0'
+                    ? 'topicProgressBg'
+                    : 'topicStillBg'
             }
             p={2}
             minH={'100px'}
@@ -41,20 +43,20 @@ const SingleTopic = ({ data }) => {
                 alignItems={'start'}
             >
                 <Text
-                    fontWeight={'500'}
-                    fontSize={'24px'}
-                    fontFamily={'?????'}
+                    fontWeight={'md'}
+                    fontSize={'2xl'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'black'}
+                    color={'defaultColor'}
                 >
                     {data.contentHeading}
                 </Text>
                 <Text
-                    fontWeight={'400'}
-                    fontSize={'12px'}
-                    fontFamily={'?????'}
+                    fontWeight={'md'}
+                    fontSize={'xs'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'black'}
+                    color={'defaultColor'}
                 >
                     {data.contentSubHeading}
                 </Text>
@@ -66,8 +68,8 @@ const SingleTopic = ({ data }) => {
                     size={'70px'}
                     thickness={'8px'}
                     role={'progressbar'}
-                    color={'#F3C623'}
-                    trackColor={'#4F4F4F'}
+                    color={'completedColor'}
+                    trackColor={'totalColor'}
                     value={completedPercentage}
                 >
                     <CircularProgressLabel>
@@ -82,13 +84,13 @@ const SingleTopic = ({ data }) => {
                     h={'fit-content'}
                     px={4}
                     py={1}
-                    bg={'#007bff'}
+                    bg={'startNowBg'}
                     borderRadius={'16px'}
-                    fontWeight={'700'}
-                    fontSize={'12px'}
-                    fontFamily={'?????'}
+                    fontWeight={'xl'}
+                    fontSize={'xs'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'white'}
+                    color={'secondaryColor'}
                     cursor={'pointer'}
                     whiteSpace={'nowrap'}
                 >

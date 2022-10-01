@@ -6,32 +6,28 @@ const SingleCategory = ({ data }) => {
     const isCategoryCompleted =
         data.categoryTotalQuestions === data.categoryCompletedQuestions
     return (
-        <Flex
-            className={'singleCategory'}
-            p={'2'}
-            flexDirection={'column'}
-        >
+        <Flex className={'singleCategory'} p={'2'} flexDirection={'column'}>
             <Flex
                 flexDirection={'row'}
                 justifyContent={'start'}
                 alignItems={'flex-end'}
             >
                 <Text
-                    fontWeight={'500'}
-                    fontSize={'24px'}
-                    fontFamily={'?????'}
+                    fontWeight={'lg'}
+                    fontSize={'2xl'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'black'}
+                    color={'textColor'}
                 >
-                    {'Step' + data.categoryId + '.'}
+                    {'Step ' + data.categoryId + '.'}
                 </Text>
                 <Text
                     ml={4}
-                    fontWeight={'400'}
-                    fontSize={'22px'}
-                    fontFamily={'?????'}
+                    fontWeight={'md'}
+                    fontSize={'xl'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'black'}
+                    color={'textColor'}
                     textDecorationLine={
                         isCategoryCompleted ? 'line-through' : 'none'
                     }

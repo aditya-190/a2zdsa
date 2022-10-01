@@ -19,19 +19,21 @@ const SearchBar = ({ contentCompletedQuestions, contentTotalQuestions }) => {
             justifyContent={'center'}
         >
             <Flex
-                border={'2px solid #FF9933'}
+                borderWidth={'2px'}
+                borderColor={'indianFlag1Color'}
                 borderRadius={'6px'}
                 p={2}
                 cursor={'pointer'}
                 alignItems={'center'}
                 justifyContent={'center'}
-                background={'rgba(255, 153, 51, 0.05)'}
+                background={'indianFlag1Bg'}
             >
                 <Notes fontSize={'16px'} />
             </Flex>
 
             <Flex
-                border={'2px solid #FF9933'}
+                borderWidth={'2px'}
+                borderColor={'indianFlag1Color'}
                 borderTopLeftRadius={'6px'}
                 borderBottomLeftRadius={'6px'}
                 p={2}
@@ -39,22 +41,23 @@ const SearchBar = ({ contentCompletedQuestions, contentTotalQuestions }) => {
                 cursor={'pointer'}
                 alignItems={'center'}
                 justifyContent={'center'}
-                background={'rgba(255, 153, 51, 0.05)'}
+                background={'indianFlag1Bg'}
             >
                 <Text
                     align={'center'}
-                    fontWeight={'700'}
-                    fontSize={'12px'}
-                    fontFamily={'?????'}
+                    fontWeight={'xl'}
+                    fontSize={'xs'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'#FF9933'}
+                    color={'indianFlag1Color'}
                 >
                     Pick Random
                 </Text>
             </Flex>
 
             <Flex
-                border={'2px solid #000080'}
+                borderWidth={'2px'}
+                borderColor={'indianFlag2Color'}
                 p={2}
                 ml={1}
                 flexGrow={1}
@@ -64,9 +67,9 @@ const SearchBar = ({ contentCompletedQuestions, contentTotalQuestions }) => {
                 <Editable
                     w={'full'}
                     align={'center'}
-                    fontWeight={'700'}
-                    fontSize={'12px'}
-                    fontFamily={'?????'}
+                    fontWeight={'xl'}
+                    fontSize={'xs'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
                     placeholder={'Search Questions...'}
                 >
@@ -80,7 +83,8 @@ const SearchBar = ({ contentCompletedQuestions, contentTotalQuestions }) => {
             </Flex>
 
             <Flex
-                border={'2px solid #138808'}
+                borderWidth={'2px'}
+                borderColor={'indianFlag3Color'}
                 borderTopRightRadius={'6px'}
                 borderBottomRightRadius={'6px'}
                 p={2}
@@ -88,15 +92,15 @@ const SearchBar = ({ contentCompletedQuestions, contentTotalQuestions }) => {
                 cursor={'pointer'}
                 alignItems={'center'}
                 justifyContent={'center'}
-                background={'rgba(19, 136, 8, 0.05)'}
+                background={'indianFlag3Bg'}
             >
                 <Text
                     align={'center'}
-                    fontWeight={'700'}
-                    fontSize={'12px'}
-                    fontFamily={'?????'}
+                    fontWeight={'xl'}
+                    fontSize={'xs'}
+                    fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'#138808'}
+                    color={'indianFlag3Color'}
                 >
                     {contentCompletedQuestions +
                         '/' +
@@ -106,14 +110,15 @@ const SearchBar = ({ contentCompletedQuestions, contentTotalQuestions }) => {
             </Flex>
 
             <Flex
-                border={'2px solid #138808'}
+                borderWidth={'2px'}
+                borderColor={'indianFlag3Color'}
                 borderRadius={'6px'}
                 p={2}
                 ml={1}
                 cursor={'pointer'}
                 alignItems={'center'}
                 justifyContent={'center'}
-                background={'rgba(19, 136, 8, 0.05)'}
+                background={'indianFlag3Bg'}
             >
                 <Bookmark fontSize={'16px'} />
             </Flex>
