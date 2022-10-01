@@ -35,6 +35,7 @@ const SubHeadings = ({
                             fontStyle={'normal'}
                             color={'highlightedColor'}
                             cursor={'pointer'}
+                            _hover={{ textDecorationLine: 'underline' }}
                         >
                             Topics
                         </Text>

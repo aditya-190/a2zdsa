@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react'
+import { Flex, Text } from '@chakra-ui/react'
 
 import Ads from './Ads.jsx'
 import Headings from './Headings.jsx'
@@ -29,14 +29,28 @@ const Header = ({ data, isHomeScreen, selectedContentIndex }) => {
                 motivationalQuotes={data.header.motivationalQuotes}
             />
             {isHomeScreen ? (
-                <TotalProgressBar
-                    completedQuestions={data.header.completedQuestions}
-                    percentageCompleted={(
-                        (data.header.completedQuestions /
-                            data.header.totalQuestions) *
-                        100
-                    ).toFixed(1)}
-                />
+                data.header.completedQuestions === 0 ? (
+                    <Text
+                        mt={4}
+                        align={'center'}
+                        fontWeight={'md'}
+                        fontSize={'lg'}
+                        fontFamily={'customFamily'}
+                        fontStyle={'normal'}
+                        color={'defaultColor'}
+                    >
+                        Start Solving 🔥
+                    </Text>
+                ) : (
+                    <TotalProgressBar
+                        completedQuestions={data.header.completedQuestions}
+                        percentageCompleted={(
+                            (data.header.completedQuestions /
+                                data.header.totalQuestions) *
+                            100
+                        ).toFixed(1)}
+                    />
+                )
             ) : (
                 <SearchBar
                     contentCompletedQuestions={
