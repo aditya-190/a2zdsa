@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import DSA from './components/index.jsx'
-import initialData from './components/initialData.js'
+import ultimateData from './components/ultimateData.js'
 
 function App() {
-    const [data, setData] = useState(initialData)
+    const [data, setData] = useState(ultimateData)
 
     return (
         data !== null && (
