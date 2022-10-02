@@ -438,7 +438,92 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'User Input/ Output',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Data Types',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'If Else Statements',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/java-if-else-decision-making0924/0?category%5B%5D=Java&category%5B%5D=Java&difficulty%5B%5D=-2&page=1&query=category%5B%5DJavadifficulty%5B%5D-2page1category%5B%5DJava',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Switch Statement',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/java-switch-case-statement3529/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'What are arrays, strings?',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'For Loops',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'While Loops',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/while-loop-printtable-java/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Functions [Pass by Value and Pass by Reference]',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Time Complexity [Learn Basics, and then analyse in next Steps]',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -456,8 +541,9 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading: 'Do all these patterns',
+                            questionLink:
+                                'https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/',
                             gfgLink: '',
                             leetCodeLink: '',
                             youTubeLink: '',
@@ -475,7 +561,19 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'C++ STL',
+                            questionLink:
+                                'https://takeuforward.org/c/c-stl-tutorial-most-frequent-used-stl-containers/',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=RRVYpIET_RU',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Java Collections',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -493,9 +591,85 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Count Digits',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-digits-in-a-number/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-digits5716/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse a Number',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-bits3556/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/reverse-integer/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Check Palindrome',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-a-number-is-palindrome-or-not/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/palindrome0746/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/palindrome-number/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'GCD or HCF',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-gcd-of-two-numbers/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/lcm-and-gcd4516/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Armstrong Number',
+                            questionLink:
+                                'https://takeuforward.org/maths/check-if-a-number-is-armstrong-number-or-not/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/armstrong-number/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Print all Divisor',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/print-all-divisors-of-a-given-number/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Check for Prime',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-a-number-is-prime-or-not/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -511,11 +685,118 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Understand recursion by print something N times',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=yVdKa8dnKiE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Print name N times using recursion',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-gfg-n-times/1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Print 1 to N using recursion',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Print N to 1 using recursion',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-n-to-1-without-loop/1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=2',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Sum of first N numbers',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/sum-of-first-n-natural-numbers/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=69ZCDFy-OUo&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=3',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Factorial of N numbers',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/0?problemType=functional&difficulty[]=-1&page=1&query=problemTypefunctionaldifficulty[]-1page1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=69ZCDFy-OUo&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=3',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse and Array',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/reverse-a-given-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-an-array/0',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=twuC1F6gLI8&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Check if a string is palindrome or not',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-the-given-string-is-palindrome-or-not/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/palindrome-string0817/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/valid-palindrome/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=twuC1F6gLI8&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Fibonacci Number',
+                            questionLink:
+                                'https://takeuforward.org/arrays/print-fibonacci-series-up-to-nth-term/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/fibonacci-number/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=kvRjNm4rVBE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=5',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -529,7 +810,21 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Count Frequencies of Array Elements',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the Highest/Lowest Frequency Element',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
