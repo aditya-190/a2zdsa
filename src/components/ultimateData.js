@@ -853,7 +853,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/sorting/selection-sort-algorithm/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/selection-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=selection-sort',
+                                'https://practice.geeksforgeeks.org/problems/selection-sort/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -866,7 +866,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/bubble-sort-algorithm/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/bubble-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bubble-sort',
+                                'https://practice.geeksforgeeks.org/problems/bubble-sort/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -878,7 +878,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/insertion-sort-algorithm/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/insertion-sort/0?category[]=Algorithms&page=1&query=category[]Algorithmspage1&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insertion-sort',
+                                'https://practice.geeksforgeeks.org/problems/insertion-sort/0?category[]=Algorithms&page=1&query=category[]Algorithmspage1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -898,7 +898,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/merge-sort-algorithm/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/merge-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-sort',
+                                'https://practice.geeksforgeeks.org/problems/merge-sort/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -909,7 +909,7 @@ const ultimateData = {
                             questionHeading: 'Recursive Bubble Sort',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/bubble-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bubble-sort',
+                                'https://practice.geeksforgeeks.org/problems/bubble-sort/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -920,7 +920,7 @@ const ultimateData = {
                             questionHeading: 'Recursive Insertion Sort',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/insertion-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insertion-sort',
+                                'https://practice.geeksforgeeks.org/problems/insertion-sort/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -932,7 +932,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/quick-sort-algorithm/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/quick-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=quick-sort',
+                                'https://practice.geeksforgeeks.org/problems/quick-sort/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -961,7 +961,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/largest-element-in-array4009/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-element-in-array',
+                                'https://practice.geeksforgeeks.org/problems/largest-element-in-array4009/0',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -974,7 +974,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/second-largest3735/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=second-largest',
+                                'https://practice.geeksforgeeks.org/problems/second-largest3735/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -986,7 +986,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/check-if-an-array-is-sorted/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-an-array-is-sorted',
+                                'https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.',
                             youTubeLink: '',
@@ -1000,7 +1000,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=remove-duplicate-elements-from-sorted-array',
+                                'https://practice.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.',
                             youTubeLink: '',
@@ -1014,7 +1014,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/left-rotate-the-array-by-one/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/quick-left-rotation3806/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=quick-left-rotation',
+                                'https://practice.geeksforgeeks.org/problems/quick-left-rotation3806/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/rotate-array/',
                             youTubeLink: '',
@@ -1027,7 +1027,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/rotate-array-by-k-elements/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/reversal-algorithm5340/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reversal-algorithm',
+                                'https://practice.geeksforgeeks.org/problems/reversal-algorithm5340/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/rotate-array/',
                             youTubeLink: '',
@@ -1040,7 +1040,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=move-all-zeroes-to-end-of-array',
+                                'https://practice.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/move-zeroes/',
                             youTubeLink: '',
@@ -1053,7 +1053,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/linear-search-in-c/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=who-will-win',
+                                'https://practice.geeksforgeeks.org/problems/who-will-win-1587115621/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1066,7 +1066,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/intersection-of-two-sorted-arrays/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=union-of-two-sorted-arrays',
+                                'https://practice.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1078,7 +1078,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/missing-number4257/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=missing-number',
+                                'https://practice.geeksforgeeks.org/problems/missing-number4257/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/missing-number/',
                             youTubeLink: 'https://youtu.be/5nMGY4VUoRY',
@@ -1090,7 +1090,7 @@ const ultimateData = {
                             questionHeading: 'Maximum Consecutive Ones',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximize-number-of-1s',
+                                'https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/max-consecutive-ones/',
                             youTubeLink: 'https://youtu.be/Mo33MjjMlyA',
@@ -1103,7 +1103,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-sub-array-with-sum-k',
+                                'https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/subarray-sum-equals-k/',
                             youTubeLink: '',
@@ -1127,7 +1127,7 @@ const ultimateData = {
                                 'Find the number that appears once, and other numbers twice.',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/element-appearing-once2552/0?company[]=Qualcomm&company[]=Qualcomm&difficulty[]=1&page=1&query=company[]Qualcommdifficulty[]1page1company[]Qualcomm&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=element-appearing-once',
+                                'https://practice.geeksforgeeks.org/problems/element-appearing-once2552/0?company[]=Qualcomm&company[]=Qualcomm&difficulty[]=1&page=1&query=company[]Qualcommdifficulty[]1page1company[]Qualcomm',
                             leetCodeLink:
                                 'https://leetcode.com/problems/single-number/',
                             youTubeLink: '',
@@ -1140,7 +1140,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-a-matrix',
+                                'https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/search-a-2d-matrix/',
                             youTubeLink: 'https://youtu.be/ZYpYur0znng',
@@ -1153,7 +1153,7 @@ const ultimateData = {
                                 'Find the row with maximum number of 1’s',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=row-with-max-1s',
+                                'https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1173,7 +1173,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-all-pairs-whose-sum-is-x',
+                                'https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/two-sum/',
                             youTubeLink: 'https://youtu.be/dRUpbt8vHpo',
@@ -1186,7 +1186,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sort-an-array-of-0s-1s-and-2s',
+                                'https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/sort-colors/',
                             youTubeLink:
@@ -1200,7 +1200,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=majority-element',
+                                'https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/majority-element/',
                             youTubeLink:
@@ -1215,7 +1215,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/0?company[]=Visa&company[]=Visa&page=2&query=company[]Visapage2company[]Visa&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=kadanes-algorithm',
+                                'https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/0?company[]=Visa&company[]=Visa&page=2&query=company[]Visapage2company[]Visa',
                             leetCodeLink:
                                 'https://leetcode.com/problems/maximum-subarray/',
                             youTubeLink:
@@ -1230,7 +1230,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/subarray-with-given-sum/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/0?category=&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=max-sum-in-sub-arrays',
+                                'https://practice.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/0?category=',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1242,7 +1242,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/stock-buy-and-sell/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/stock-buy-and-sell2615/0?company[]=Intuit+&page=1&query=company[]Intuit+page1&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=stock-buy-and-sell',
+                                'https://practice.geeksforgeeks.org/problems/stock-buy-and-sell2615/0?company[]=Intuit+&page=1&query=company[]Intuit+page1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/best-time-to-buy-and-sell-stock/',
                             youTubeLink:
@@ -1256,7 +1256,7 @@ const ultimateData = {
                                 'Rearrange the array in alternating positive and negative items',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/array-of-alternate-ve-and-ve-nos1401/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=array-of-alternate-ve-and-ve-nos',
+                                'https://practice.geeksforgeeks.org/problems/array-of-alternate-ve-and-ve-nos1401/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/rearrange-array-elements-by-sign/',
                             youTubeLink: '',
@@ -1269,7 +1269,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/next-permutation5226/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=next-permutation',
+                                'https://practice.geeksforgeeks.org/problems/next-permutation5226/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/next-permutation/',
                             youTubeLink:
@@ -1283,7 +1283,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/leaders-in-an-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=leaders-in-an-array',
+                                'https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1296,7 +1296,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/0?problemType=functional&page=1&query=problemTypefunctionalpage1&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-consecutive-subsequence',
+                                'https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/0?problemType=functional&page=1&query=problemTypefunctionalpage1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/longest-consecutive-sequence/solution/',
                             youTubeLink: 'https://youtu.be/qgizvmgeyUM',
@@ -1309,7 +1309,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/set-matrix-zero/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/make-zeroes4042/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=make-zeroes',
+                                'https://practice.geeksforgeeks.org/problems/make-zeroes4042/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/set-matrix-zeroes/',
                             youTubeLink:
@@ -1323,7 +1323,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/rotate-image-by-90-degree/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotate-by-90-degree',
+                                'https://practice.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/rotate-image/',
                             youTubeLink: 'https://youtu.be/Y72QeX0Efxw',
@@ -1337,7 +1337,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/spiral-traversal-of-matrix/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/cd61add036272faa69c6814e34aa7007d5a25aa6/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=spiral_matrix',
+                                'https://practice.geeksforgeeks.org/problems/cd61add036272faa69c6814e34aa7007d5a25aa6/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/spiral-matrix/',
                             youTubeLink: '',
@@ -1358,7 +1358,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=pascal-triangle',
+                                'https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/pascals-triangle/',
                             youTubeLink:
@@ -1372,7 +1372,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/majority-vote/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=majority-vote',
+                                'https://practice.geeksforgeeks.org/problems/majority-vote/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/majority-element-ii/',
                             youTubeLink:
@@ -1386,7 +1386,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/3-sum-closest/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=3-sum-closest',
+                                'https://practice.geeksforgeeks.org/problems/3-sum-closest/1',
                             leetCodeLink: 'https://leetcode.com/problems/3sum/',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=onLoX6Nhvmg&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=41',
@@ -1399,7 +1399,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-all-four-sum-numbers',
+                                'https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1',
                             leetCodeLink: 'https://leetcode.com/problems/4sum/',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=4ggF3tXIAp0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=21',
@@ -1412,7 +1412,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1?category[]=Hash&category[]=Hash&company[]=Amazon&company[]=Amazon&page=1&query=category[]Hashcompany[]Amazonpage1company[]Amazoncategory[]Hash&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-subarray-with-0-sum',
+                                'https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1?category[]=Hash&category[]=Hash&company[]=Amazon&company[]=Amazon&page=1&query=category[]Hashcompany[]Amazonpage1company[]Amazoncategory[]Hash',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=xmguZ6GbatA&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=23',
@@ -1426,7 +1426,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/subsets-with-xor-value2023/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=subsets-with-xor-value',
+                                'https://practice.geeksforgeeks.org/problems/subsets-with-xor-value2023/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=lO9R5CaGRPY&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=25',
@@ -1439,7 +1439,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=overlapping_intervals',
+                                'https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/merge-intervals/',
                             youTubeLink:
@@ -1454,7 +1454,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1?company[]=Synopsys&company[]=Synopsys&page=1&query=company[]Synopsyspage1company[]Synopsys&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-two-sorted-arrays',
+                                'https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1?company[]=Synopsys&company[]=Synopsys&page=1&query=company[]Synopsyspage1company[]Synopsys',
                             leetCodeLink:
                                 'https://leetcode.com/problems/merge-sorted-array/',
                             youTubeLink:
@@ -1469,7 +1469,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-missing-and-repeating',
+                                'https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3',
@@ -1482,7 +1482,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/count-inversions-in-an-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=inversion-of-array',
+                                'https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=kQ1mJlwW-c0',
@@ -1495,7 +1495,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/count-reverse-pairs/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=pairwise-swap-elements-of-a-linked-list-by-swapping-data',
+                                'https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/reverse-pairs/',
                             youTubeLink:
@@ -1509,7 +1509,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/0?qa-rewrite=3336/print-all-valid-combinations-of-ip-address&show=3350&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-product-subarray',
+                                'https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/0?qa-rewrite=3336/print-all-valid-combinations-of-ip-address&show=3350',
                             leetCodeLink:
                                 'https://leetcode.com/problems/maximum-product-subarray/',
                             youTubeLink: '',
@@ -1540,7 +1540,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/binary-search-explained/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=binary-search',
+                                'https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/binary-search/',
                             youTubeLink: '',
@@ -1552,7 +1552,7 @@ const ultimateData = {
                             questionHeading: 'Implement Lower Bound',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1?track=DSASP-Searching&amp%3BbatchId=154&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=floor-in-a-sorted-array',
+                                'https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1?track=DSASP-Searching&amp%3BbatchId=154',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1563,7 +1563,7 @@ const ultimateData = {
                             questionHeading: 'Implement Upper Bound',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/ceil-the-floor2802/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=ceil-the-floor',
+                                'https://practice.geeksforgeeks.org/problems/ceil-the-floor2802/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1574,7 +1574,7 @@ const ultimateData = {
                             questionHeading: '	Search Insert Position',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/search-insert-position-of-k-in-a-sorted-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-insert-position-of-k-in-a-sorted-array',
+                                'https://practice.geeksforgeeks.org/problems/search-insert-position-of-k-in-a-sorted-array/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.',
                             youTubeLink: '',
@@ -1586,7 +1586,7 @@ const ultimateData = {
                             questionHeading: 'Check if Input array is sorted',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-an-array-is-sorted',
+                                'https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1599,7 +1599,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=first-and-last-occurrences-of-x',
+                                'https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/',
                             youTubeLink: '',
@@ -1613,7 +1613,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-occurrence',
+                                'https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1625,7 +1625,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/peak-element-in-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/peak-element/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=peak-element',
+                                'https://practice.geeksforgeeks.org/problems/peak-element/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.',
                             youTubeLink: '',
@@ -1638,7 +1638,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/peak-element/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=peak-element',
+                                'https://practice.geeksforgeeks.org/problems/peak-element/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.',
                             youTubeLink:
@@ -1652,7 +1652,7 @@ const ultimateData = {
                                 '	Search in Rotated Sorted Array II',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/search-in-rotated-array-2/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-rotated-array',
+                                'https://practice.geeksforgeeks.org/problems/search-in-rotated-array-2/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/search-in-rotated-sorted-array-ii/',
                             youTubeLink: '',
@@ -1666,7 +1666,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-element-in-a-sorted-and-rotated-array',
+                                'https://practice.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/',
                             youTubeLink: '',
@@ -1678,7 +1678,7 @@ const ultimateData = {
                             questionHeading: 'Single element in a Sorted Array',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-the-element-that-appears-once-in-sorted-array',
+                                'https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/single-element-in-a-sorted-array/',
                             youTubeLink: '',
@@ -1692,7 +1692,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-element-of-two-sorted-array',
+                                'https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=nv7F4PiLUzo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=66',
@@ -1705,7 +1705,7 @@ const ultimateData = {
                                 'Find out how many times has an array been rotated',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation',
+                                'https://practice.geeksforgeeks.org/problems/rotation4723/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1724,7 +1724,7 @@ const ultimateData = {
                             questionHeading: 'Search in a 2D matrix ',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-a-matrix',
+                                'https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/search-a-2d-matrix/',
                             youTubeLink: 'https://youtu.be/ZYpYur0znng',
@@ -1736,7 +1736,7 @@ const ultimateData = {
                             questionHeading: 'Find Peak Element ',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/peak-element/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=peak-element',
+                                'https://practice.geeksforgeeks.org/problems/peak-element/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/find-a-peak-element-ii/',
                             youTubeLink: '',
@@ -1748,7 +1748,7 @@ const ultimateData = {
                             questionHeading: 'Matrix Median',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-in-a-row-wise-sorted-matrix',
+                                'https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=63fPPOdIr2c&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=62',
@@ -1769,7 +1769,7 @@ const ultimateData = {
                                 'Find square root of a number in log n',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/square-root/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=square-root',
+                                'https://practice.geeksforgeeks.org/problems/square-root/0',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=WjpswYrS2nY&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=62',
@@ -1783,7 +1783,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-nth-root-of-m',
+                                'https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1794,7 +1794,7 @@ const ultimateData = {
                             questionHeading: 'Koko Eating Bananas',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/koko-eating-bananas/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=koko-eating-bananas',
+                                'https://practice.geeksforgeeks.org/problems/koko-eating-bananas/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/koko-eating-bananas/',
                             youTubeLink: '',
@@ -1829,7 +1829,7 @@ const ultimateData = {
                                 'Capacity to Ship Packages within D Days',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=capacity-to-ship-packages-within-d-days',
+                                'https://practice.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/',
                             youTubeLink: '',
@@ -1841,7 +1841,7 @@ const ultimateData = {
                             questionHeading: 'Median of two sorted arrays',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-of-2-sorted-arrays-of-different-sizes',
+                                'https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/median-of-two-sorted-arrays/',
                             youTubeLink:
@@ -1866,7 +1866,7 @@ const ultimateData = {
                             questionHeading: 'Book Allocation Problem',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=allocate-minimum-number-of-pages',
+                                'https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=gYmWHvRHu-s&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=69',
@@ -1878,7 +1878,7 @@ const ultimateData = {
                             questionHeading: 'Split array – Largest Sum',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-sum-subarray-of-size-at-least-k',
+                                'https://practice.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/split-array-largest-sum/',
                             youTubeLink: '',
@@ -1890,7 +1890,7 @@ const ultimateData = {
                             questionHeading: 'Kth Missing Positive Number',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/k-th-missing-element3635/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-missing-element',
+                                'https://practice.geeksforgeeks.org/problems/k-th-missing-element3635/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.',
                             youTubeLink: '',
@@ -1915,7 +1915,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-of-2-sorted-arrays-of-different-sizes',
+                                'https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/median-of-two-sorted-arrays/',
                             youTubeLink:
@@ -1929,7 +1929,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-element-of-two-sorted-array',
+                                'https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=nv7F4PiLUzo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=66',
@@ -1971,7 +1971,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/reverse-words-in-a-string/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-words-in-a-given-string',
+                                'https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/reverse-words-in-a-string/',
                             youTubeLink: '',
@@ -1983,7 +1983,7 @@ const ultimateData = {
                             questionHeading: 'Largest odd number in a string',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/largest-odd-number-in-string/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-odd-number-in-string',
+                                'https://practice.geeksforgeeks.org/problems/largest-odd-number-in-string/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/largest-odd-number-in-string/',
                             youTubeLink: '',
@@ -1995,7 +1995,7 @@ const ultimateData = {
                             questionHeading: 'Longest Common Prefix',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-common-prefix-in-an-array',
+                                'https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/longest-common-prefix/',
                             youTubeLink: '',
@@ -2007,7 +2007,7 @@ const ultimateData = {
                             questionHeading: 'Isomorphic String',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=isomorphic-strings',
+                                'https://practice.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/isomorphic-strings/',
                             youTubeLink: '',
@@ -2020,7 +2020,7 @@ const ultimateData = {
                                 'Check whether one string is a rotation of another ',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-strings-are-rotations-of-each-other-or-not',
+                                'https://practice.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/rotate-string/',
                             youTubeLink: '',
@@ -2034,7 +2034,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/check-if-two-strings-are-anagrams-of-each-other/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/anagram-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=anagram',
+                                'https://practice.geeksforgeeks.org/problems/anagram-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010',
                             youTubeLink: '',
@@ -2054,7 +2054,7 @@ const ultimateData = {
                             questionHeading: 'Sort Characters by frequency',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sorting-elements-of-an-array-by-frequency',
+                                'https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0',
                             leetCodeLink:
                                 'https://leetcode.com/problems/sort-characters-by-frequency/',
                             youTubeLink: '',
@@ -2067,7 +2067,7 @@ const ultimateData = {
                                 'Maximum Nesting Depth of Paranthesis',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/maximum-nesting-depth-of-the-parentheses/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-nesting-depth-of-the-parentheses',
+                                'https://practice.geeksforgeeks.org/problems/maximum-nesting-depth-of-the-parentheses/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/',
                             youTubeLink: '',
@@ -2080,7 +2080,7 @@ const ultimateData = {
                                 'Roman Number to Integer and vice versa',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=roman-number-to-integer',
+                                'https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/roman-to-integer/',
                             youTubeLink: '',
@@ -2092,7 +2092,7 @@ const ultimateData = {
                             questionHeading: 'Implement Atoi',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/implement-atoi/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-atoi',
+                                'https://practice.geeksforgeeks.org/problems/implement-atoi/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/string-to-integer-atoi/',
                             youTubeLink: '',
@@ -2104,7 +2104,7 @@ const ultimateData = {
                             questionHeading: 'Count Number of Substrings',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/count-number-of-substrings4528/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-number-of-substrings',
+                                'https://practice.geeksforgeeks.org/problems/count-number-of-substrings4528/1',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -2127,7 +2127,7 @@ const ultimateData = {
                             questionHeading: 'Sum of Beauty of all substring',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/sum-of-beauty-of-all-substrings-1662962118/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sum-of-beauty-of-all-substrings',
+                                'https://practice.geeksforgeeks.org/problems/sum-of-beauty-of-all-substrings-1662962118/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/sum-of-beauty-of-all-substrings/',
                             youTubeLink: '',
@@ -2139,7 +2139,7 @@ const ultimateData = {
                             questionHeading: 'Reverse Every Word in A String',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-words-in-a-given-string',
+                                'https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/reverse-words-in-a-string/',
                             youTubeLink: '',
@@ -2180,7 +2180,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/insert-node-at-beginning-of-linked-list/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-insertion',
+                                'https://practice.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2192,7 +2192,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/delete-last-node-of-linked-list/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=delete-a-node-in-single-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/delete-node-in-a-linked-list/',
                             youTubeLink: '',
@@ -2267,7 +2267,7 @@ const ultimateData = {
                             questionHeading: 'Reverse a DLL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-doubly-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2288,7 +2288,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=finding-middle-element-in-a-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/middle-of-the-linked-list/',
                             youTubeLink:
@@ -2302,7 +2302,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/reverse-linked-list/',
                             youTubeLink:
@@ -2316,7 +2316,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/reverse-linked-list/',
                             youTubeLink:
@@ -2330,7 +2330,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-loop-in-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions',
                             leetCodeLink:
                                 'https://leetcode.com/problems/linked-list-cycle/',
                             youTubeLink:
@@ -2356,7 +2356,7 @@ const ultimateData = {
                             questionHeading: 'Length of Loop in LL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-length-of-loop/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-length-of-loop',
+                                'https://practice.geeksforgeeks.org/problems/find-length-of-loop/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2368,7 +2368,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-linked-list-is-pallindrome',
+                                'https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/palindrome-linked-list/',
                             youTubeLink:
@@ -2382,7 +2382,7 @@ const ultimateData = {
                                 'Segrregate odd and even nodes in LL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=segregate-even-and-odd-nodes-in-a-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/odd-even-linked-list/',
                             youTubeLink: '',
@@ -2396,7 +2396,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=nth-node-from-end-of-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions',
                             leetCodeLink:
                                 'https://leetcode.com/problems/remove-nth-node-from-end-of-list/',
                             youTubeLink:
@@ -2409,7 +2409,7 @@ const ultimateData = {
                             questionHeading: 'Delete the middle node of LL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/delete-middle-of-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=delete-middle-of-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/delete-middle-of-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.',
                             youTubeLink: '',
@@ -2421,7 +2421,7 @@ const ultimateData = {
                             questionHeading: 'Sort LL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-that-is-sorted-alternatingly',
+                                'https://practice.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/sort-list/',
                             youTubeLink: '',
@@ -2434,7 +2434,7 @@ const ultimateData = {
                                 'Sort a LL of 0’s 1’s and 2’s by changing links',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=given-a-linked-list-of-0s-1s-and-2s-sort-it',
+                                'https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2447,7 +2447,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/intersection-of-two-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=intersection-of-two-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/intersection-of-two-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/intersection-of-two-linked-lists/',
                             youTubeLink:
@@ -2461,7 +2461,7 @@ const ultimateData = {
                                 'Add 1 to a number represented by LL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=add-1-to-a-number-represented-as-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2473,7 +2473,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/add-two-numbers-represented-as-linked-lists/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=add-two-numbers-represented-by-linked-lists',
+                                'https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/add-two-numbers/',
                             youTubeLink:
@@ -2505,7 +2505,7 @@ const ultimateData = {
                             questionHeading: 'Find pairs with given sum in DLL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-pairs-with-given-sum-in-doubly-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2537,7 +2537,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-pairs-with-given-sum-in-doubly-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/reverse-nodes-in-k-group/',
                             youTubeLink:
@@ -2550,7 +2550,7 @@ const ultimateData = {
                             questionHeading: 'Rotate a LL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotate-a-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/rotate-list/description/',
                             youTubeLink:
@@ -2563,7 +2563,7 @@ const ultimateData = {
                             questionHeading: 'Flattening of LL',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=flattening-a-linked-list',
+                                'https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=ysytSSXpAI0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=38',
@@ -2577,7 +2577,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=clone-a-linked-list-with-next-and-random-pointer',
+                                'https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/copy-list-with-random-pointer/',
                             youTubeLink:
@@ -2608,7 +2608,7 @@ const ultimateData = {
                                 'Recursive Implementation of atoi()',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/implement-atoi/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-atoi',
+                                'https://practice.geeksforgeeks.org/problems/implement-atoi/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/string-to-integer-atoi/',
                             youTubeLink: '',
@@ -2621,7 +2621,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/implement-powxn-x-raised-to-the-power-n/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=power-of-numbers',
+                                'https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/powx-n/',
                             youTubeLink: 'https://youtu.be/l0YC3876qxg',
@@ -2645,7 +2645,7 @@ const ultimateData = {
                             questionHeading: 'Sort a stack using recursion',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/sort-a-stack/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sort-a-stack',
+                                'https://practice.geeksforgeeks.org/problems/sort-a-stack/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2656,7 +2656,7 @@ const ultimateData = {
                             questionHeading: 'Reverse a stack using recursion',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/reverse-a-stack/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-stack',
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-stack/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2675,7 +2675,7 @@ const ultimateData = {
                             questionHeading: 'Generate all binary strings',
                             questionLink: '',
                             gfgLink:
-                                'https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=generate-binary-strings-without-consecutive-1s',
+                                'https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2686,7 +2686,7 @@ const ultimateData = {
                             questionHeading: 'Generate Paranthesis',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=generate-all-possible-parentheses',
+                                'https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/generate-parentheses/',
                             youTubeLink: '',
@@ -2699,7 +2699,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/power-set4302/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=power-set',
+                                'https://practice.geeksforgeeks.org/problems/power-set4302/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/subsets/',
                             youTubeLink: 'https://youtu.be/b7AYbpM5YrE',
@@ -2724,7 +2724,7 @@ const ultimateData = {
                                 'Count all subsequences with sum K',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=perfect-sum-problem',
+                                'https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -2747,7 +2747,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/combination-sum-1/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=combination-sum',
+                                'https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/combination-sum/',
                             youTubeLink:
@@ -2784,7 +2784,7 @@ const ultimateData = {
                             questionHeading: 'Subset Sum-I',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/subset-sums2234/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=subset-sums',
+                                'https://practice.geeksforgeeks.org/problems/subset-sums2234/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=rYkfBRtMJr8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=52',
@@ -2809,7 +2809,7 @@ const ultimateData = {
                                 'Letter Combinations of a Phone number',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=possible-words-from-phone-digits',
+                                'https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/letter-combinations-of-a-phone-number/',
                             youTubeLink: '',
@@ -2830,7 +2830,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/palindrome-partitioning/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=palindromic-patitioning',
+                                'https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/palindrome-partitioning/',
                             youTubeLink:
@@ -2844,7 +2844,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/word-search-leetcode/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/word-search/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=word-search',
+                                'https://practice.geeksforgeeks.org/problems/word-search/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/word-search/',
                             youTubeLink: '',
@@ -2857,7 +2857,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=n-queen-problem',
+                                'https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/n-queens/',
                             youTubeLink:
@@ -2871,7 +2871,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/rat-in-a-maze/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rat-in-a-maze-problem',
+                                'https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=bLGZhJlt4y0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=60',
@@ -2883,7 +2883,7 @@ const ultimateData = {
                             questionHeading: 'Word Break',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/word-break-part-23249/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=word-break-part-2',
+                                'https://practice.geeksforgeeks.org/problems/word-break-part-23249/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/word-break/',
                             youTubeLink: '',
@@ -2896,7 +2896,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/m-coloring-problem/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=m-coloring-problem',
+                                'https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=wuVwUK25Rfc&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=59',
@@ -2909,7 +2909,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/sudoku-solver/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=solve-the-sudoku',
+                                'https://practice.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/sudoku-solver/',
                             youTubeLink:
@@ -3165,7 +3165,7 @@ const ultimateData = {
                             questionHeading: 'Power(n, x)',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=power-of-numbers',
+                                'https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/powx-n/',
                             youTubeLink: '',
@@ -3193,7 +3193,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Implement Stack using Arrays',
                             questionLink: 'https://takeuforward.org/data-structure/implement-stack-using-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-array',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=68',
                             isDone: false,
@@ -3203,7 +3203,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Implement Queue using Arrays',
                             questionLink: 'https://takeuforward.org/data-structure/implement-queue-using-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-queue-using-array',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://www.youtube.com/watch?v=M6GnoUDpqEE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=72',
                             isDone: false,
@@ -3213,7 +3213,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Implement Stack using Queue',
                             questionLink: 'https://takeuforward.org/data-structure/implement-stack-using-single-queue/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=stack-using-two-queues',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1',
                             leetCodeLink: 'https://leetcode.com/problems/implement-stack-using-queues/',
                             youTubeLink: 'https://www.youtube.com/watch?v=jDZQKzEtbYQ&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74',
                             isDone: false,
@@ -3223,7 +3223,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Implement Queue using Stack',
                             questionLink: 'https://takeuforward.org/data-structure/implement-queue-using-stack/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/queue-using-stack/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=queue-using-stack',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/queue-using-stack/1',
                             leetCodeLink: 'https://leetcode.com/problems/implement-queue-using-stacks/',
                             youTubeLink: 'https://www.youtube.com/watch?v=3Et9MrMc02A&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75',
                             isDone: false,
@@ -3233,7 +3233,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Implement stack using Linkedlist',
                             questionLink: 'https://takeuforward.org/data-structure/implement-stack-using-linked-list/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-stack-using-linked-list',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3243,7 +3243,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Implement queue using Linkedlist',
                             questionLink: 'https://takeuforward.org/data-structure/implement-queue-using-linked-list/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-queue-using-linked-list',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3253,7 +3253,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Check for balanced paranthesis',
                             questionLink: 'https://takeuforward.org/data-structure/check-for-balanced-parentheses/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=parenthesis-checker',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1',
                             leetCodeLink: 'https://leetcode.com/problems/valid-parentheses/',
                             youTubeLink: 'https://www.youtube.com/watch?v=wkDfsKijrZ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74',
                             isDone: false,
@@ -3263,7 +3263,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Implement Min Stack',
                             questionLink: 'https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=get-minimum-element-from-stack',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1',
                             leetCodeLink: 'https://leetcode.com/problems/min-stack/',
                             youTubeLink: 'https://youtu.be/V09NfaGf2ao',
                             isDone: false,
@@ -3281,7 +3281,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Infix to Postfix Conversion using Stack',
                             questionLink: 'https://takeuforward.org/data-structure/infix-to-postfix/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=infix-to-postfix',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3331,7 +3331,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Convert Infix To Prefix Notation',
                             questionLink: 'https://takeuforward.org/data-structure/infix-to-prefix/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=infix-to-postfix',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3349,7 +3349,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Next Greater Element',
                             questionLink: 'https://takeuforward.org/data-structure/next-greater-element-using-stack/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=next-larger-element',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1',
                             leetCodeLink: 'https://leetcode.com/problems/next-greater-element-i/',
                             youTubeLink: 'https://www.youtube.com/watch?v=Du881K7Jtk8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75',
                             isDone: false,
@@ -3369,7 +3369,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Next Smaller Element',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=immediate-smaller-element',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3389,7 +3389,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Trapping Rainwater',
                             questionLink: 'https://takeuforward.org/data-structure/trapping-rainwater/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=trapping-rain-water',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1',
                             leetCodeLink: 'https://leetcode.com/problems/trapping-rain-water/',
                             youTubeLink: 'https://www.youtube.com/watch?v=m18Hntz4go8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=42',
                             isDone: false,
@@ -3409,7 +3409,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Stock span problem',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=stock-span-problem',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1',
                             leetCodeLink: 'https://leetcode.com/problems/online-stock-span/',
                             youTubeLink: '',
                             isDone: false,
@@ -3439,7 +3439,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Remove k Digits',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/remove-k-digits/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=remove-k-digits',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/remove-k-digits/1',
                             leetCodeLink: 'https://leetcode.com/problems/remove-k-digits/',
                             youTubeLink: '',
                             isDone: false,
@@ -3449,7 +3449,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Largest rectangle in a histogram',
                             questionLink: 'https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-rectangular-area-in-a-histogram',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1',
                             leetCodeLink: 'https://leetcode.com/problems/largest-rectangle-in-histogram/',
                             youTubeLink: 'https://www.youtube.com/watch?v=X0X6G-eWgQ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=81',
                             isDone: false,
@@ -3459,7 +3459,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Maximal Rectangles',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/max-rectangle/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=max-rectangle',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/max-rectangle/1',
                             leetCodeLink: 'https://leetcode.com/problems/maximal-rectangle/',
                             youTubeLink: '',
                             isDone: false,
@@ -3477,7 +3477,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Sliding Window maximum',
                             questionLink: 'https://takeuforward.org/data-structure/sliding-window-maximum/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-of-all-subarrays-of-size-k',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1',
                             leetCodeLink: 'https://leetcode.com/problems/sliding-window-maximum/',
                             youTubeLink: 'https://www.youtube.com/watch?v=CZQGRp93K4k&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=83',
                             isDone: false,
@@ -3487,7 +3487,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Stock Span Problem',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=stock-span-problem',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1',
                             leetCodeLink: 'https://leetcode.com/problems/online-stock-span/',
                             youTubeLink: '',
                             isDone: false,
@@ -3497,7 +3497,7 @@ const ultimateData = {
                         {
                             questionHeading: 'The Celebrity Problem',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=the-celebrity-problem',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1',
                             leetCodeLink: 'https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/',
                             youTubeLink: '',
                             isDone: false,
@@ -3507,7 +3507,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Rotten Oranges',
                             questionLink: 'https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotten-oranges',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1',
                             leetCodeLink: 'https://leetcode.com/problems/rotting-oranges/',
                             youTubeLink: 'https://www.youtube.com/watch?v=yf3oUhkvqA0',
                             isDone: false,
@@ -3517,7 +3517,7 @@ const ultimateData = {
                         {
                             questionHeading: 'LRU cache (IMPORTANT)',
                             questionLink: 'https://takeuforward.org/data-structure/implement-lru-cache/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/lru-cache/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=lru-cache',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/lru-cache/1',
                             leetCodeLink: 'https://leetcode.com/problems/lru-cache/',
                             youTubeLink: 'https://www.youtube.com/watch?v=xDEuM5qa0zg&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=77',
                             isDone: false,
@@ -3554,7 +3554,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Longest Substring Without Repeating Characters',
                             questionLink: 'https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring3036/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=length-of-the-longest-substring',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring3036/1',
                             leetCodeLink: 'https://leetcode.com/problems/longest-substring-without-repeating-characters/',
                             youTubeLink: 'https://www.youtube.com/watch?v=qtVh-XEpsJo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=26',
                             isDone: false,
@@ -3564,7 +3564,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Max Consecutive Ones III',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-consecutive-ones/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-consecutive-ones',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-consecutive-ones/1',
                             leetCodeLink: 'https://leetcode.com/problems/max-consecutive-ones-iii/',
                             youTubeLink: '',
                             isDone: false,
@@ -3604,7 +3604,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Count number of nice subarrays',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/count-subarray-with-k-odds/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-subarray-with-k-odds',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/count-subarray-with-k-odds/1',
                             leetCodeLink: 'https://leetcode.com/problems/count-number-of-nice-subarrays/',
                             youTubeLink: '',
                             isDone: false,
@@ -3614,7 +3614,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Number of substring containing all three characters',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/count-substring/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-substring',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/count-substring/1',
                             leetCodeLink: 'https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/',
                             youTubeLink: '',
                             isDone: false,
@@ -3642,7 +3642,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Longest Substring with At Most K Distinct Characters',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-k-unique-characters-substring',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1',
                             leetCodeLink: 'https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/',
                             youTubeLink: '',
                             isDone: false,
@@ -3709,7 +3709,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Min Heap and Max Heap Implementation',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/operations-on-binary-min-heap/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=operations-on-binary-min-heap',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/operations-on-binary-min-heap/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3719,7 +3719,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Check if an array represents a min-heap or not',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/does-array-represent-heap4345/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=does-array-represent-heap',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/does-array-represent-heap4345/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3747,7 +3747,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Kth largest element in an array [use priority queue]',
                             questionLink: 'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-largest-elements',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1',
                             leetCodeLink: 'https://leetcode.com/problems/kth-largest-element-in-an-array/',
                             youTubeLink: '',
                             isDone: false,
@@ -3757,7 +3757,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Kth smallest element in an array [use priority queue]',
                             questionLink: 'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=kth-smallest-element',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3767,7 +3767,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Sort K sorted array',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-k-sorted-arrays',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3777,7 +3777,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Merge M sorted Lists',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-k-sorted-linked-lists',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1',
                             leetCodeLink: 'https://leetcode.com/problems/merge-k-sorted-lists/',
                             youTubeLink: '',
                             isDone: false,
@@ -3835,7 +3835,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Connect `n` ropes with minimal cost',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rod-cutting',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3845,7 +3845,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Kth largest element in a stream of running integers',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=kth-largest-element-in-a-stream',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1',
                             leetCodeLink: 'https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.',
                             youTubeLink: '',
                             isDone: false,
@@ -3865,7 +3865,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Find Median from Data Stream',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-median-in-a-stream',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1',
                             leetCodeLink: 'https://leetcode.com/problems/find-median-from-data-stream/',
                             youTubeLink: '',
                             isDone: false,
@@ -3875,7 +3875,7 @@ const ultimateData = {
                         {
                             questionHeading: 'K most frequent elements',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=top-k-frequent-elements-in-array',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1',
                             leetCodeLink: 'https://leetcode.com/problems/top-k-frequent-elements/',
                             youTubeLink: '',
                             isDone: false,
@@ -3912,7 +3912,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Fractional Knapsack Problem',
                             questionLink: 'https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=fractional-knapsack',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://www.youtube.com/watch?v=F_DDzYnxO14&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=49',
                             isDone: false,
@@ -3922,7 +3922,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Greedy algorithm to find minimum',
                             questionLink: 'https://takeuforward.org/data-structure/find-minimum-number-of-coins/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-number-of-coins',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://www.youtube.com/watch?v=mVg9CfJvayM&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=48',
                             isDone: false,
@@ -3942,7 +3942,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Valid Paranthesis Checker',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=parenthesis-checker',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1',
                             leetCodeLink: 'https://leetcode.com/problems/valid-parenthesis-string/',
                             youTubeLink: '',
                             isDone: false,
@@ -3960,7 +3960,7 @@ const ultimateData = {
                         {
                             questionHeading: 'N meetings in one room',
                             questionLink: 'https://takeuforward.org/data-structure/n-meetings-in-one-room/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=n-meetings-in-one-room',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://www.youtube.com/watch?v=II6ziNnub1Q&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=45',
                             isDone: false,
@@ -3970,7 +3970,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Jump Game',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/jump-game/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=jump-game',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/jump-game/1',
                             leetCodeLink: 'https://leetcode.com/problems/jump-game/',
                             youTubeLink: '',
                             isDone: false,
@@ -3980,7 +3980,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Jump Game 2',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-number-of-jumps',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1',
                             leetCodeLink: 'https://leetcode.com/problems/jump-game-ii/',
                             youTubeLink: '',
                             isDone: false,
@@ -3990,7 +3990,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Minimum number of platforms required for a railway',
                             questionLink: 'https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-platforms',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://www.youtube.com/watch?v=dxVcMDI7vyI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=46',
                             isDone: false,
@@ -4000,7 +4000,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Job sequencing Problem',
                             questionLink: 'https://takeuforward.org/data-structure/job-sequencing-problem/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=job-sequencing-problem',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://www.youtube.com/watch?v=LjPx4wQaRIs&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=47',
                             isDone: false,
@@ -4030,7 +4030,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Program for Least Recently Used (LRU) Page Replacement Algorithm',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/page-faults-in-lru5603/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=page-faults-in-lru',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/page-faults-in-lru5603/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -4050,7 +4050,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Merge Intervals',
                             questionLink: 'https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=overlapping_intervals',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1',
                             leetCodeLink: 'https://leetcode.com/problems/merge-intervals/',
                             youTubeLink: 'https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6',
                             isDone: false,
@@ -4127,7 +4127,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Preorder Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/preorder-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=preorder-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/preorder-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-preorder-traversal/',
                             youTubeLink: 'https://youtu.be/RlUu72JrOCQ',
                             isDone: false,
@@ -4137,7 +4137,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Inorder Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/inorder-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=inorder-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/inorder-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/Z_NEgBgbRVI',
                             isDone: false,
@@ -4147,7 +4147,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Post-order Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=postorder-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/COQOU6klsBg',
                             isDone: false,
@@ -4157,7 +4157,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Level order Traversal / Level order traversal in spiral form',
                             questionLink: 'https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=level-order-traversal-in-spiral-form',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-level-order-traversal/',
                             youTubeLink: 'https://youtu.be/EoAsWbO7sqg',
                             isDone: false,
@@ -4167,7 +4167,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Iterative Preorder Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/preorder-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=preorder-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/preorder-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-preorder-traversal/',
                             youTubeLink: 'https://youtu.be/Bfqd8BsPVuw',
                             isDone: false,
@@ -4177,7 +4177,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Iterative Inorder Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/inorder-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=inorder-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/inorder-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/lxTGsVXjwvM',
                             isDone: false,
@@ -4187,7 +4187,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Post-order Traversal of Binary Tree using 2 stack',
                             questionLink: 'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=ostorder-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/2YBhNLodD8Q',
                             isDone: false,
@@ -4197,7 +4197,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Post-order Traversal of Binary Tree using 1 stack',
                             questionLink: 'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=postorder-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/NzIGLLwZBS8',
                             isDone: false,
@@ -4207,7 +4207,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Preorder, Inorder, and Postorder Traversal in one Traversal',
                             questionLink: 'https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal-iterative/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=postorder-traversal-iterative',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal-iterative/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/ySp2epYvgTE',
                             isDone: false,
@@ -4225,7 +4225,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Height of a Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=height-of-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/maximum-depth-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/eD3tmO66aBA',
                             isDone: false,
@@ -4235,7 +4235,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Check if the Binary tree is height-balanced or not',
                             questionLink: 'https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-for-balanced-tree#:~:text=Given%20a%20binary%20tree,%20find,for%20all%20nodes%20of%20tree.&text=Example%202:,and%20right%20subtree%20is%201.',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/balanced-binary-tree/',
                             youTubeLink: 'https://youtu.be/Yt50Jfbd8Po',
                             isDone: false,
@@ -4245,7 +4245,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Diameter of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=diameter-of-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/diameter-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/Rezetez59Nk',
                             isDone: false,
@@ -4255,7 +4255,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Maximum path sum',
                             questionLink: 'https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-path-sum-from-any-node',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-maximum-path-sum/',
                             youTubeLink: 'https://youtu.be/WszrfSwMz58',
                             isDone: false,
@@ -4265,7 +4265,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Check if two trees are identical or not',
                             questionLink: 'https://takeuforward.org/data-structure/check-if-two-trees-are-identical/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=determine-if-two-trees-are-identical',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1',
                             leetCodeLink: 'https://leetcode.com/problems/same-tree/',
                             youTubeLink: 'https://youtu.be/BhuvF_-PWS0',
                             isDone: false,
@@ -4275,7 +4275,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Zig Zag Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=zigzag-tree-traversal',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/',
                             youTubeLink: 'https://youtu.be/3OXWEdlIGl4',
                             isDone: false,
@@ -4285,7 +4285,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Boundary Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=boundary-traversal-of-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/0',
                             leetCodeLink: 'https://leetcode.com/problems/boundary-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/0ca1nvR0be4',
                             isDone: false,
@@ -4295,7 +4295,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Vertical Order Traversal of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-a-binary-tree-in-vertical-order',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/0',
                             leetCodeLink: 'https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/',
                             youTubeLink: 'https://youtu.be/q_a6lpbKJdw',
                             isDone: false,
@@ -4305,7 +4305,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Top View of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/top-view-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=top-view-of-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/Et9OCDNvJ78',
                             isDone: false,
@@ -4315,7 +4315,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Bottom View of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bottom-view-of-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/0FtVY6I4pB8',
                             isDone: false,
@@ -4325,7 +4325,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Right/Left View of Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/right-left-view-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=left-view-of-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/binary-tree-right-side-view/',
                             youTubeLink: 'https://youtu.be/KV4mRzTjlAk',
                             isDone: false,
@@ -4335,7 +4335,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Symmetric Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/symmetric-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=symmetric-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/symmetric-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/symmetric-tree/',
                             youTubeLink: 'https://youtu.be/nKggiEpBE',
                             isDone: false,
@@ -4353,7 +4353,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Root to Node Path in Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=root-to-leaf-paths',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1',
                             leetCodeLink: 'https://www.interviewbit.com/problems/path-to-given-node/',
                             youTubeLink: 'https://youtu.be/fmflMqVOC7k',
                             isDone: false,
@@ -4363,7 +4363,7 @@ const ultimateData = {
                         {
                             questionHeading: 'LCA in Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=lowest-common-ancestor-in-a-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/',
                             youTubeLink: 'https://youtu.be/_-QHfMDde90',
                             isDone: false,
@@ -4373,7 +4373,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Maximum width of a Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-width-of-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/maximum-width-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/ZbybYvcVLks',
                             isDone: false,
@@ -4383,7 +4383,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Check for Children Sum Property',
                             questionLink: 'https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/children-sum-parent/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=hildren-sum-parent',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/children-sum-parent/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/fnmisPM6cVo',
                             isDone: false,
@@ -4393,7 +4393,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Print all the Nodes at a distance of K in a Binary Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=nodes-at-given-distance-in-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/',
                             youTubeLink: 'https://youtu.be/i9ORlEy6EsI',
                             isDone: false,
@@ -4403,8 +4403,8 @@ const ultimateData = {
                         {
                             questionHeading: 'Minimum time taken to BURN the Binary Tree from a Node',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/burning-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=burning-tree',
-                            leetCodeLink: 'https://www.codingninjas.com/codestudio/problems/time-to-burn-tree_630563?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/burning-tree/1',
+                            leetCodeLink: 'https://www.codingninjas.com/codestudio/problems/time-to-burn-tree_630563?source=youtube&campaign=Striver_Tree_Videos',
                             youTubeLink: 'https://youtu.be/2r5wLmQfD6g',
                             isDone: false,
                             isBookmarked: false,
@@ -4433,7 +4433,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Construct Binary Tree from inorder and preorder',
                             questionLink: 'https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/construct-tree-1/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=construct-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/construct-tree-1/1',
                             leetCodeLink: 'https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/aZNaLrVebKQ',
                             isDone: false,
@@ -4443,7 +4443,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Construct the Binary Tree from Postorder and Inorder Traversal',
                             questionLink: 'https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=tree-from-postorder-and-inorder',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1',
                             leetCodeLink: 'https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/LgLRTaEMRVc',
                             isDone: false,
@@ -4453,7 +4453,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Serialize and deserialize Binary Tree',
                             questionLink: 'https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=serialize-and-deserialize-a-binary-tree',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1',
                             leetCodeLink: 'https://leetcode.com/problems/serialize-and-deserialize-binary-tree/',
                             youTubeLink: 'https://youtu.be/-YbXySKJsX8',
                             isDone: false,
@@ -4483,7 +4483,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Flatten Binary Tree to LinkedList',
                             questionLink: 'https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=flatten-binary-tree-to-linked-list',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1',
                             leetCodeLink: 'https://leetcode.com/problems/flatten-binary-tree-to-linked-list/',
                             youTubeLink: 'https://youtu.be/sWf7k1x9XR4',
                             isDone: false,
@@ -4598,7 +4598,7 @@ const ultimateData = {
                         {
                             questionHeading: 'Check if a tree is a BST or BT',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/check-for-bst/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-for-bst',
+                            gfgLink: 'https://practice.geeksforgeeks.org/problems/check-for-bst/1',
                             leetCodeLink: 'https://leetcode.com/problems/validate-binary-search-tree/',
                             youTubeLink: 'https://youtu.be/f-sj7I5oXEI',
                             isDone: false,
@@ -4708,7 +4708,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/graph/graph-representation-in-c/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-adjacency-list',
+                                'https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/3oI-34aPMWM',
                             isDone: false,
@@ -4719,7 +4719,7 @@ const ultimateData = {
                             questionHeading: 'Graph Representation | Java',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-adjacency-list',
+                                'https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/3oI-34aPMWM',
                             isDone: false,
@@ -4732,7 +4732,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/graph/connected-components-in-graphs/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-provinces',
+                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/lea-Wl_uWXY',
                             isDone: false,
@@ -4744,7 +4744,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bfs_of_graph',
+                                'https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/-tgVpUgsQ5k',
                             isDone: false,
@@ -4776,7 +4776,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/number-of-provinces/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number_of_provinces',
+                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.',
                             youTubeLink: 'https://youtu.be/ACzkVtewUYA',
@@ -4789,7 +4789,7 @@ const ultimateData = {
                                 'Connected Components Problem in Matrix',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-provinces',
+                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -4801,7 +4801,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/rotten-oranges/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotten_oranges',
+                                'https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/rotting-oranges/',
                             youTubeLink: 'https://youtu.be/yf3oUhkvqA0',
@@ -4814,7 +4814,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/graph/flood-fill-algorithm-graphs/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/flood-fill-algorithm1856/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=flood-fill-algorithm',
+                                'https://practice.geeksforgeeks.org/problems/flood-fill-algorithm1856/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/flood-fill/',
                             youTubeLink: 'https://youtu.be/C-2_uSRli8o',
@@ -4828,7 +4828,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph',
+                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/BPlrALf1LDU',
                             isDone: false,
@@ -4841,7 +4841,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph',
+                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/zQ3zgFypzX4',
                             isDone: false,
@@ -4867,7 +4867,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=replace-os-with-xs',
+                                'https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/surrounded-regions/',
                             youTubeLink:
@@ -4978,7 +4978,7 @@ const ultimateData = {
                             questionHeading: 'Kahn’s Algorithm',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/topological-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=topological-sort',
+                                'https://practice.geeksforgeeks.org/problems/topological-sort/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -5013,7 +5013,7 @@ const ultimateData = {
                             questionHeading: 'Course Schedule – II',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/course-schedule/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=course-schedule',
+                                'https://practice.geeksforgeeks.org/problems/course-schedule/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/course-schedule-ii/',
                             youTubeLink: '',
@@ -5100,7 +5100,7 @@ const ultimateData = {
                             questionHeading: 'Shortest path in a binary maze',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=shortest-path-in-a-binary-maze',
+                                'https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/shortest-path-in-binary-matrix/',
                             youTubeLink: '',
@@ -5134,7 +5134,7 @@ const ultimateData = {
                             questionHeading: 'Network Delay time',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/alex-travelling/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=alex-travelling',
+                                'https://practice.geeksforgeeks.org/problems/alex-travelling/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/network-delay-time/',
                             youTubeLink: '',
@@ -5160,7 +5160,7 @@ const ultimateData = {
                                 'Minimum steps to reach end from start by performing multiplication and mod operations with array elements',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-multiplications-to-reach-end',
+                                'https://practice.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -5237,7 +5237,7 @@ const ultimateData = {
                             questionHeading: 'Disjoint Set [Union by Rank]',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=disjoint-set-union-find',
+                                'https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -5248,7 +5248,7 @@ const ultimateData = {
                             questionHeading: 'Disjoint Set [Union by Size]',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=disjoint-set-union-find',
+                                'https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -5306,7 +5306,7 @@ const ultimateData = {
                             questionHeading: 'Number of island II',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-the-number-of-islands',
+                                'https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/number-of-islands-ii/',
                             youTubeLink: '',
@@ -5348,7 +5348,7 @@ const ultimateData = {
                             questionHeading: '	Bridges in Graph',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bridge-edge-in-graph',
+                                'https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph',
                             youTubeLink: '',
@@ -5360,7 +5360,7 @@ const ultimateData = {
                             questionHeading: 'Articulation Point',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/articulation-point-1/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=articulation-point',
+                                'https://practice.geeksforgeeks.org/problems/articulation-point-1/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -5371,7 +5371,7 @@ const ultimateData = {
                             questionHeading: 'Kosaraju’s Algorithm',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=strongly-connected-components-kosarajus-algo',
+                                'https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -5457,7 +5457,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/max-sum-without-adjacents2430/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=max-sum-without-adjacents',
+                                'https://practice.geeksforgeeks.org/problems/max-sum-without-adjacents2430/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=GrMBfJNk_NY',
@@ -5470,7 +5470,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=stickler-theif-',
+                                'https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=3WaxQMELSkw',
@@ -5531,7 +5531,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/minimum-cost-path3833/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-cost-path',
+                                'https://practice.geeksforgeeks.org/problems/minimum-cost-path3833/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/minimum-path-sum/',
                             youTubeLink:
@@ -5560,7 +5560,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=path-in-matrix',
+                                'https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/minimum-falling-path-sum/',
                             youTubeLink:
@@ -5640,7 +5640,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=perfect-sum-problem',
+                                'https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=ZHyb-A2Mte4',
@@ -5707,7 +5707,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/target-sum-dp-21/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/coin-change2448/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=coin-change',
+                                'https://practice.geeksforgeeks.org/problems/coin-change2448/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/coin-change-2/',
                             youTubeLink:
@@ -5721,7 +5721,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=knapsack-with-duplicate-items',
+                                'https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/OgvOZ6OrJoY',
                             isDone: false,
@@ -5768,7 +5768,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-all-lcs-sequences',
+                                'https://practice.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/-zI4mrF2Pb4',
                             isDone: false,
@@ -6011,7 +6011,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-increasing-subsequence',
+                                'https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/on2hvxBXJH4',
                             isDone: false,
@@ -6082,7 +6082,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=matrix-chain-multiplication',
+                                'https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/vRVfmbCFW7Y',
                             isDone: false,
@@ -6095,7 +6095,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=matrix-chain-multiplication',
+                                'https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/pDCXsbAw5Cg',
                             isDone: false,
@@ -6108,7 +6108,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rod-cutting',
+                                'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/minimum-cost-to-cut-a-stick/',
                             youTubeLink: 'https://youtu.be/xwomavsC86c',
@@ -6121,7 +6121,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/batch-problems/maximum-triple-product/1/?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-triple-product',
+                                'https://practice.geeksforgeeks.org/batch-problems/maximum-triple-product/1/',
                             leetCodeLink:
                                 'https://leetcode.com/problems/burst-balloons/',
                             youTubeLink: 'https://youtu.be/Yz4LlDSlkns',
@@ -6135,7 +6135,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=boolean-parenthesization',
+                                'https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/parsing-a-boolean-expression/',
                             youTubeLink: 'https://youtu.be/MM7fXopgyjw',
@@ -6149,7 +6149,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=palindromic-patitioning',
+                                'https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/palindrome-partitioning-ii/',
                             youTubeLink: 'https://youtu.be/_H8V5hJUGd0',
@@ -6228,7 +6228,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/implement-trie-1/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/trie-insert-and-search0651/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=trie-insert-and-search',
+                                'https://practice.geeksforgeeks.org/problems/trie-insert-and-search0651/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/implement-trie-prefix-tree/',
                             youTubeLink:
@@ -6250,7 +6250,7 @@ const ultimateData = {
                             questionLink:
                                 'https://takeuforward.org/data-structure/implement-trie-ii/',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/trie-delete/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=trie-delete',
+                                'https://practice.geeksforgeeks.org/problems/trie-delete/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://takeuforward.org/wp-content/uploads/2022/08/youtube-icon-42001-300x300.png.webp',
@@ -6262,7 +6262,7 @@ const ultimateData = {
                             questionHeading: 'Longest String with All Prefixes',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-common-prefix-in-an-array',
+                                'https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1',
                             leetCodeLink: '',
                             youTubeLink:
                                 'https://www.youtube.com/watch?v=AWnBa91lThI&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=3',
@@ -6357,7 +6357,7 @@ const ultimateData = {
                             questionHeading: 'Count and say',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/decode-the-pattern1138/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=decode-the-pattern',
+                                'https://practice.geeksforgeeks.org/problems/decode-the-pattern1138/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/count-and-say/',
                             youTubeLink: '',
@@ -6412,7 +6412,7 @@ const ultimateData = {
                             questionHeading: 'Shortest Palindrome',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-characters-to-be-added-at-front-to-make-string-palindrome/',
+                                'https://practice.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/shortest-palindrome/',
                             youTubeLink: '',
@@ -6424,7 +6424,7 @@ const ultimateData = {
                             questionHeading: 'Longest happy prefix',
                             questionLink: '',
                             gfgLink:
-                                'https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-prefix-suffix',
+                                'https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1',
                             leetCodeLink:
                                 'https://leetcode.com/problems/longest-happy-prefix/',
                             youTubeLink: '',
