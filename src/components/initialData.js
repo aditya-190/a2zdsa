@@ -3351,14 +3351,690 @@ const initialData = {
             categoryList: [
                 {
                     categoryId: 1,
-                    categoryName: '',
-                    categoryTotalQuestions: '',
-                    categoryCompletedQuestions: '',
+                    categoryName: 'Learning',
+                    categoryTotalQuestions: '6',
+                    categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Graph and Types',
+                            questionLink:
+                                'https://takeuforward.org/graph/introduction-to-graph/',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/M3_pLsDdeuU',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Graph Representation | C++',
+                            questionLink:
+                                'https://takeuforward.org/graph/graph-representation-in-c/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-adjacency-list',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/3oI-34aPMWM',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Graph Representation | Java',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-adjacency-list-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-adjacency-list',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/3oI-34aPMWM',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Connected Components | Logic Explanation',
+                            questionLink:
+                                'https://takeuforward.org/graph/connected-components-in-graphs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-provinces',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/lea-Wl_uWXY',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'BFS',
+                            questionLink:
+                                'https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bfs_of_graph',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/-tgVpUgsQ5k',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'DFS',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/depth-first-search-dfs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/Qzf1a--rhp8',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                    ],
+                },
+                {
+                    categoryId: 2,
+                    categoryName: 'Problems on BFS /DFS',
+                    categoryTotalQuestions: '14',
+                    categoryCompletedQuestions: '0',
+                    questionList: [
+                        {
+                            questionHeading: 'Number of provinces (leetcode)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/number-of-provinces/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number_of_provinces',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.',
+                            youTubeLink: 'https://youtu.be/ACzkVtewUYA',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Connected Components Problem in Matrix',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-provinces',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Rotten Oranges',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/rotten-oranges/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotten_oranges',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rotting-oranges/',
+                            youTubeLink: 'https://youtu.be/yf3oUhkvqA0',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Flood fill',
+                            questionLink:
+                                'https://takeuforward.org/graph/flood-fill-algorithm-graphs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/flood-fill-algorithm1856/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=flood-fill-algorithm',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/flood-fill/',
+                            youTubeLink: 'https://youtu.be/C-2_uSRli8o',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Cycle Detection in unirected Graph (bfs)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/BPlrALf1LDU',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Cycle Detection in undirected Graph (dfs)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/zQ3zgFypzX4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: '0/1 Matrix (Bfs Problem)',
+                            questionLink:
+                                'https://takeuforward.org/graph/distance-of-nearest-cell-having-1/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/01-matrix/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=edXdVwkYHF8',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Surrounded Regions (dfs)',
+                            questionLink:
+                                'https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=replace-os-with-xs',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/surrounded-regions/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=BtdgAys4yMk',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Number of Enclaves [flood fill implementation – multisource]',
+                            questionLink:
+                                'https://takeuforward.org/graph/number-of-enclaves/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-enclaves/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-enclaves/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=rxKcepXQgU4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Word ladder – 1',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/word-ladder/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/word-ladder/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Word ladder – 2',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/word-ladder-ii/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/word-ladder-ii/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Number of Distinct Islands [dfs multisource]',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-distinct-islands/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-distinct-islands-ii/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Bipartite Graph (DFS)',
+                            questionLink:
+                                'https://takeuforward.org/graph/bipartite-graph-dfs-implementation/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/bipartite-graph/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/is-graph-bipartite/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=KG5YFfR0j8A',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Cycle Detection in Directed Graph (DFS)',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                    ],
+                },
+                {
+                    categoryId: 3,
+                    categoryName: 'Topo Sort and Problems',
+                    categoryTotalQuestions: '7',
+                    categoryCompletedQuestions: '0',
+                    questionList: [
+                        {
+                            questionHeading: 'Topo Sort',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/topological-sort/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Kahn’s Algorithm',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/topological-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=topological-sort',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Cycle Detection in Directed Graph (BFS)',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Course Schedule – I',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/course-schedule/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/course-schedule/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Course Schedule – II',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/course-schedule/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=course-schedule',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/course-schedule-ii/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find eventual safe states',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/eventual-safe-states/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-eventual-safe-states/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Alien dictionary',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/alien-dictionary/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/alien-dictionary/solution/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                    ],
+                },
+                {
+                    categoryId: 4,
+                    categoryName: 'Shortest Path Algorithms and Problems',
+                    categoryTotalQuestions: '13',
+                    categoryCompletedQuestions: '0',
+                    questionList: [
+                        {
+                            questionHeading:
+                                'Shortest Path in UG with unit weights',
                             questionLink: '',
                             gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Shortest Path in DAG',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Djisktra’s Algorithm',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Why priority Queue is used in Djisktra’s Algorithm',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Shortest path in a binary maze',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=shortest-path-in-a-binary-maze',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/shortest-path-in-binary-matrix/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Path with minimum effort',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/path-with-minimum-effort/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Cheapest flights within k stops',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/cheapest-flights-within-k-stops/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Network Delay time',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/alex-travelling/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=alex-travelling',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/network-delay-time/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Number of ways to arrive at destination',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-ways-to-arrive-at-destination/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Minimum steps to reach end from start by performing multiplication and mod operations with array elements',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-multiplications-to-reach-end',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Bellman Ford Algorithm',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Floyd Warshal Algorithm',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the city with the smallest number of neighbors in a threshold distance',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/0?category%5B%5D=Shortest%20Path&category%5B%5D=Shortest%20Path&page=1&query=category%5B%5DShortest%20Pathpage1category%5B%5DShortest%20Path',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                    ],
+                },
+                {
+                    categoryId: 5,
+                    categoryName:
+                        'Minimum Spanning Tree / Disjoint Set Problems',
+                    categoryTotalQuestions: '11',
+                    categoryCompletedQuestions: '0',
+                    questionList: [
+                        {
+                            questionHeading: 'Minimum Spanning Tree',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Prim’s Algorithm',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Disjoint Set [Union by Rank]',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=disjoint-set-union-find',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Disjoint Set [Union by Size]',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=disjoint-set-union-find',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Kruskal’s Algorithm',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Number of operations to make network connected',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-operations-to-make-network-connected/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Most stones removed with same rows or columns',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Accounts merge',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/merging-details/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/accounts-merge/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Number of island II',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-the-number-of-islands',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-islands-ii/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Making a Large Island',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/making-a-large-island/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Swim in rising water',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/swim-in-rising-water/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                    ],
+                },
+                {
+                    categoryId: 6,
+                    categoryName: 'Other Algorithms',
+                    categoryTotalQuestions: '3',
+                    categoryCompletedQuestions: '0',
+                    questionList: [
+                        {
+                            questionHeading: '	Bridges in Graph',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bridge-edge-in-graph',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Articulation Point',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/articulation-point-1/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=articulation-point',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Kosaraju’s Algorithm',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=strongly-connected-components-kosarajus-algo',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3383,11 +4059,12 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading: 'Dynamic Programming Introduction',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/dynamic-programming-introduction/',
                             gfgLink: '',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink: 'https://youtu.be/tyB0ztf0DNY',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3401,11 +4078,65 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading: 'Climbing Stars',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/climbing-stairs/',
+                            youTubeLink: 'https://youtu.be/mLfjzJsN8us',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Frog Jump(DP-3)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/',
                             gfgLink: '',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=EgG3jsGoPvQ',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Frog Jump with k distances(DP-4)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=Kmh3rhyEtB8',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Maximum sum of non-adjacent elements (DP 5)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/max-sum-without-adjacents2430/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=max-sum-without-adjacents',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=GrMBfJNk_NY',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'House Robber (DP 6)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=stickler-theif-',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=3WaxQMELSkw',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3419,11 +4150,97 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading: 'Ninja’s Training (DP 7)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/',
                             gfgLink: '',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=AE39gJYuRog',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Grid Unique Paths : DP on Grids (DP8)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-unique-paths5339/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/unique-paths/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=sdE0A2Oxofw',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Grid Unique Paths 2 (DP 9)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/grid-unique-paths-2-dp-9/',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/unique-paths-ii/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=TmhpgXScLyY',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Minimum path sum in Grid (DP 10)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-cost-path3833/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-cost-path',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-path-sum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=_rgTlyky1uQ',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Minimum path sum in Triangular Grid (DP 11)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/triangle/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=SrP-PiLSYC0',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Minimum/Maximum Falling Path Sum (DP-12)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=path-in-matrix',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-falling-path-sum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=N_aJ5qQbYA0',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                '3D DP : Ninja and his friends (DP-13)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=QGfn7JeXK54',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3437,11 +4254,151 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading:
+                                'Subset sum equal to target (DP- 14)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=fWX9xDmIzRI',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Partition Equal Subset Sum (DP- 15)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/partition-equal-subset-sum-dp-15/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/partition-equal-subset-sum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=7win3dcgo3k',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=GS_OqZb2CWc',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Count Subsets with Sum K (DP – 17)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=perfect-sum-problem',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=ZHyb-A2Mte4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Count Partitions with Given Difference (DP – 18)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/',
                             gfgLink: '',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=zoilQD1kYSg',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: '0/1 Knapsack (DP – 19)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/0-1-knapsack-dp-19/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=GqOmJHQZivw',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Minimum Coins (DP – 20)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-coins-dp-20/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/coin-change/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=myPeWb3Y68A',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Target Sum (DP – 21)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/target-sum-dp-21/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/target-sum-1626326450/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/target-sum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=b3GD8263-PQ',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Coin Change 2 (DP – 22)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/target-sum-dp-21/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/coin-change2448/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=coin-change',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/coin-change-2/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=HgyouUi11zk',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Unbounded Knapsack (DP – 23)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=knapsack-with-duplicate-items',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/OgvOZ6OrJoY',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Rod Cutting Problem | (DP – 24)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/mO8XpGoJwuo',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3455,11 +4412,138 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
-                            gfgLink: '',
+                            questionHeading:
+                                'Longest Common Subsequence | (DP – 25)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-common-subsequence/',
+                            youTubeLink: 'https://youtu.be/NPZn9jBrX8U',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Print Longest Common Subsequence | (DP – 26)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-all-lcs-sequences',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink: 'https://youtu.be/-zI4mrF2Pb4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Longest Common Substring | (DP – 27)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-common-substring-dp-27/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/_wP9mWNPL5w',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Longest Palindromic Subsequence | (DP-28)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-palindromic-subsequence/',
+                            youTubeLink: 'https://youtu.be/6i_T5kkfv4A',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Minimum insertions to make string palindrome | DP-29',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-insertions-to-make-string-palindrome-dp-29/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/form-a-palindrome1455/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=xPBLEj41rFU',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Minimum Insertions/Deletions to Convert String | (DP- 30)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/delete-operation-for-two-strings/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=yMnH0jrir0Q',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Shortest Common Supersequence | (DP – 31)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/shortest-common-supersequence0322/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/shortest-common-supersequence/',
+                            youTubeLink: 'https://youtu.be/xElxAuBcvsU',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Distinct Subsequences| (DP-32)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/distinct-subsequences-dp-32/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-distinct-subsequences0909/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/distinct-subsequences/',
+                            youTubeLink: 'https://youtu.be/nVG7eTiD2bY',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Edit Distance | (DP-33)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/edit-distance-dp-33/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/edit-distance3702/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/edit-distance/',
+                            youTubeLink: 'https://youtu.be/fJaKO8FbDdo',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Wildcard Matching | (DP-34)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/wildcard-matching-dp-34/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/wildcard-pattern-matching/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/wildcard-matching/',
+                            youTubeLink: 'https://youtu.be/ZmlQ3vgAOMo',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3473,11 +4557,79 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading:
+                                'Best Time to Buy and Sell Stock |(DP-35)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/stock-buy-and-sell-dp-35/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/best-time-to-buy-and-sell-stock/',
+                            youTubeLink: 'https://youtu.be/excAOvwF_Wk',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Buy and Sell Stock – II|(DP-36)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/',
                             gfgLink: '',
-                            leetCodeLink: '',
-                            youTubeLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/',
+                            youTubeLink: 'https://youtu.be/nGJmxkUJQGs',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Buy and Sell Stocks III|(DP-37)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/buy-and-sell-stock-iii-dp-37/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/buy-and-sell-a-share-at-most-twice/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/',
+                            youTubeLink: 'https://youtu.be/-uQGzhYj8BQ',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Buy and Stock Sell IV |(DP-38)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-profit4657/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/',
+                            youTubeLink: 'https://youtu.be/IV1dHbk5CDc',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Buy and Sell Stocks With Cooldown|(DP-39)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/',
+                            youTubeLink: 'https://youtu.be/IGIe46xw3YY',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Buy and Sell Stocks With Transaction Fee|(DP-40)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/',
+                            youTubeLink: 'https://youtu.be/k4eK-vEmnKg',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3491,11 +4643,90 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading:
+                                '	Longest Increasing Subsequence |(DP-41)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-increasing-subsequence/',
+                            youTubeLink: 'https://youtu.be/ekcwMsSIzVc',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Printing Longest Increasing Subsequence|(DP-42)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/',
                             gfgLink: '',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink: 'https://youtu.be/IFfYfonAFGc',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Longest Increasing Subsequence |(DP-43)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-increasing-subsequence',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/on2hvxBXJH4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Largest Divisible Subset|(DP-44)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/largest-divisible-subset/',
+                            youTubeLink: 'https://youtu.be/gDuZwBW9VvM',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Longest String Chain|(DP-45)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-string-chain-dp-45/',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-string-chain/',
+                            youTubeLink: 'https://youtu.be/YY8iBaYcc4g',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Longest Bitonic Subsequence |(DP-46)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/y4vN0WNdrlg',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Number of Longest Increasing Subsequences|(DP-47)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-longest-increasing-subsequence/',
+                            youTubeLink: 'https://youtu.be/cKVl1TFdNXg',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3509,11 +4740,95 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
-                            gfgLink: '',
+                            questionHeading:
+                                'Matrix Chain Multiplication|(DP-48)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=matrix-chain-multiplication',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink: 'https://youtu.be/vRVfmbCFW7Y',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Matrix Chain Multiplication | Bottom-Up|(DP-49)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=matrix-chain-multiplication',
+                            leetCodeLink: '',
+                            youTubeLink: 'https://youtu.be/pDCXsbAw5Cg',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Minimum Cost to Cut the Stick|(DP-50)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rod-cutting',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-cost-to-cut-a-stick/',
+                            youTubeLink: 'https://youtu.be/xwomavsC86c',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Burst Balloons|(DP-51)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/batch-problems/maximum-triple-product/1/?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-triple-product',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/burst-balloons/',
+                            youTubeLink: 'https://youtu.be/Yz4LlDSlkns',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Evaluate Boolean Expression to True|(DP-52)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=boolean-parenthesization',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/parsing-a-boolean-expression/',
+                            youTubeLink: 'https://youtu.be/MM7fXopgyjw',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Palindrome Partitioning – II|(DP-53)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=palindromic-patitioning',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/palindrome-partitioning-ii/',
+                            youTubeLink: 'https://youtu.be/_H8V5hJUGd0',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Partition Array for Maximum Sum|(DP-54)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/partition-array-for-maximum-sum/',
+                            youTubeLink: 'https://youtu.be/PhWWJmaKfMc',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3527,11 +4842,28 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading:
+                                'Maximum Rectangle Area with all 1’s|(DP-55)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/max-rectangle/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximal-rectangle/',
+                            youTubeLink: 'https://youtu.be/tOylVCugy9k',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Count Square Submatrices with All Ones|(DP-56)',
+                            questionLink:
+                                'https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/#',
                             gfgLink: '',
-                            leetCodeLink: '',
-                            youTubeLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/count-square-submatrices-with-all-ones/',
+                            youTubeLink: 'https://youtu.be/auS1fynpnjo',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3554,11 +4886,16 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
-                            gfgLink: '',
-                            leetCodeLink: '',
-                            youTubeLink: '',
+                            questionHeading:
+                                'Implement TRIE | INSERT | SEARCH | STARTSWITH',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-trie-1/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/trie-insert-and-search0651/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=trie-insert-and-search',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/implement-trie-prefix-tree/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=dBGUmUQhjaM&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3572,11 +4909,79 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: '	Implement Trie – 2 (Prefix Tree)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-trie-ii/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/trie-delete/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=trie-delete',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://takeuforward.org/wp-content/uploads/2022/08/youtube-icon-42001-300x300.png.webp',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Longest String with All Prefixes',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-common-prefix-in-an-array',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=AWnBa91lThI&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=3',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Number of Distinct Substrings in a String',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/number-of-distinct-substrings-in-a-string-using-trie/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-of-distinct-substrings/1',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=RV0QeTyHZxo&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Bit PreRequisites for TRIE Problems',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink: 'https://youtu.be/5iyuU4hQFrw',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Maximum XOR of two numbers in an array',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/maximum-xor-of-two-numbers-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-xor-of-two-numbers-in-an-array/0',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=EIhAwfHubE8&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=6',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Maximum XOR With an Element From Array',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-xor-with-an-element-from-array/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=Q8LhG9Pi5KM&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=7',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3599,7 +5004,32 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Minimum number of bracket reversals needed to make an expression balanced',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Count and say',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/decode-the-pattern1138/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=decode-the-pattern',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/count-and-say/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Hashing In Strings | Theory',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -3608,27 +5038,69 @@ const initialData = {
                             isBookmarked: false,
                             userNotes: '',
                         },
-                    ],
-                },
-            ],
-        },
-        {
-            contentPath: '/request',
-            contentHeading: 'Request From Striver',
-            contentSubHeading: '',
-            contentTotalQuestions: '0',
-            contentCompletedQuestions: '0',
-            categoryList: [
-                {
-                    categoryId: 1,
-                    categoryName: 'Request',
-                    categoryTotalQuestions: '0',
-                    categoryCompletedQuestions: '0',
-                    questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Rabin Karp',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/31272eef104840f7430ad9fd1d43b434a4b9596b/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Z-Function',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/8dcd25918295847b4ced54055eae35a8501181c1/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'KMP algo / LPS(pi) array',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/search-pattern0205/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Shortest Palindrome',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-characters-to-be-added-at-front-to-make-string-palindrome/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/shortest-palindrome/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Longest happy prefix',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-prefix-suffix',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-happy-prefix/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Count palindromic subsequence in given string',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1#:~:text=Given%20a%20string%20str%20of,formed%20from%20the%20string%20str.&text=Your%20Task%3A,read%20input%20or%20print%20anything.',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
