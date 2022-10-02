@@ -851,9 +851,36 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
-                            gfgLink: '',
+                            questionHeading: 'Selection Sort',
+                            questionLink:
+                                'https://takeuforward.org/sorting/selection-sort-algorithm/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/selection-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=selection-sort',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+
+                        {
+                            questionHeading: 'Bubble Sort',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/bubble-sort-algorithm/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/bubble-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bubble-sort',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: '	Insertion Sort',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/insertion-sort-algorithm/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/insertion-sort/0?category[]=Algorithms&page=1&query=category[]Algorithmspage1&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insertion-sort',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -869,9 +896,45 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Merge Sort',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/merge-sort-algorithm/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/merge-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-sort',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Recursive Bubble Sort',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/bubble-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bubble-sort',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Recursive Insertion Sort',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/insertion-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insertion-sort',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Quick Sort',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/quick-sort-algorithm/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/quick-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=quick-sort',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -896,9 +959,203 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Largest Element in an Array',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/largest-element-in-array4009/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-element-in-array',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Second Largest Element in an Array without sorting',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/second-largest3735/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=second-largest',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Check if the array is sorted',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-an-array-is-sorted/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-an-array-is-sorted',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Remove duplicates from Sorted array',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=remove-duplicate-elements-from-sorted-array',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Left Rotate an array by one place',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/left-rotate-the-array-by-one/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/quick-left-rotation3806/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=quick-left-rotation',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rotate-array/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Left rotate an array by D places',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/rotate-array-by-k-elements/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reversal-algorithm5340/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reversal-algorithm',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rotate-array/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Move Zeros to end',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=move-all-zeroes-to-end-of-array',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/move-zeroes/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Linear Search',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/linear-search-in-c/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=who-will-win',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the Union and intersection of two sorted arrays',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/intersection-of-two-sorted-arrays/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=union-of-two-sorted-arrays',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find missing number in an array',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/missing-number4257/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=missing-number',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/missing-number/',
+                            youTubeLink: 'https://youtu.be/5nMGY4VUoRY',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Maximum Consecutive Ones',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximize-number-of-1s',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/max-consecutive-ones/',
+                            youTubeLink: 'https://youtu.be/Mo33MjjMlyA',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Subarray with given sum',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-sub-array-with-sum-k',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/subarray-sum-equals-k/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find the Missing Number',
+                            questionLink: '',
+                            gfgLink:
+                                'https://www.geeksforgeeks.org/find-the-missing-number/',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the number that appears once, and other numbers twice.',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/element-appearing-once2552/0?company[]=Qualcomm&company[]=Qualcomm&difficulty[]=1&page=1&query=company[]Qualcommdifficulty[]1page1company[]Qualcomm&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=element-appearing-once',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/single-number/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Search an element in a 2D matrix',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-a-matrix',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/search-a-2d-matrix/',
+                            youTubeLink: 'https://youtu.be/ZYpYur0znng',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the row with maximum number of 1’s',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=row-with-max-1s',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -914,10 +1171,177 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
-                            gfgLink: '',
+                            questionHeading: '2Sum Problem',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x5808/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-all-pairs-whose-sum-is-x',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/two-sum/',
+                            youTubeLink: 'https://youtu.be/dRUpbt8vHpo',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Sort an array of 0’s 1’s and 2’s',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sort-an-array-of-0s-1s-and-2s',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sort-colors/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=oaVa-9wmpns&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=2',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Majority Element (>n/2 times)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=majority-element',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/majority-element/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=AoX3BPWNnoE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=16',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Kadane’s Algorithm, maximum subarray sum',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/0?company[]=Visa&company[]=Visa&page=2&query=company[]Visapage2company[]Visa&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=kadanes-algorithm',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-subarray/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=w_KEocd__20&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=5',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Print subarray with maximum subarray sum (extended version of above problem)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/subarray-with-given-sum/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/0?category=&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=max-sum-in-sub-arrays',
                             leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Stock Buy and Sell',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/stock-buy-and-sell/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/stock-buy-and-sell2615/0?company[]=Intuit+&page=1&query=company[]Intuit+page1&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=stock-buy-and-sell',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/best-time-to-buy-and-sell-stock/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=eMSfBgbiEjk&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=11',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Rearrange the array in alternating positive and negative items',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/array-of-alternate-ve-and-ve-nos1401/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=array-of-alternate-ve-and-ve-nos',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rearrange-array-elements-by-sign/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Next Permutation',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/next-permutation5226/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=next-permutation',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/next-permutation/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=LuLCLgMElus&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=9',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Leaders in an Array problem',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/leaders-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=leaders-in-an-array',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Longest Consecutive Sequence in an Array',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/0?problemType=functional&page=1&query=problemTypefunctionalpage1&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-consecutive-subsequence',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-consecutive-sequence/solution/',
+                            youTubeLink: 'https://youtu.be/qgizvmgeyUM',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Set Matrix Zeros',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/set-matrix-zero/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/make-zeroes4042/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=make-zeroes',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/set-matrix-zeroes/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=M65xBewcqcI&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=7',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Rotate Matrix by 90 degrees',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/rotate-image-by-90-degree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotate-by-90-degree',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rotate-image/',
+                            youTubeLink: 'https://youtu.be/Y72QeX0Efxw',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Print the matrix in spiral manner',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/spiral-traversal-of-matrix/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/cd61add036272faa69c6814e34aa7007d5a25aa6/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=spiral_matrix',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/spiral-matrix/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -932,10 +1356,164 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
-                            gfgLink: '',
+                            questionHeading: 'Pascal’s Triangle',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/pascal-triangle0652/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=pascal-triangle',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/pascals-triangle/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=6FLvhQjZqvM&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=8',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Majority Element (n/3 times)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/majority-vote/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=majority-vote',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/majority-element-ii/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=yDbkQd9t2ig&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=17',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: '3-Sum Problem',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/3-sum-closest/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=3-sum-closest',
+                            leetCodeLink: 'https://leetcode.com/problems/3sum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=onLoX6Nhvmg&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=41',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: '4-Sum Problem',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-all-four-sum-numbers',
+                            leetCodeLink: 'https://leetcode.com/problems/4sum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=4ggF3tXIAp0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=21',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Largest Subarray with 0 Sum',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1?category[]=Hash&category[]=Hash&company[]=Amazon&company[]=Amazon&page=1&query=category[]Hashcompany[]Amazonpage1company[]Amazoncategory[]Hash&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-subarray-with-0-sum',
                             leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=xmguZ6GbatA&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=23',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Count number of subarrays with given xor K',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/subsets-with-xor-value2023/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=subsets-with-xor-value',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=lO9R5CaGRPY&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=25',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Merge Overlapping Subintervals',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=overlapping_intervals',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/merge-intervals/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Merge two sorted arrays without extra space',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1?company[]=Synopsys&company[]=Synopsys&page=1&query=company[]Synopsyspage1company[]Synopsys&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-two-sorted-arrays',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/merge-sorted-array/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=hVl2b3bLzBw&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=4',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the repeating and missing number',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-missing-and-repeating',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Count Inversions',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-inversions-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=inversion-of-array',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=kQ1mJlwW-c0',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse Pairs',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-reverse-pairs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=pairwise-swap-elements-of-a-linked-list-by-swapping-data',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/reverse-pairs/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=S6rsAlj_iB4&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=19',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Maximum Product Subarray',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/0?qa-rewrite=3336/print-all-valid-combinations-of-ip-address&show=3350&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-product-subarray',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-product-subarray/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -959,9 +1537,177 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Binary Search to find X in sorted array ',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/binary-search-explained/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=binary-search',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-search/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Implement Lower Bound',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1?track=DSASP-Searching&amp%3BbatchId=154&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=floor-in-a-sorted-array',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Implement Upper Bound',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/ceil-the-floor2802/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=ceil-the-floor',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: '	Search Insert Position',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/search-insert-position-of-k-in-a-sorted-array/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-insert-position-of-k-in-a-sorted-array',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Check if Input array is sorted',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-an-array-is-sorted',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the first or last occurrence of a given number in a sorted array ',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=first-and-last-occurrences-of-x',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Count occurrences of a number in a sorted array with duplicates ',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-occurrence',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find peak element',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/peak-element-in-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/peak-element/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=peak-element',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Search in Rotated Sorted Array I',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/peak-element/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=peak-element',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=r3pMQ8-Ad5s&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=64',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                '	Search in Rotated Sorted Array II',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/search-in-rotated-array-2/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-rotated-array',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/search-in-rotated-sorted-array-ii/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find minimum in Rotated Sorted Array',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-element-in-a-sorted-and-rotated-array3611/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=minimum-element-in-a-sorted-and-rotated-array',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Single element in a Sorted Array',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array0624/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-the-element-that-appears-once-in-sorted-array',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/single-element-in-a-sorted-array/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find kth element of two sorted arrays',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-element-of-two-sorted-array',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=nv7F4PiLUzo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=66',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find out how many times has an array been rotated',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -977,11 +1723,37 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Search in a 2D matrix ',
                             questionLink: '',
-                            gfgLink: '',
-                            leetCodeLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-a-matrix',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/search-a-2d-matrix/',
+                            youTubeLink: 'https://youtu.be/ZYpYur0znng',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find Peak Element ',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/peak-element/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=peak-element',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-a-peak-element-ii/',
                             youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Matrix Median',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-in-a-row-wise-sorted-matrix',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=63fPPOdIr2c&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=62',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -995,11 +1767,174 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Find square root of a number in log n',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/square-root/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=square-root',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=WjpswYrS2nY&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=62',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the Nth root of a number using binary search',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-nth-root-of-m',
                             leetCodeLink: '',
                             youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Koko Eating Bananas',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/koko-eating-bananas/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=koko-eating-bananas',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/koko-eating-bananas/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Minimum days to make M bouquets',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find the smallest Divisor',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Capacity to Ship Packages within D Days',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=capacity-to-ship-packages-within-d-days',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Median of two sorted arrays',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-of-2-sorted-arrays-of-different-sizes',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/median-of-two-sorted-arrays/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=NTop3VTjmxk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=65',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Aggressive Cows',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=wSOfYesTBRk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=70',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Book Allocation Problem',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=allocate-minimum-number-of-pages',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=gYmWHvRHu-s&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=69',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Split array – Largest Sum',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-sum-subarray-of-size-at-least-k',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/split-array-largest-sum/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Kth Missing Positive Number',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/k-th-missing-element3635/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-missing-element',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Minimize Max Distance to Gas Station',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimize-max-distance-to-gas-station/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Median of 2 sorted arrays',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-of-2-sorted-arrays-of-different-sizes',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/median-of-two-sorted-arrays/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=NTop3VTjmxk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=65',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Kth element of 2 sorted arrays',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-element-of-two-sorted-array',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=nv7F4PiLUzo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=66',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -1022,10 +1957,88 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Remove outermost Paranthesis',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/remove-outermost-parentheses/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Reverse words in a given string / Palindrome Check ',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/reverse-words-in-a-string/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-words-in-a-given-string',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/reverse-words-in-a-string/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Largest odd number in a string',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/largest-odd-number-in-string/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-odd-number-in-string',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/largest-odd-number-in-string/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Longest Common Prefix',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-common-prefix-in-an-array',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-common-prefix/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Isomorphic String',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=isomorphic-strings',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/isomorphic-strings/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Check whether one string is a rotation of another ',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-strings-are-rotations-of-each-other-or-not',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rotate-string/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Check if two strings are anagram of each other',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-two-strings-are-anagrams-of-each-other/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/anagram-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=anagram',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -1040,10 +2053,97 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Sort Characters by frequency',
                             questionLink: '',
-                            gfgLink: '',
-                            leetCodeLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sorting-elements-of-an-array-by-frequency',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sort-characters-by-frequency/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Maximum Nesting Depth of Paranthesis',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-nesting-depth-of-the-parentheses/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=maximum-nesting-depth-of-the-parentheses',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Roman Number to Integer and vice versa',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=roman-number-to-integer',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/roman-to-integer/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Implement Atoi',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implement-atoi/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-atoi',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/string-to-integer-atoi/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Count Number of Substrings',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-number-of-substrings4528/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-number-of-substrings',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Longest Palindromic Substring[Do it without DP]',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-palindromic-substring/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Sum of Beauty of all substring',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/sum-of-beauty-of-all-substrings-1662962118/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sum-of-beauty-of-all-substrings',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sum-of-beauty-of-all-substrings/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse Every Word in A String',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-words-in-a-given-string',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/reverse-words-in-a-string/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -1067,7 +2167,55 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Introduction to LinkedList, learn about struct, and how is node represented ',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Inserting a node in LinkedList',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/insert-node-at-beginning-of-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-insertion',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Deleting a node in LinkedList',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/delete-last-node-of-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=delete-a-node-in-single-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/delete-node-in-a-linked-list/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the length of the linkedlist [Learn traversal]',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Search an element in the linkedList',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -1085,9 +2233,43 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Introduction to DLL, learn about struct, and how is node represented ',
                             questionLink: '',
                             gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Insert a node in DLL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Delete a node in DLL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/closest-number5728/1',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse a DLL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-doubly-linked-list',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1103,11 +2285,201 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
-                            questionLink: '',
+                            questionHeading:
+                                'Middle of a LinkedList [Tortoise Hare Method]',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=finding-middle-element-in-a-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/middle-of-the-linked-list/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=sGdwSH8RK-o&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=28',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse a LinkedList [Iterative]',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/reverse-linked-list/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=iRtLEoL-r-g&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=27',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse a LL [Recursive]',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/reverse-linked-list/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=iRtLEoL-r-g&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=27',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Detect a loop in LL',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-loop-in-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/linked-list-cycle/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=354J83hX7RI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=34',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find the starting point in LL',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/',
                             gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/linked-list-cycle-ii/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=QfbOhn0WZ88&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=37',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Length of Loop in LL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-length-of-loop/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-length-of-loop',
                             leetCodeLink: '',
                             youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Check if LL is palindrome or not',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=check-if-linked-list-is-pallindrome',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/palindrome-linked-list/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=-DtNInqFUXs&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=36',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Segrregate odd and even nodes in LL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=segregate-even-and-odd-nodes-in-a-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/odd-even-linked-list/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Remove Nth node from the back of the LL',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?page=1&category[]=Linked+List&sortBy=submissions&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=nth-node-from-end-of-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/remove-nth-node-from-end-of-list/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=Lhu3MsXZy-Q&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=30',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Delete the middle node of LL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/delete-middle-of-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=delete-middle-of-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Sort LL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-that-is-sorted-alternatingly',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sort-list/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Sort a LL of 0’s 1’s and 2’s by changing links',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=given-a-linked-list-of-0s-1s-and-2s-sort-it',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Find the intersection point of Y LL',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/intersection-of-two-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=intersection-of-two-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/intersection-of-two-linked-lists/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=u4FWXfgS8jw&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=33',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Add 1 to a number represented by LL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=add-1-to-a-number-represented-as-linked-list',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Add 2 numbers in LL',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/add-two-numbers-represented-as-linked-lists/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=add-two-numbers-represented-by-linked-lists',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/add-two-numbers/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=LBVsXSMOIk4&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=32',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -1121,7 +2493,30 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Delete all occurrences of a key in DLL',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Find pairs with given sum in DLL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-pairs-with-given-sum-in-doubly-linked-list',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Remove duplicates from sorted DLL',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -1139,11 +2534,56 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Reverse LL in group of given size K',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-pairs-with-given-sum-in-doubly-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/reverse-nodes-in-k-group/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=Of0HPkk3JgI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=34',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Rotate a LL',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotate-a-linked-list',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rotate-list/description/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=9VPm6nEbVPA&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=39',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Flattening of LL',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=flattening-a-linked-list',
                             leetCodeLink: '',
-                            youTubeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=ysytSSXpAI0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=38',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Clone a Linked List with random and next pointer',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=clone-a-linked-list-with-next-and-random-pointer',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/copy-list-with-random-pointer/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=VNf6VynfpdM',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
