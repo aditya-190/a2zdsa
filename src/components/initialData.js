@@ -1166,9 +1166,59 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading:
+                                'Recursive Implementation of atoi()',
                             questionLink: '',
-                            gfgLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implement-atoi/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=implement-atoi',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/string-to-integer-atoi/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Pow(x, n)',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-powxn-x-raised-to-the-power-n/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=power-of-numbers',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/powx-n/',
+                            youTubeLink: 'https://youtu.be/l0YC3876qxg',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Count Good numbers',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/good-numbers4629/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/count-good-numbers/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Sort a stack using recursion',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/sort-a-stack/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=sort-a-stack',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Reverse a stack using recursion',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-a-stack/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-stack',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -1184,10 +1234,146 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Generate all binary strings',
+                            questionLink: '',
+                            gfgLink:
+                                'https://www.geeksforgeeks.org/generate-binary-strings-without-consecutive-1s/?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=generate-binary-strings-without-consecutive-1s',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Generate Paranthesis',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/generate-all-possible-parentheses/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=generate-all-possible-parentheses',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/generate-parentheses/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Print all subsequences/Power Set',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/power-set4302/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=power-set',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/subsets/',
+                            youTubeLink: 'https://youtu.be/b7AYbpM5YrE',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Learn All Patterns of Subsequences (Theory)',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=eQCS_v3bw0Q&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=7',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Count all subsequences with sum K',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=perfect-sum-problem',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Check if there exists a subsequence with sum K',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink: '',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Combination Sum',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/combination-sum-1/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=combination-sum',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/combination-sum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=OyZFFqQtu98&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=49',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Combination Sum-II',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/combination-sum-ii-find-all-unique-combinations/',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/combination-sum-ii/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=G1fRTGRxXU8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=50',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Combination Sum – III',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/combination-sum-iii/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Subset Sum-I',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/subset-sums2234/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=subset-sums',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=rYkfBRtMJr8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=52',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Subset Sum-II',
+                            questionLink: '',
+                            gfgLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/subsets-ii/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=RIn3gOkbhQE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=53',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading:
+                                'Letter Combinations of a Phone number',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=possible-words-from-phone-digits',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/letter-combinations-of-a-phone-number/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -1202,10 +1388,104 @@ const initialData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: '',
+                            questionHeading: 'Palindrome Partitioning',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/palindrome-partitioning/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=palindromic-patitioning',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/palindrome-partitioning/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=WBgsABoClE0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=51',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Word Search',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/word-search-leetcode/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/word-search/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=word-search',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/word-search/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'N Queen',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/n-queen-problem0315/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=n-queen-problem',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/n-queens/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=i05Ju7AftcM&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=57',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Rat in a Maze',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/rat-in-a-maze/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rat-in-a-maze-problem',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=bLGZhJlt4y0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=60',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Word Break',
+                            questionLink: '',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/word-break-part-23249/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=word-break-part-2',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/word-break/',
+                            youTubeLink: '',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'M Coloring Problem',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/m-coloring-problem/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=m-coloring-problem',
+                            leetCodeLink: '',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=wuVwUK25Rfc&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=59',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Sudoko Solver',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/sudoku-solver/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=solve-the-sudoku',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sudoku-solver/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=FWAIf_EVUKE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=58',
+                            isDone: false,
+                            isBookmarked: false,
+                            userNotes: '',
+                        },
+                        {
+                            questionHeading: 'Expression Add Operators',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: '',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/expression-add-operators/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
