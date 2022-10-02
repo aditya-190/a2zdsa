@@ -17,6 +17,7 @@ const theme = extendTheme({
         footerBg: '#27AE60',
         topicProgressBg: '#AAD6B9',
         topicStillBg: '#AAD0F6',
+        selectedQuestion: '#cde2f8',
         startNowBg: '#007bff',
     },
     fonts: {

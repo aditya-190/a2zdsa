@@ -417,7 +417,7 @@ const ultimateData = {
             },
         ],
         darkMode: false,
-        totalQuestions: 455,
+        totalQuestions: 456,
         completedQuestions: 0,
     },
     content: [
@@ -425,7 +425,7 @@ const ultimateData = {
             contentPath: '/learn_the_basics',
             contentHeading: 'Learn the basics',
             contentSubHeading: '',
-            contentTotalQuestions: '29',
+            contentTotalQuestions: '30',
             contentCompletedQuestions: '0',
             categoryList: [
                 {
@@ -535,7 +535,7 @@ const ultimateData = {
                 {
                     categoryId: 2,
                     categoryName: 'Build Up Logical Thinking',
-                    categoryTotalQuestions: '0',
+                    categoryTotalQuestions: '1',
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
@@ -602,7 +602,8 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Reverse a Number',
-                            questionLink: '',
+                            questionLink:
+                                'https://takeuforward.org/c-programs/reverse-a-number-in-c/',
                             gfgLink:
                                 'https://practice.geeksforgeeks.org/problems/reverse-bits3556/1',
                             leetCodeLink:
@@ -3192,48 +3193,64 @@ const ultimateData = {
                     questionList: [
                         {
                             questionHeading: 'Implement Stack using Arrays',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-stack-using-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-stack-using-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1',
                             leetCodeLink: '',
-                            youTubeLink: 'https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=68',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=68',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'Implement Queue using Arrays',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-queue-using-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-queue-using-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1',
                             leetCodeLink: '',
-                            youTubeLink: 'https://www.youtube.com/watch?v=M6GnoUDpqEE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=72',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=M6GnoUDpqEE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=72',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'Implement Stack using Queue',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-stack-using-single-queue/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1',
-                            leetCodeLink: 'https://leetcode.com/problems/implement-stack-using-queues/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=jDZQKzEtbYQ&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-stack-using-single-queue/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/implement-stack-using-queues/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=jDZQKzEtbYQ&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'Implement Queue using Stack',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-queue-using-stack/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/queue-using-stack/1',
-                            leetCodeLink: 'https://leetcode.com/problems/implement-queue-using-stacks/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=3Et9MrMc02A&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-queue-using-stack/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/queue-using-stack/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/implement-queue-using-stacks/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=3Et9MrMc02A&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'Implement stack using Linkedlist',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-stack-using-linked-list/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-stack-using-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3242,8 +3259,10 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Implement queue using Linkedlist',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-queue-using-linked-list/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-queue-using-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3252,19 +3271,26 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Check for balanced paranthesis',
-                            questionLink: 'https://takeuforward.org/data-structure/check-for-balanced-parentheses/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1',
-                            leetCodeLink: 'https://leetcode.com/problems/valid-parentheses/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=wkDfsKijrZ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-for-balanced-parentheses/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/valid-parentheses/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=wkDfsKijrZ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'Implement Min Stack',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1',
-                            leetCodeLink: 'https://leetcode.com/problems/min-stack/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/min-stack/',
                             youTubeLink: 'https://youtu.be/V09NfaGf2ao',
                             isDone: false,
                             isBookmarked: false,
@@ -3279,9 +3305,12 @@ const ultimateData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: 'Infix to Postfix Conversion using Stack',
-                            questionLink: 'https://takeuforward.org/data-structure/infix-to-postfix/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1',
+                            questionHeading:
+                                'Infix to Postfix Conversion using Stack',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/infix-to-postfix/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3330,8 +3359,10 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Convert Infix To Prefix Notation',
-                            questionLink: 'https://takeuforward.org/data-structure/infix-to-prefix/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/infix-to-prefix/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3348,10 +3379,14 @@ const ultimateData = {
                     questionList: [
                         {
                             questionHeading: 'Next Greater Element',
-                            questionLink: 'https://takeuforward.org/data-structure/next-greater-element-using-stack/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1',
-                            leetCodeLink: 'https://leetcode.com/problems/next-greater-element-i/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=Du881K7Jtk8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/next-greater-element-using-stack/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/next-greater-element-i/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=Du881K7Jtk8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3360,7 +3395,8 @@ const ultimateData = {
                             questionHeading: 'Next Greater Element - II',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/next-greater-element-ii/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/next-greater-element-ii/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3369,7 +3405,8 @@ const ultimateData = {
                         {
                             questionHeading: 'Next Smaller Element',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3388,10 +3425,14 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Trapping Rainwater',
-                            questionLink: 'https://takeuforward.org/data-structure/trapping-rainwater/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1',
-                            leetCodeLink: 'https://leetcode.com/problems/trapping-rain-water/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=m18Hntz4go8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=42',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/trapping-rainwater/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/trapping-rain-water/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=m18Hntz4go8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=42',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3400,7 +3441,8 @@ const ultimateData = {
                             questionHeading: '	Sum of subarray minimum',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/sum-of-subarray-minimums/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sum-of-subarray-minimums/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3409,8 +3451,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Stock span problem',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1',
-                            leetCodeLink: 'https://leetcode.com/problems/online-stock-span/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/online-stock-span/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3420,7 +3464,8 @@ const ultimateData = {
                             questionHeading: 'Asteroid Collision',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/asteroid-collision/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/asteroid-collision/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3430,7 +3475,8 @@ const ultimateData = {
                             questionHeading: 'Sum of subarray ranges',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/sum-of-subarray-ranges/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sum-of-subarray-ranges/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3439,8 +3485,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Remove k Digits',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/remove-k-digits/1',
-                            leetCodeLink: 'https://leetcode.com/problems/remove-k-digits/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/remove-k-digits/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/remove-k-digits/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3448,10 +3496,14 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Largest rectangle in a histogram',
-                            questionLink: 'https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1',
-                            leetCodeLink: 'https://leetcode.com/problems/largest-rectangle-in-histogram/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=X0X6G-eWgQ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=81',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/largest-rectangle-in-histogram/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=X0X6G-eWgQ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=81',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3459,8 +3511,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Maximal Rectangles',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/max-rectangle/1',
-                            leetCodeLink: 'https://leetcode.com/problems/maximal-rectangle/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/max-rectangle/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximal-rectangle/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3476,10 +3530,14 @@ const ultimateData = {
                     questionList: [
                         {
                             questionHeading: 'Sliding Window maximum',
-                            questionLink: 'https://takeuforward.org/data-structure/sliding-window-maximum/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1',
-                            leetCodeLink: 'https://leetcode.com/problems/sliding-window-maximum/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=CZQGRp93K4k&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=83',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/sliding-window-maximum/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/sliding-window-maximum/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=CZQGRp93K4k&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=83',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3487,8 +3545,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Stock Span Problem',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1',
-                            leetCodeLink: 'https://leetcode.com/problems/online-stock-span/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/online-stock-span/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3497,8 +3557,10 @@ const ultimateData = {
                         {
                             questionHeading: 'The Celebrity Problem',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1',
-                            leetCodeLink: 'https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1',
+                            leetCodeLink:
+                                'https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3506,20 +3568,28 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Rotten Oranges',
-                            questionLink: 'https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1',
-                            leetCodeLink: 'https://leetcode.com/problems/rotting-oranges/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=yf3oUhkvqA0',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/rotting-oranges/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=yf3oUhkvqA0',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'LRU cache (IMPORTANT)',
-                            questionLink: 'https://takeuforward.org/data-structure/implement-lru-cache/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/lru-cache/1',
-                            leetCodeLink: 'https://leetcode.com/problems/lru-cache/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=xDEuM5qa0zg&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=77',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/implement-lru-cache/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/lru-cache/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/lru-cache/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=xDEuM5qa0zg&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=77',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3528,8 +3598,10 @@ const ultimateData = {
                             questionHeading: 'LFU cache',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/lfu-cache/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=0PSB9y8ehbk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=79',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/lfu-cache/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=0PSB9y8ehbk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=79',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3552,11 +3624,16 @@ const ultimateData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: 'Longest Substring Without Repeating Characters',
-                            questionLink: 'https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring3036/1',
-                            leetCodeLink: 'https://leetcode.com/problems/longest-substring-without-repeating-characters/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=qtVh-XEpsJo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=26',
+                            questionHeading:
+                                'Longest Substring Without Repeating Characters',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring3036/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-substring-without-repeating-characters/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=qtVh-XEpsJo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=26',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3564,8 +3641,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Max Consecutive Ones III',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-consecutive-ones/1',
-                            leetCodeLink: 'https://leetcode.com/problems/max-consecutive-ones-iii/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-consecutive-ones/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/max-consecutive-ones-iii/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3582,10 +3661,12 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Longest repeating character replacement',
+                            questionHeading:
+                                'Longest repeating character replacement',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/longest-repeating-character-replacement/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-repeating-character-replacement/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3595,7 +3676,8 @@ const ultimateData = {
                             questionHeading: 'Binary subarray with sum',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-subarrays-with-sum/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-subarrays-with-sum/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3604,28 +3686,35 @@ const ultimateData = {
                         {
                             questionHeading: 'Count number of nice subarrays',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/count-subarray-with-k-odds/1',
-                            leetCodeLink: 'https://leetcode.com/problems/count-number-of-nice-subarrays/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-subarray-with-k-odds/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/count-number-of-nice-subarrays/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Number of substring containing all three characters',
+                            questionHeading:
+                                'Number of substring containing all three characters',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/count-substring/1',
-                            leetCodeLink: 'https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/count-substring/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Maximum point you can obtain from cards',
+                            questionHeading:
+                                'Maximum point you can obtain from cards',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3640,20 +3729,25 @@ const ultimateData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: 'Longest Substring with At Most K Distinct Characters',
+                            questionHeading:
+                                'Longest Substring with At Most K Distinct Characters',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1',
-                            leetCodeLink: 'https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Subarray with k different integers',
+                            questionHeading:
+                                'Subarray with k different integers',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/subarrays-with-k-different-integers/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/subarrays-with-k-different-integers/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3662,8 +3756,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Minimum Window Substring',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1',
-                            leetCodeLink: 'https://leetcode.com/problems/minimum-window-substring/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-window-substring/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3673,7 +3769,8 @@ const ultimateData = {
                             questionHeading: 'Minimum Window Subsequence',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/minimum-window-subsequence/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/minimum-window-subsequence/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3697,7 +3794,8 @@ const ultimateData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: 'Introduction to Priority Queues using Binary Heaps',
+                            questionHeading:
+                                'Introduction to Priority Queues using Binary Heaps',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -3707,9 +3805,11 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Min Heap and Max Heap Implementation',
+                            questionHeading:
+                                'Min Heap and Max Heap Implementation',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/operations-on-binary-min-heap/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/operations-on-binary-min-heap/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3717,9 +3817,11 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Check if an array represents a min-heap or not',
+                            questionHeading:
+                                'Check if an array represents a min-heap or not',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/does-array-represent-heap4345/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/does-array-represent-heap4345/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3745,19 +3847,26 @@ const ultimateData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: 'Kth largest element in an array [use priority queue]',
-                            questionLink: 'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1',
-                            leetCodeLink: 'https://leetcode.com/problems/kth-largest-element-in-an-array/',
+                            questionHeading:
+                                'Kth largest element in an array [use priority queue]',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/kth-largest-element-in-an-array/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Kth smallest element in an array [use priority queue]',
-                            questionLink: 'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1',
+                            questionHeading:
+                                'Kth smallest element in an array [use priority queue]',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3767,7 +3876,8 @@ const ultimateData = {
                         {
                             questionHeading: 'Sort K sorted array',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3777,16 +3887,20 @@ const ultimateData = {
                         {
                             questionHeading: 'Merge M sorted Lists',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1',
-                            leetCodeLink: 'https://leetcode.com/problems/merge-k-sorted-lists/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/merge-k-sorted-lists/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Replace each array element by its corresponding rank',
-                            questionLink: 'https://takeuforward.org/data-structure/replace-elements-by-its-rank-in-the-array/',
+                            questionHeading:
+                                'Replace each array element by its corresponding rank',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/replace-elements-by-its-rank-in-the-array/',
                             gfgLink: '',
                             leetCodeLink: '',
                             youTubeLink: '',
@@ -3798,7 +3912,8 @@ const ultimateData = {
                             questionHeading: 'Task Scheduler',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/task-scheduler/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/task-scheduler/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3808,7 +3923,8 @@ const ultimateData = {
                             questionHeading: 'Hands of Straights',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/hand-of-straights/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/hand-of-straights/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3826,16 +3942,19 @@ const ultimateData = {
                             questionHeading: 'Design twitter',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/design-twitter/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/design-twitter/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Connect `n` ropes with minimal cost',
+                            questionHeading:
+                                'Connect `n` ropes with minimal cost',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -3843,10 +3962,13 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Kth largest element in a stream of running integers',
+                            questionHeading:
+                                'Kth largest element in a stream of running integers',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1',
-                            leetCodeLink: 'https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3865,8 +3987,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Find Median from Data Stream',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1',
-                            leetCodeLink: 'https://leetcode.com/problems/find-median-from-data-stream/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/find-median-from-data-stream/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3875,8 +3999,10 @@ const ultimateData = {
                         {
                             questionHeading: 'K most frequent elements',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1',
-                            leetCodeLink: 'https://leetcode.com/problems/top-k-frequent-elements/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/top-k-frequent-elements/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3903,7 +4029,8 @@ const ultimateData = {
                             questionHeading: 'Assign Cookies',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/assign-cookies/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/assign-cookies/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3911,20 +4038,26 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Fractional Knapsack Problem',
-                            questionLink: 'https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1',
                             leetCodeLink: '',
-                            youTubeLink: 'https://www.youtube.com/watch?v=F_DDzYnxO14&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=49',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=F_DDzYnxO14&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=49',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'Greedy algorithm to find minimum',
-                            questionLink: 'https://takeuforward.org/data-structure/find-minimum-number-of-coins/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/find-minimum-number-of-coins/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1',
                             leetCodeLink: '',
-                            youTubeLink: 'https://www.youtube.com/watch?v=mVg9CfJvayM&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=48',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=mVg9CfJvayM&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=48',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3933,7 +4066,8 @@ const ultimateData = {
                             questionHeading: 'Lemonade Change',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/lemonade-change/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/lemonade-change/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3942,8 +4076,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Valid Paranthesis Checker',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1',
-                            leetCodeLink: 'https://leetcode.com/problems/valid-parenthesis-string/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/valid-parenthesis-string/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3959,10 +4095,13 @@ const ultimateData = {
                     questionList: [
                         {
                             questionHeading: 'N meetings in one room',
-                            questionLink: 'https://takeuforward.org/data-structure/n-meetings-in-one-room/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/n-meetings-in-one-room/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1',
                             leetCodeLink: '',
-                            youTubeLink: 'https://www.youtube.com/watch?v=II6ziNnub1Q&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=45',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=II6ziNnub1Q&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=45',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -3970,8 +4109,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Jump Game',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/jump-game/1',
-                            leetCodeLink: 'https://leetcode.com/problems/jump-game/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/jump-game/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/jump-game/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -3980,29 +4121,38 @@ const ultimateData = {
                         {
                             questionHeading: 'Jump Game 2',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1',
-                            leetCodeLink: 'https://leetcode.com/problems/jump-game-ii/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/jump-game-ii/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Minimum number of platforms required for a railway',
-                            questionLink: 'https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1',
+                            questionHeading:
+                                'Minimum number of platforms required for a railway',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1',
                             leetCodeLink: '',
-                            youTubeLink: 'https://www.youtube.com/watch?v=dxVcMDI7vyI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=46',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=dxVcMDI7vyI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=46',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
                             questionHeading: 'Job sequencing Problem',
-                            questionLink: 'https://takeuforward.org/data-structure/job-sequencing-problem/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/job-sequencing-problem/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1',
                             leetCodeLink: '',
-                            youTubeLink: 'https://www.youtube.com/watch?v=LjPx4wQaRIs&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=47',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=LjPx4wQaRIs&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=47',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -4011,14 +4161,16 @@ const ultimateData = {
                             questionHeading: 'Candy',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/candy/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/candy/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Program for Shortest Job First (or SJF) CPU Scheduling',
+                            questionHeading:
+                                'Program for Shortest Job First (or SJF) CPU Scheduling',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -4028,9 +4180,11 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Program for Least Recently Used (LRU) Page Replacement Algorithm',
+                            questionHeading:
+                                'Program for Least Recently Used (LRU) Page Replacement Algorithm',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/page-faults-in-lru5603/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/page-faults-in-lru5603/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -4039,9 +4193,11 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Insert Interval',
-                            questionLink: 'https://takeuforward.org/?s=Insert+Interval',
+                            questionLink:
+                                'https://takeuforward.org/?s=Insert+Interval',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/insert-interval/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/insert-interval/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -4049,10 +4205,14 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Merge Intervals',
-                            questionLink: 'https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1',
-                            leetCodeLink: 'https://leetcode.com/problems/merge-intervals/',
-                            youTubeLink: 'https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/8a644e94faaa94968d8665ba9e0a80d1ae3e0a2d/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/merge-intervals/',
+                            youTubeLink:
+                                'https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
@@ -4061,7 +4221,8 @@ const ultimateData = {
                             questionHeading: 'Non-overlapping Intervals',
                             questionLink: '',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/non-overlapping-intervals/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/non-overlapping-intervals/',
                             youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
@@ -4095,7 +4256,8 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Binary Tree Representation in C++',
+                            questionHeading:
+                                'Binary Tree Representation in C++',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -4105,7 +4267,8 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Binary Tree Representation in Java',
+                            questionHeading:
+                                'Binary Tree Representation in Java',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -4115,8 +4278,10 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Binary Tree Traversals in Binary Tree  ',
-                            questionLink: 'https://takeuforward.org/binary-tree/binary-tree-traversal-inorder-preorder-postorder/',
+                            questionHeading:
+                                'Binary Tree Traversals in Binary Tree  ',
+                            questionLink:
+                                'https://takeuforward.org/binary-tree/binary-tree-traversal-inorder-preorder-postorder/',
                             gfgLink: '',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/jmy0LaGET1I',
@@ -4125,10 +4290,14 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Preorder Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/preorder-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-preorder-traversal/',
+                            questionHeading:
+                                'Preorder Traversal of Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/preorder-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-preorder-traversal/',
                             youTubeLink: 'https://youtu.be/RlUu72JrOCQ',
                             isDone: false,
                             isBookmarked: false,
@@ -4136,78 +4305,108 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Inorder Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/inorder-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-inorder-traversal/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/inorder-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/Z_NEgBgbRVI',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Post-order Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-postorder-traversal/',
+                            questionHeading:
+                                'Post-order Traversal of Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/COQOU6klsBg',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Level order Traversal / Level order traversal in spiral form',
-                            questionLink: 'https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-level-order-traversal/',
+                            questionHeading:
+                                'Level order Traversal / Level order traversal in spiral form',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-level-order-traversal/',
                             youTubeLink: 'https://youtu.be/EoAsWbO7sqg',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Iterative Preorder Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/preorder-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-preorder-traversal/',
+                            questionHeading:
+                                'Iterative Preorder Traversal of Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/preorder-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-preorder-traversal/',
                             youTubeLink: 'https://youtu.be/Bfqd8BsPVuw',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Iterative Inorder Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/inorder-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-inorder-traversal/',
+                            questionHeading:
+                                'Iterative Inorder Traversal of Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/inorder-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/lxTGsVXjwvM',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Post-order Traversal of Binary Tree using 2 stack',
-                            questionLink: 'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-postorder-traversal/',
+                            questionHeading:
+                                'Post-order Traversal of Binary Tree using 2 stack',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/2YBhNLodD8Q',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Post-order Traversal of Binary Tree using 1 stack',
-                            questionLink: 'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-postorder-traversal/',
+                            questionHeading:
+                                'Post-order Traversal of Binary Tree using 1 stack',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/postorder-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/NzIGLLwZBS8',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Preorder, Inorder, and Postorder Traversal in one Traversal',
-                            questionLink: 'https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/postorder-traversal-iterative/1',
+                            questionHeading:
+                                'Preorder, Inorder, and Postorder Traversal in one Traversal',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/postorder-traversal-iterative/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/ySp2epYvgTE',
                             isDone: false,
@@ -4224,19 +4423,26 @@ const ultimateData = {
                     questionList: [
                         {
                             questionHeading: 'Height of a Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/maximum-depth-of-binary-tree/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-depth-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/eD3tmO66aBA',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Check if the Binary tree is height-balanced or not',
-                            questionLink: 'https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/balanced-binary-tree/',
+                            questionHeading:
+                                'Check if the Binary tree is height-balanced or not',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/balanced-binary-tree/',
                             youTubeLink: 'https://youtu.be/Yt50Jfbd8Po',
                             isDone: false,
                             isBookmarked: false,
@@ -4244,9 +4450,12 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Diameter of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/diameter-of-binary-tree/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/diameter-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/Rezetez59Nk',
                             isDone: false,
                             isBookmarked: false,
@@ -4254,19 +4463,26 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Maximum path sum',
-                            questionLink: 'https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-maximum-path-sum/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-maximum-path-sum/',
                             youTubeLink: 'https://youtu.be/WszrfSwMz58',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Check if two trees are identical or not',
-                            questionLink: 'https://takeuforward.org/data-structure/check-if-two-trees-are-identical/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1',
-                            leetCodeLink: 'https://leetcode.com/problems/same-tree/',
+                            questionHeading:
+                                'Check if two trees are identical or not',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-if-two-trees-are-identical/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/same-tree/',
                             youTubeLink: 'https://youtu.be/BhuvF_-PWS0',
                             isDone: false,
                             isBookmarked: false,
@@ -4274,29 +4490,40 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Zig Zag Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/',
                             youTubeLink: 'https://youtu.be/3OXWEdlIGl4',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Boundary Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/0',
-                            leetCodeLink: 'https://leetcode.com/problems/boundary-of-binary-tree/',
+                            questionHeading:
+                                'Boundary Traversal of Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/0',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/boundary-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/0ca1nvR0be4',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Vertical Order Traversal of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/0',
-                            leetCodeLink: 'https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/',
+                            questionHeading:
+                                'Vertical Order Traversal of Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/0',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/',
                             youTubeLink: 'https://youtu.be/q_a6lpbKJdw',
                             isDone: false,
                             isBookmarked: false,
@@ -4304,8 +4531,10 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Top View of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/top-view-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/top-view-of-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/Et9OCDNvJ78',
                             isDone: false,
@@ -4314,8 +4543,10 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Bottom View of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/0FtVY6I4pB8',
                             isDone: false,
@@ -4324,9 +4555,12 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Right/Left View of Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/right-left-view-of-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-right-side-view/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/right-left-view-of-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-right-side-view/',
                             youTubeLink: 'https://youtu.be/KV4mRzTjlAk',
                             isDone: false,
                             isBookmarked: false,
@@ -4334,9 +4568,12 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Symmetric Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/symmetric-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/symmetric-tree/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/symmetric-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/symmetric-tree/',
                             youTubeLink: 'https://youtu.be/nKggiEpBE',
                             isDone: false,
                             isBookmarked: false,
@@ -4352,9 +4589,12 @@ const ultimateData = {
                     questionList: [
                         {
                             questionHeading: 'Root to Node Path in Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1',
-                            leetCodeLink: 'https://www.interviewbit.com/problems/path-to-given-node/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/root-to-leaf-paths/1',
+                            leetCodeLink:
+                                'https://www.interviewbit.com/problems/path-to-given-node/',
                             youTubeLink: 'https://youtu.be/fmflMqVOC7k',
                             isDone: false,
                             isBookmarked: false,
@@ -4362,9 +4602,12 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'LCA in Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/',
                             youTubeLink: 'https://youtu.be/_-QHfMDde90',
                             isDone: false,
                             isBookmarked: false,
@@ -4372,9 +4615,12 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Maximum width of a Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/maximum-width-of-binary-tree/',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/maximum-width-of-binary-tree/',
                             youTubeLink: 'https://youtu.be/ZbybYvcVLks',
                             isDone: false,
                             isBookmarked: false,
@@ -4382,8 +4628,10 @@ const ultimateData = {
                         },
                         {
                             questionHeading: 'Check for Children Sum Property',
-                            questionLink: 'https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/children-sum-parent/1',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/children-sum-parent/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/fnmisPM6cVo',
                             isDone: false,
@@ -4391,37 +4639,47 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Print all the Nodes at a distance of K in a Binary Tree',
+                            questionHeading:
+                                'Print all the Nodes at a distance of K in a Binary Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/',
                             youTubeLink: 'https://youtu.be/i9ORlEy6EsI',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Minimum time taken to BURN the Binary Tree from a Node',
+                            questionHeading:
+                                'Minimum time taken to BURN the Binary Tree from a Node',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/burning-tree/1',
-                            leetCodeLink: 'https://www.codingninjas.com/codestudio/problems/time-to-burn-tree_630563?source=youtube&campaign=Striver_Tree_Videos',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/burning-tree/1',
+                            leetCodeLink:
+                                'https://www.codingninjas.com/codestudio/problems/time-to-burn-tree_630563?source=youtube&campaign=Striver_Tree_Videos',
                             youTubeLink: 'https://youtu.be/2r5wLmQfD6g',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Count total Nodes in a COMPLETE Binary Tree',
-                            questionLink: 'https://takeuforward.org/binary-tree/count-number-of-nodes-in-a-binary-tree/',
+                            questionHeading:
+                                'Count total Nodes in a COMPLETE Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/binary-tree/count-number-of-nodes-in-a-binary-tree/',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/count-complete-tree-nodes/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/count-complete-tree-nodes/',
                             youTubeLink: 'https://youtu.be/u-yWemKGWO0',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Requirements needed to construct a Unique Binary Tree | Theory',
+                            questionHeading:
+                                'Requirements needed to construct a Unique Binary Tree | Theory',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -4431,60 +4689,82 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Construct Binary Tree from inorder and preorder',
-                            questionLink: 'https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/construct-tree-1/1',
-                            leetCodeLink: 'https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/',
+                            questionHeading:
+                                'Construct Binary Tree from inorder and preorder',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/construct-tree-1/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/aZNaLrVebKQ',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Construct the Binary Tree from Postorder and Inorder Traversal',
-                            questionLink: 'https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1',
-                            leetCodeLink: 'https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/',
+                            questionHeading:
+                                'Construct the Binary Tree from Postorder and Inorder Traversal',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/tree-from-postorder-and-inorder/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/',
                             youTubeLink: 'https://youtu.be/LgLRTaEMRVc',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Serialize and deserialize Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1',
-                            leetCodeLink: 'https://leetcode.com/problems/serialize-and-deserialize-binary-tree/',
+                            questionHeading:
+                                'Serialize and deserialize Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/serialize-and-deserialize-binary-tree/',
                             youTubeLink: 'https://youtu.be/-YbXySKJsX8',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Morris Preorder Traversal of a Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/',
+                            questionHeading:
+                                'Morris Preorder Traversal of a Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-inorder-traversal/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/80Zug6D1_r4',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Morris Inorder Traversal of a Binary Tree',
-                            questionLink: 'https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/',
+                            questionHeading:
+                                'Morris Inorder Traversal of a Binary Tree',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/',
                             gfgLink: '',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-tree-inorder-traversal/',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-tree-inorder-traversal/',
                             youTubeLink: 'https://youtu.be/80Zug6D1_r4',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Flatten Binary Tree to LinkedList',
-                            questionLink: 'https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1',
-                            leetCodeLink: 'https://leetcode.com/problems/flatten-binary-tree-to-linked-list/',
+                            questionHeading:
+                                'Flatten Binary Tree to LinkedList',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/flatten-binary-tree-to-linked-list/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/flatten-binary-tree-to-linked-list/',
                             youTubeLink: 'https://youtu.be/sWf7k1x9XR4',
                             isDone: false,
                             isBookmarked: false,
@@ -4508,7 +4788,8 @@ const ultimateData = {
                     categoryCompletedQuestions: '0',
                     questionList: [
                         {
-                            questionHeading: 'Introduction to Binary Search Tree',
+                            questionHeading:
+                                'Introduction to Binary Search Tree',
                             questionLink: '',
                             gfgLink: '',
                             leetCodeLink: '',
@@ -4520,8 +4801,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Search in a Binary Search Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/search-a-node-in-bst/1',
-                            leetCodeLink: 'https://leetcode.com/problems/search-in-a-binary-search-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/search-a-node-in-bst/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/search-in-a-binary-search-tree/',
                             youTubeLink: 'https://youtu.be/KcNt6v_56cc',
                             isDone: false,
                             isBookmarked: false,
@@ -4530,7 +4813,8 @@ const ultimateData = {
                         {
                             questionHeading: 'Find Min/Max in BST',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1',
                             leetCodeLink: '',
                             youTubeLink: '',
                             isDone: false,
@@ -4548,7 +4832,8 @@ const ultimateData = {
                         {
                             questionHeading: 'Ceil in a Binary Search Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/KSsk8AhdOZA',
                             isDone: false,
@@ -4566,30 +4851,40 @@ const ultimateData = {
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Insert a given Node in Binary Search Tree',
+                            questionHeading:
+                                'Insert a given Node in Binary Search Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1',
-                            leetCodeLink: 'https://leetcode.com/problems/insert-into-a-binary-search-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/insert-into-a-binary-search-tree/',
                             youTubeLink: 'https://youtu.be/FiFiNvM29ps',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Delete a Node in Binary Search Tree',
+                            questionHeading:
+                                'Delete a Node in Binary Search Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/delete-a-node-from-bst/1',
-                            leetCodeLink: 'https://leetcode.com/problems/delete-node-in-a-bst/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/delete-a-node-from-bst/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/delete-node-in-a-bst/',
                             youTubeLink: 'https://youtu.be/kouxiP_H5WE',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Find K-th smallest/largest element in BST',
-                            questionLink: 'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1#:~:text=Find%20the%20Kth%20Smallest%20element%20in%20the%20BST.&text=Your%20Task%3A,such%20element%20exists%20return%20%2D1.',
-                            leetCodeLink: 'https://leetcode.com/problems/kth-smallest-element-in-a-bst/',
+                            questionHeading:
+                                'Find K-th smallest/largest element in BST',
+                            questionLink:
+                                'https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1#:~:text=Find%20the%20Kth%20Smallest%20element%20in%20the%20BST.&text=Your%20Task%3A,such%20element%20exists%20return%20%2D1.',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/kth-smallest-element-in-a-bst/',
                             youTubeLink: 'https://youtu.be/9TJYWh0adfk',
                             isDone: false,
                             isBookmarked: false,
@@ -4598,8 +4893,10 @@ const ultimateData = {
                         {
                             questionHeading: 'Check if a tree is a BST or BT',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/check-for-bst/1',
-                            leetCodeLink: 'https://leetcode.com/problems/validate-binary-search-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/check-for-bst/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/validate-binary-search-tree/',
                             youTubeLink: 'https://youtu.be/f-sj7I5oXEI',
                             isDone: false,
                             isBookmarked: false,
@@ -4608,28 +4905,36 @@ const ultimateData = {
                         {
                             questionHeading: 'LCA in Binary Search Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1',
-                            leetCodeLink: 'https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/',
                             youTubeLink: 'https://youtu.be/cX_kPV_foZc',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Construct a BST from a preorder traversal',
+                            questionHeading:
+                                'Construct a BST from a preorder traversal',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/preorder-to-postorder4423/1',
-                            leetCodeLink: 'https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/preorder-to-postorder4423/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/',
                             youTubeLink: 'https://youtu.be/UmJT3j26t1I',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Inorder Successor/Predecessor in BST',
+                            questionHeading:
+                                'Inorder Successor/Predecessor in BST',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1',
-                            leetCodeLink: 'https://leetcode.com/problems/inorder-successor-in-bst/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/inorder-successor-in-bst/',
                             youTubeLink: 'https://youtu.be/SXKAD2svfmI',
                             isDone: false,
                             isBookmarked: false,
@@ -4638,28 +4943,36 @@ const ultimateData = {
                         {
                             questionHeading: 'Merge 2 BST’s',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1',
-                            leetCodeLink: 'https://leetcode.com/problems/binary-search-tree-iterator/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/binary-search-tree-iterator/',
                             youTubeLink: 'https://youtu.be/D2jMcmxU4bs',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Two Sum In BST | Check if there exists a pair with Sum K',
+                            questionHeading:
+                                'Two Sum In BST | Check if there exists a pair with Sum K',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1',
-                            leetCodeLink: 'https://leetcode.com/problems/two-sum-iv-input-is-a-bst/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/two-sum-iv-input-is-a-bst/',
                             youTubeLink: 'https://youtu.be/ssL3sHwPeb4',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
                         },
                         {
-                            questionHeading: 'Recover BST | Correct BST with two nodes swapped',
+                            questionHeading:
+                                'Recover BST | Correct BST with two nodes swapped',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1',
-                            leetCodeLink: 'https://leetcode.com/problems/recover-binary-search-tree/',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1',
+                            leetCodeLink:
+                                'https://leetcode.com/problems/recover-binary-search-tree/',
                             youTubeLink: 'https://youtu.be/ZWGW7FminDM',
                             isDone: false,
                             isBookmarked: false,
@@ -4668,7 +4981,8 @@ const ultimateData = {
                         {
                             questionHeading: 'Largest BST in Binary Tree',
                             questionLink: '',
-                            gfgLink: 'https://practice.geeksforgeeks.org/problems/largest-bst/1',
+                            gfgLink:
+                                'https://practice.geeksforgeeks.org/problems/largest-bst/1',
                             leetCodeLink: '',
                             youTubeLink: 'https://youtu.be/X0oXMdtUDwo',
                             isDone: false,
@@ -6252,8 +6566,7 @@ const ultimateData = {
                             gfgLink:
                                 'https://practice.geeksforgeeks.org/problems/trie-delete/1',
                             leetCodeLink: '',
-                            youTubeLink:
-                                'https://takeuforward.org/wp-content/uploads/2022/08/youtube-icon-42001-300x300.png.webp',
+                            youTubeLink: '',
                             isDone: false,
                             isBookmarked: false,
                             userNotes: '',
