@@ -10,6 +10,7 @@ const DarkModeToggle = ({ data, setData, toShow }) => {
             stroke={'black'}
             visibility={toShow ? 'visible' : 'hidden'}
             cursor={'pointer'}
+            display={{ base: 'none', md: 'flex' }}
         />
     ) : (
         <MoonIcon
@@ -19,6 +20,7 @@ const DarkModeToggle = ({ data, setData, toShow }) => {
             stroke={'black'}
             visibility={toShow ? 'visible' : 'hidden'}
             cursor={'pointer'}
+            display={{ base: 'none', md: 'flex' }}
         />
     )
 }

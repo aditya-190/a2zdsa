@@ -9,11 +9,9 @@ import {
 import { Bookmark, Notes } from '../icons/ProjectIcons.jsx'
 
 const SearchBar = ({ data, setData, selectedContentIndex }) => {
-    const contentCompletedQuestions =
-        data.content[selectedContentIndex].contentCompletedQuestions
-
-    const contentTotalQuestions =
-        data.content[selectedContentIndex].contentTotalQuestions
+    const current = data.content[selectedContentIndex]
+    const contentCompletedQuestions = current.contentCompletedQuestions
+    const contentTotalQuestions = current.contentTotalQuestions
 
     return (
         <Flex
@@ -25,6 +23,7 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
             justifyContent={'center'}
         >
             <Flex
+                h={'full'}
                 borderWidth={'2px'}
                 borderColor={'indianFlag1Color'}
                 borderRadius={'6px'}
@@ -33,11 +32,13 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                 alignItems={'center'}
                 justifyContent={'center'}
                 background={'indianFlag1Bg'}
+                display={{ base: 'none', md: 'flex' }}
             >
                 <Notes fontSize={'16px'} />
             </Flex>
 
             <Flex
+                h={'full'}
                 borderWidth={'2px'}
                 borderColor={'indianFlag1Color'}
                 borderTopLeftRadius={'6px'}
@@ -48,6 +49,7 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                 alignItems={'center'}
                 justifyContent={'center'}
                 background={'indianFlag1Bg'}
+                display={{ base: 'none', md: 'flex' }}
             >
                 <Text
                     align={'center'}
@@ -62,8 +64,10 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
             </Flex>
 
             <Flex
+                h={'full'}
                 borderWidth={'2px'}
                 borderColor={'indianFlag2Color'}
+                borderTopRadius={{ base: '6px', md: '0px' }}
                 p={2}
                 ml={1}
                 flexGrow={1}
@@ -89,6 +93,7 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
             </Flex>
 
             <Flex
+                h={'full'}
                 borderWidth={'2px'}
                 borderColor={'indianFlag3Color'}
                 borderTopRightRadius={'6px'}
@@ -99,6 +104,7 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                 alignItems={'center'}
                 justifyContent={'center'}
                 background={'indianFlag3Bg'}
+                display={{ base: 'none', md: 'flex' }}
             >
                 <Text
                     align={'center'}
@@ -116,6 +122,7 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
             </Flex>
 
             <Flex
+                h={'full'}
                 borderWidth={'2px'}
                 borderColor={'indianFlag3Color'}
                 borderRadius={'6px'}
@@ -125,6 +132,7 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                 alignItems={'center'}
                 justifyContent={'center'}
                 background={'indianFlag3Bg'}
+                display={{ base: 'none', md: 'flex' }}
             >
                 <Bookmark fontSize={'16px'} />
             </Flex>

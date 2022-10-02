@@ -422,8 +422,8 @@ const ultimateData = {
     },
     content: [
         {
-            contentPath: '/learn_the_basics',
-            contentHeading: 'Learn the basics',
+            contentPath: '/basics',
+            contentHeading: 'Basics',
             contentSubHeading: '',
             contentTotalQuestions: '30',
             contentCompletedQuestions: '0',
@@ -837,8 +837,8 @@ const ultimateData = {
             ],
         },
         {
-            contentPath: '/learn_important_sorting_techniques',
-            contentHeading: 'Learn Important Sorting Techniques',
+            contentPath: '/sorting_techniques',
+            contentHeading: 'Sorting Techniques',
             contentSubHeading: '',
             contentTotalQuestions: '7',
             contentCompletedQuestions: '0',
@@ -945,8 +945,8 @@ const ultimateData = {
             ],
         },
         {
-            contentPath: '/solve_problem_on_array',
-            contentHeading: 'Solve Problem on Array',
+            contentPath: '/array',
+            contentHeading: 'Arrays',
             contentSubHeading: 'Easy -> Medium -> Hard',
             contentTotalQuestions: '41',
             contentCompletedQuestions: '0',
@@ -2153,8 +2153,8 @@ const ultimateData = {
             ],
         },
         {
-            contentPath: '/learn_linked_list',
-            contentHeading: 'Learn Linked List',
+            contentPath: '/linked_list',
+            contentHeading: 'Linked List',
             contentSubHeading: 'Single/Double LL, Medium, Hard',
             contentTotalQuestions: '31',
             contentCompletedQuestions: '0',
@@ -2936,7 +2936,7 @@ const ultimateData = {
         },
         {
             contentPath: '/bit_manipulation',
-            contentHeading: 'Bit Manipulation & Advanced Math',
+            contentHeading: 'Bit Manipulation',
             contentSubHeading: 'Concepts & Problems',
             contentTotalQuestions: '18',
             contentCompletedQuestions: '0',
@@ -3611,8 +3611,8 @@ const ultimateData = {
             ],
         },
         {
-            contentPath: '/sliding_window',
-            contentHeading: 'Sliding Window & Two Pointers',
+            contentPath: '/two_pointers',
+            contentHeading: 'Two Pointers',
             contentSubHeading: 'Combined Problems',
             contentTotalQuestions: '12',
             contentCompletedQuestions: '0',

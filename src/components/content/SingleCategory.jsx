@@ -17,25 +17,27 @@ const SingleCategory = ({
         current.categoryTotalQuestions === current.categoryCompletedQuestions
 
     return (
-        <Flex className={'singleCategory'} p={'2'} flexDirection={'column'}>
+        <Flex className={'singleCategory'} p={2} flexDirection={'column'}>
             <Flex
                 flexDirection={'row'}
                 justifyContent={'start'}
-                alignItems={'flex-end'}
+                alignItems={'center'}
             >
                 <Text
-                    fontWeight={'lg'}
-                    fontSize={'2xl'}
+                    h={'100%'}
+                    fontWeight={'xl'}
+                    fontSize={{ base: 'sm', md: 'lg' }}
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
                     color={'textColor'}
+                    whiteSpace={'nowrap'}
                 >
                     {'Step ' + categoryId + '.'}
                 </Text>
                 <Text
-                    ml={4}
-                    fontWeight={'md'}
-                    fontSize={'xl'}
+                    ml={{ base: 1, md: 2 }}
+                    fontWeight={'xl'}
+                    fontSize={{ base: 'sm', md: 'lg' }}
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
                     color={'textColor'}

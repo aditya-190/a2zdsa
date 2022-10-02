@@ -41,7 +41,6 @@ const SingleQuestion = ({
     return (
         <Flex
             w={'full'}
-            px={2}
             py={1}
             borderRadius={4}
             mb={selectedQuestionIndex !== totalLength - 1 ? 2 : 0}
@@ -54,11 +53,11 @@ const SingleQuestion = ({
             {isDone ? <Tick /> : <UnTick />}
 
             <Text
-                ml={4}
+                ml={{ base: 2, md: 4 }}
                 flexGrow={1}
                 vertical-align={'middle'}
                 fontWeight={'md'}
-                fontSize={'xs'}
+                fontSize={{ base: 'sm', md: 'md' }}
                 fontFamily={'customFamily'}
                 fontStyle={'normal'}
                 textDecorationLine={isDone ? 'line-through' : 'none'}
@@ -67,6 +66,8 @@ const SingleQuestion = ({
                         ? 'highlightedColor'
                         : 'defaultColor'
                 }
+                noOfLines={[2, 3]}
+                isTruncated
             >
                 {isQuestionLinkAvailable ? (
                     <a href={questionLink} target={'_blank'} rel="noreferrer">
@@ -77,26 +78,30 @@ const SingleQuestion = ({
                 )}
             </Text>
 
-            <Flex flexDirection={'row'} ml={6}>
+            <Flex flexDirection={'row'} ml={{ base: 3, md: 6 }}>
                 <YouTube
                     href={youTubeLink}
                     cursor={'pointer'}
                     visibility={isYouTubeLinkAvailable ? 'visible' : 'hidden'}
                 />
                 <GfG
-                    ml={4}
+                    ml={{ base: 2, md: 4 }}
                     href={gfgLink}
                     cursor={'pointer'}
                     visibility={isGfgLinkAvailable ? 'visible' : 'hidden'}
                 />
                 <LeetCode
-                    ml={4}
+                    ml={{ base: 2, md: 4 }}
                     href={leetCodeLink}
                     cursor={'pointer'}
                     visibility={isLeetCodeLinkAvailable ? 'visible' : 'hidden'}
                 />
             </Flex>
-            <Flex flexDirection={'row'} ml={6}>
+            <Flex
+                flexDirection={'row'}
+                ml={6}
+                display={{ base: 'none', md: 'flex' }}
+            >
                 {isNoted ? <Notes /> : <NoNotes />}
                 {isBookmarked ? <Bookmark ml={4} /> : <NoBookmark ml={4} />}
             </Flex>

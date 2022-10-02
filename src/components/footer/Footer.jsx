@@ -23,6 +23,7 @@ const Footer = ({
                 fontFamily={'customFamily'}
                 fontStyle={'normal'}
                 color={'secondaryColor'}
+                textAlign={'center'}
             >
                 A Personal web-based progress tracker based on{' '}
                 {
@@ -47,7 +48,12 @@ const Footer = ({
                 .
             </Text>
 
-            <Link href={gitHubLink} target={'_blank'} _hover={{}}>
+            <Link
+                href={gitHubLink}
+                target={'_blank'}
+                _hover={{}}
+                display={{ base: 'none', md: 'block' }}
+            >
                 <Text
                     w={'fit-content'}
                     h={'fit-content'}

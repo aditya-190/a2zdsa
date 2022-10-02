@@ -48,7 +48,7 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                     alignItems={'start'}
                 >
                     <Text
-                        fontWeight={'md'}
+                        fontWeight={'lg'}
                         fontSize={'2xl'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
@@ -85,6 +85,7 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                     <Text
                         w={'fit-content'}
                         h={'fit-content'}
+                        ml={6}
                         px={4}
                         py={1}
                         bg={'startNowBg'}
