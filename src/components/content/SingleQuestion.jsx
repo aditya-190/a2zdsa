@@ -20,8 +20,9 @@ const SingleQuestion = ({
     selectedQuestionIndex,
 }) => {
     const current =
-        data.content[selectedContentIndex].categoryList[selectedCategoryIndex]
-            .questionList
+        data.data.content[selectedContentIndex].categoryList[
+            selectedCategoryIndex
+        ].questionList
     const totalLength = current.length
     const questionHeading = current[selectedQuestionIndex].questionHeading
     const questionLink = current[selectedQuestionIndex].questionLink
@@ -50,7 +51,81 @@ const SingleQuestion = ({
             justifyContent={'space-between'}
             _hover={{ bg: 'selectedQuestion' }}
         >
-            {isDone ? <Tick /> : <UnTick />}
+            {isDone ? (
+                <Tick
+                    onClick={() => {
+                        console.log({
+                            header: { ...data.header },
+                            content: data.content.map(singleContent =>
+                                singleContent.index === selectedContentIndex
+                                    ? {
+                                          ...singleContent,
+                                          categoryList:
+                                              singleContent.categoryList.map(
+                                                  singleCategory =>
+                                                      singleCategory.index ===
+                                                      selectedCategoryIndex
+                                                          ? {
+                                                                ...singleCategory,
+                                                                questionList:
+                                                                    singleCategory.questionList.map(
+                                                                        singleQuestion =>
+                                                                            singleQuestion.index ===
+                                                                            selectedQuestionIndex
+                                                                                ? {
+                                                                                      ...singleQuestion,
+                                                                                      isDone: false,
+                                                                                  }
+                                                                                : singleQuestion
+                                                                    ),
+                                                            }
+                                                          : singleCategory
+                                              ),
+                                      }
+                                    : singleContent
+                            ),
+                            footer: { ...data.footer },
+                        })
+                    }}
+                />
+            ) : (
+                <UnTick
+                    onClick={() => {
+                        console.log({
+                            header: { ...data.header },
+                            content: data.content.map(singleContent =>
+                                singleContent.key === selectedContentIndex
+                                    ? {
+                                          ...singleContent,
+                                          categoryList:
+                                              singleContent.categoryList.map(
+                                                  singleCategory =>
+                                                      singleCategory.key ===
+                                                      selectedCategoryIndex
+                                                          ? {
+                                                                ...singleCategory,
+                                                                questionList:
+                                                                    singleCategory.questionList.map(
+                                                                        singleQuestion =>
+                                                                            singleQuestion.key ===
+                                                                            selectedQuestionIndex
+                                                                                ? {
+                                                                                      ...singleQuestion,
+                                                                                      isDone: true,
+                                                                                  }
+                                                                                : singleQuestion
+                                                                    ),
+                                                            }
+                                                          : singleCategory
+                                              ),
+                                      }
+                                    : singleContent
+                            ),
+                            footer: { ...data.footer },
+                        })
+                    }}
+                />
+            )}
 
             <Text
                 ml={{ base: 2, md: 4 }}
@@ -67,7 +142,6 @@ const SingleQuestion = ({
                         : 'defaultColor'
                 }
                 noOfLines={[2, 3]}
-                isTruncated
             >
                 {isQuestionLinkAvailable ? (
                     <a href={questionLink} target={'_blank'} rel="noreferrer">

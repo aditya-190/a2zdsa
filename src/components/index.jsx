@@ -6,9 +6,10 @@ import Header from './header/Header.jsx'
 import { Reacteroids } from './NotFound/Reacteroids'
 
 const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
-    const originalDsaSheetLink = data.footer.originalDsaSheetLink
-    const originalAuthorLinkedInLink = data.footer.originalAuthorLinkedInLink
-    const gitHubLink = data.footer.gitHubLink
+    const originalDsaSheetLink = data.data.footer.originalDsaSheetLink
+    const originalAuthorLinkedInLink =
+        data.data.footer.originalAuthorLinkedInLink
+    const gitHubLink = data.data.footer.gitHubLink
 
     return (
         <Flex

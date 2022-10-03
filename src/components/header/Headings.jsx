@@ -3,7 +3,7 @@ import { Flex, Text } from '@chakra-ui/react'
 import { DarkModeToggle } from '../icons/ProjectIcons.jsx'
 
 const Headings = ({ data, setData }) => {
-    const heading = data.header.heading
+    const heading = data.data.header.heading
     return (
         <Flex
             className={'headings'}

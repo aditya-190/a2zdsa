@@ -6,8 +6,8 @@ import SingleCategory from './SingleCategory.jsx'
 import SingleTopic from './SingleTopic.jsx'
 
 const Content = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
-    const listOfTopics = data.content
-    const listOfCategory = data.content[selectedContentIndex].categoryList
+    const listOfTopics = data.data.content
+    const listOfCategory = data.data.content[selectedContentIndex].categoryList
 
     return (
         <Flex

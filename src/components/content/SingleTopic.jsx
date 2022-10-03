@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 const SingleTopic = ({ data, selectedContentIndex }) => {
     const [isHovering, setHover] = useState(false)
 
-    const current = data.content[selectedContentIndex]
+    const current = data.data.content[selectedContentIndex]
     const completedQuestion = current.contentCompletedQuestions
     const totalQuestion = current.contentTotalQuestions
     const completedPercentage = (completedQuestion / totalQuestion) * 100

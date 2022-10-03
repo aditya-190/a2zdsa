@@ -2,7 +2,7 @@ import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { Icon } from '@chakra-ui/react'
 
 const DarkModeToggle = ({ data, setData, toShow }) => {
-    return data.header.darkMode ? (
+    return data.data.header.darkMode ? (
         <SunIcon
             w={6}
             h={6}

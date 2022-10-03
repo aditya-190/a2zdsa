@@ -9,7 +9,7 @@ import {
 import { Bookmark, Notes } from '../icons/ProjectIcons.jsx'
 
 const SearchBar = ({ data, setData, selectedContentIndex }) => {
-    const current = data.content[selectedContentIndex]
+    const current = data.data.content[selectedContentIndex]
     const contentCompletedQuestions = current.contentCompletedQuestions
     const contentTotalQuestions = current.contentTotalQuestions
 

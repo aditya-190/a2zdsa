@@ -1,9 +1,10 @@
 import { Flex, Text } from '@chakra-ui/react'
 
 const TotalProgressBar = ({ data }) => {
-    const completedQuestions = data.header.completedQuestions
+    const completedQuestions = data.data.header.completedQuestions
     const percentageCompleted = (
-        (data.header.completedQuestions / data.header.totalQuestions) *
+        (data.data.header.completedQuestions /
+            data.data.header.totalQuestions) *
         100
     ).toFixed(1)
     return (

@@ -9,7 +9,9 @@ const SingleCategory = ({
     selectedCategoryIndex,
 }) => {
     const current =
-        data.content[selectedContentIndex].categoryList[selectedCategoryIndex]
+        data.data.content[selectedContentIndex].categoryList[
+            selectedCategoryIndex
+        ]
     const categoryId = current.categoryId
     const categoryName = current.categoryName
     const listOfQuestion = current.questionList

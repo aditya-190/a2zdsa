@@ -7,7 +7,7 @@ import SubHeadings from './SubHeadings.jsx'
 import TotalProgressBar from './TotalProgressBar.jsx'
 
 const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
-    const numberOfTotalCompletedQuestions = data.header.completedQuestions
+    const numberOfTotalCompletedQuestions = data.data.header.completedQuestions
     return (
         <Flex
             className={'header'}
