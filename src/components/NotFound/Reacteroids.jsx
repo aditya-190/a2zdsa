@@ -72,7 +72,7 @@ export class Reacteroids extends Component {
         window.addEventListener('keydown', this.handleKeys.bind(this, true))
         window.addEventListener('resize', this.handleResize.bind(this, false))
 
-        const context = this.refs.canvas.getContext('2d')
+        const context = this.canvas.getContext('2d')
         this.setState({ context: context })
         this.startGame()
         requestAnimationFrame(() => {
@@ -225,7 +225,7 @@ export class Reacteroids extends Component {
                 const item2 = items2[b]
                 if (this.checkCollision(item1, item2)) {
                     item1.destroy()
-                    item2.destroy()
+                    if (items1 !== this.ship) item2.destroy()
                 }
             }
         }
@@ -256,12 +256,12 @@ export class Reacteroids extends Component {
                 <div className="endgame">
                     <p>Game over!</p>
                     <p>{message}</p>
-                    <span
+                    <button
                         className={'try-again-wrapper'}
                         onClick={this.startGame.bind(this)}
                     >
                         try again?
-                    </span>
+                    </button>
                 </div>
             )
         }
@@ -287,7 +287,7 @@ export class Reacteroids extends Component {
                     </Link>
                 </Show>
                 <canvas
-                    ref={'canvas'}
+                    ref={canvas => (this.canvas = canvas)}
                     width={this.state.screen.width * this.state.screen.ratio}
                     height={this.state.screen.height * this.state.screen.ratio}
                 />
