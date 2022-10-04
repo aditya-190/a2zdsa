@@ -5,7 +5,7 @@ const Ads = ({ data }) => {
     return (
         <Flex
             className={'ads'}
-            display={'flex'}
+            display={'none'}
             w={'100vw'}
             py={1}
             px={4}
