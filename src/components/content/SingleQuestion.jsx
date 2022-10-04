@@ -44,6 +44,7 @@ const SingleQuestion = ({
         <Flex
             w={'full'}
             py={1}
+            px={{ base: 1, md: 2 }}
             borderRadius={4}
             mb={selectedQuestionIndex !== totalLength - 1 ? 2 : 0}
             key={selectedQuestionIndex}

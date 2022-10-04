@@ -17,6 +17,7 @@ const Footer = ({ data }) => {
             flexDirection={'row'}
             alignItems={'center'}
             justifyContent={'space-between'}
+            userSelect={'none'}
         >
             <Text
                 fontWeight={'md'}

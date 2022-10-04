@@ -17,6 +17,7 @@ const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
             flexDirection={'column'}
             alignItems={'center'}
             justifyContent={'center'}
+            userSelect={'none'}
         >
             <Ads data={data} />
             <Headings data={data} setData={setData} />
