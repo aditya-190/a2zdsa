@@ -5,7 +5,13 @@ import { Flex, Grid } from '@chakra-ui/react'
 import SingleCategory from './SingleCategory.jsx'
 import SingleTopic from './SingleTopic.jsx'
 
-const Content = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
+const Content = ({
+    data,
+    setData,
+    isHomeScreen,
+    selectedContentIndex,
+    searchValue,
+}) => {
     const isDarkMode = data.data.header.darkMode
     const listOfTopics = data.data.content
     const listOfCategory = data.data.content[selectedContentIndex].categoryList
@@ -52,6 +58,7 @@ const Content = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
                             selectedContentIndex={selectedContentIndex}
                             selectedCategoryIndex={index}
                             key={index}
+                            searchValue={searchValue}
                         />
                     )
                 })

@@ -419,7 +419,6 @@ const ultimateData = {
             ],
             darkMode: false,
             isBookmarkFilterRequired: false,
-            isSearchFilterRequired: false,
             totalQuestions: 456,
             completedQuestions: 0,
         },

@@ -7,6 +7,7 @@ const SingleCategory = ({
     setData,
     selectedContentIndex,
     selectedCategoryIndex,
+    searchValue,
 }) => {
     const isDarkMode = data.data.header.darkMode
     const current =
@@ -19,6 +20,7 @@ const SingleCategory = ({
     const isCompleted =
         current.categoryTotalQuestions === current.categoryCompletedQuestions
     const isBookmark = data.data.header.isBookmarkFilterRequired
+    const isSearchable = searchValue !== ''
 
     return (
         <Flex className={'singleCategory'} p={2} flexDirection={'column'}>
@@ -57,26 +59,55 @@ const SingleCategory = ({
                 alignItems={'start'}
                 justifyContent={'center'}
             >
-                {listOfQuestion
-                    .filter(
-                        singleQuestion =>
-                            (isBookmark && singleQuestion.isBookmarked) ||
-                            !isBookmark
-                    )
-                    .map((questionData, index) => {
-                        return (
-                            <SingleQuestion
-                                data={data}
-                                setData={setData}
-                                selectedContentIndex={selectedContentIndex}
-                                selectedCategoryIndex={selectedCategoryIndex}
-                                selectedQuestionIndex={
-                                    questionData.questionIndex
-                                }
-                                key={index}
-                            />
-                        )
-                    })}
+                {isSearchable
+                    ? listOfQuestion
+                          .filter(singleQuestion =>
+                              singleQuestion.questionHeading.includes(
+                                  searchValue
+                              )
+                          )
+                          .map((questionData, index) => {
+                              return (
+                                  <SingleQuestion
+                                      data={data}
+                                      setData={setData}
+                                      selectedContentIndex={
+                                          selectedContentIndex
+                                      }
+                                      selectedCategoryIndex={
+                                          selectedCategoryIndex
+                                      }
+                                      selectedQuestionIndex={
+                                          questionData.questionIndex
+                                      }
+                                      key={index}
+                                  />
+                              )
+                          })
+                    : listOfQuestion
+                          .filter(
+                              singleQuestion =>
+                                  (isBookmark && singleQuestion.isBookmarked) ||
+                                  !isBookmark
+                          )
+                          .map((questionData, index) => {
+                              return (
+                                  <SingleQuestion
+                                      data={data}
+                                      setData={setData}
+                                      selectedContentIndex={
+                                          selectedContentIndex
+                                      }
+                                      selectedCategoryIndex={
+                                          selectedCategoryIndex
+                                      }
+                                      selectedQuestionIndex={
+                                          questionData.questionIndex
+                                      }
+                                      key={index}
+                                  />
+                              )
+                          })}
             </Flex>
         </Flex>
     )

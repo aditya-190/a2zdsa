@@ -6,7 +6,14 @@ import SearchBar from './SearchBar.jsx'
 import SubHeadings from './SubHeadings.jsx'
 import TotalProgressBar from './TotalProgressBar.jsx'
 
-const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
+const Header = ({
+    data,
+    setData,
+    isHomeScreen,
+    selectedContentIndex,
+    searchValue,
+    setSearchValue,
+}) => {
     const numberOfTotalCompletedQuestions = data.data.header.completedQuestions
     const isDarkMode = data.data.header.darkMode
 
@@ -48,6 +55,8 @@ const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
                 <SearchBar
                     data={data}
                     setData={setData}
+                    searchValue={searchValue}
+                    setSearchValue={setSearchValue}
                     selectedContentIndex={selectedContentIndex}
                 />
             )}

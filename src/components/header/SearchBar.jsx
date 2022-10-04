@@ -1,16 +1,15 @@
-import {
-    Editable,
-    EditableInput,
-    EditablePreview,
-    Flex,
-    Text,
-    useDisclosure,
-} from '@chakra-ui/react'
+import { Flex, Input, Text, useDisclosure } from '@chakra-ui/react'
 
 import NotesEditor from '../content/NotesEditor'
 import { Bookmark, NoBookmark, NoNotes, Notes } from '../icons/ProjectIcons.jsx'
 
-const SearchBar = ({ data, setData, selectedContentIndex }) => {
+const SearchBar = ({
+    data,
+    setData,
+    searchValue,
+    setSearchValue,
+    selectedContentIndex,
+}) => {
     const {
         isOpen: isOpenNotes,
         onOpen: onOpenNotes,
@@ -24,6 +23,10 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
     const isDarkMode = data.data.header.darkMode
     const isNotes = current.contentUserNotes.trim() !== ''
     const isBookmark = data.data.header.isBookmarkFilterRequired
+
+    let handleInputChange = e => {
+        setSearchValue(e.target.value)
+    }
 
     function getRandomQuestion() {
         const randomCategory =
@@ -151,25 +154,27 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                     alignitems={'center'}
                     justifyContent={'center'}
                 >
-                    <Editable
+                    <Input
                         w={'full'}
+                        h={'full'}
                         align={'center'}
                         fontWeight={'lg'}
                         fontSize={'xs'}
+                        textAlign={'center'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
+                        p={0}
+                        border={'none'}
+                        borderRadius={0}
+                        background={'none'}
+                        boxShadow={'none !important'}
                         placeholder={'Search Questions...'}
                         color={
                             isDarkMode ? 'defaultColor_dark' : 'defaultColor'
                         }
-                    >
-                        <EditablePreview
-                            p={0}
-                            borderRadius={0}
-                            background={'none'}
-                        />
-                        <EditableInput boxShadow={'none !important'} p={0} />
-                    </Editable>
+                        value={searchValue}
+                        onChange={handleInputChange}
+                    />
                 </Flex>
 
                 <Flex
@@ -184,7 +189,6 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                     borderBottomRightRadius={'6px'}
                     p={2}
                     ml={1}
-                    cursor={'pointer'}
                     alignItems={'center'}
                     justifyContent={'center'}
                     background={
