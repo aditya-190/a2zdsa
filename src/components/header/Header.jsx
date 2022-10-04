@@ -8,6 +8,8 @@ import TotalProgressBar from './TotalProgressBar.jsx'
 
 const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
     const numberOfTotalCompletedQuestions = data.data.header.completedQuestions
+    const isDarkMode = data.data.header.darkMode
+
     return (
         <Flex
             className={'header'}
@@ -16,7 +18,7 @@ const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
             alignItems={'center'}
             justifyContent={'center'}
         >
-            <Ads />
+            <Ads data={data} />
             <Headings data={data} setData={setData} />
             <SubHeadings
                 data={data}
@@ -32,7 +34,9 @@ const Header = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
                         fontSize={'lg'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'defaultColor'}
+                        color={
+                            isDarkMode ? 'defaultColor_dark' : 'defaultColor'
+                        }
                     >
                         Start Solving 🔥
                     </Text>

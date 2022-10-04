@@ -6,11 +6,7 @@ import Header from './header/Header.jsx'
 import { Reacteroids } from './NotFound/Reacteroids'
 
 const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
-    const originalDsaSheetLink = data.data.footer.originalDsaSheetLink
-    const originalAuthorLinkedInLink =
-        data.data.footer.originalAuthorLinkedInLink
-    const gitHubLink = data.data.footer.gitHubLink
-
+    const isDarkMode = data.data.header.darkMode
     return (
         <Flex
             className={'app'}
@@ -19,6 +15,7 @@ const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
             flexDirection={'column'}
             alignItems={'center'}
             justifyContent={'space-between'}
+            bg={isDarkMode ? 'fullPageColor_dark' : 'fullPageColor'}
         >
             {is404 ? (
                 <Reacteroids />
@@ -36,11 +33,7 @@ const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
                         isHomeScreen={isHomeScreen}
                         selectedContentIndex={selectedContentIndex}
                     />
-                    <Footer
-                        originalDsaSheetLink={originalDsaSheetLink}
-                        originalAuthorLinkedInLink={originalAuthorLinkedInLink}
-                        gitHubLink={gitHubLink}
-                    />
+                    <Footer data={data} />
                 </>
             )}
         </Flex>

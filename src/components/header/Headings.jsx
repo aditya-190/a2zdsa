@@ -4,6 +4,7 @@ import { DarkModeToggle } from '../icons/ProjectIcons.jsx'
 
 const Headings = ({ data, setData }) => {
     const heading = data.data.header.heading
+    const isDarkMode = data.data.header.darkMode
     return (
         <Flex
             className={'headings'}
@@ -22,7 +23,7 @@ const Headings = ({ data, setData }) => {
                 fontSize={'2xl'}
                 fontFamily={'customFamily'}
                 fontStyle={'normal'}
-                color={'defaultColor'}
+                color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}
             >
                 {heading}
             </Text>

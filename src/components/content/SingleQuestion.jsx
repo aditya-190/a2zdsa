@@ -31,6 +31,7 @@ const SingleQuestion = ({
     const youTubeLink = current[selectedQuestionIndex].youTubeLink
     const userNotes = current[selectedQuestionIndex].userNotes
 
+    const isDarkMode = data.data.header.darkMode
     const isDone = current[selectedQuestionIndex].isDone
     const isBookmarked = current[selectedQuestionIndex].isBookmarked
     const isNoted = userNotes !== ''
@@ -49,81 +50,25 @@ const SingleQuestion = ({
             flexDirection={'row'}
             alignItems={'center'}
             justifyContent={'space-between'}
-            _hover={{ bg: 'selectedQuestion' }}
+            _hover={{
+                bg: isDarkMode ? 'selectedQuestion_dark' : 'selectedQuestion',
+            }}
         >
             {isDone ? (
                 <Tick
-                    onClick={() => {
-                        console.log({
-                            header: { ...data.header },
-                            content: data.content.map(singleContent =>
-                                singleContent.index === selectedContentIndex
-                                    ? {
-                                          ...singleContent,
-                                          categoryList:
-                                              singleContent.categoryList.map(
-                                                  singleCategory =>
-                                                      singleCategory.index ===
-                                                      selectedCategoryIndex
-                                                          ? {
-                                                                ...singleCategory,
-                                                                questionList:
-                                                                    singleCategory.questionList.map(
-                                                                        singleQuestion =>
-                                                                            singleQuestion.index ===
-                                                                            selectedQuestionIndex
-                                                                                ? {
-                                                                                      ...singleQuestion,
-                                                                                      isDone: false,
-                                                                                  }
-                                                                                : singleQuestion
-                                                                    ),
-                                                            }
-                                                          : singleCategory
-                                              ),
-                                      }
-                                    : singleContent
-                            ),
-                            footer: { ...data.footer },
-                        })
-                    }}
+                    color={
+                        isDarkMode
+                            ? 'highlightedColor_dark'
+                            : 'highlightedColor'
+                    }
                 />
             ) : (
                 <UnTick
-                    onClick={() => {
-                        console.log({
-                            header: { ...data.header },
-                            content: data.content.map(singleContent =>
-                                singleContent.key === selectedContentIndex
-                                    ? {
-                                          ...singleContent,
-                                          categoryList:
-                                              singleContent.categoryList.map(
-                                                  singleCategory =>
-                                                      singleCategory.key ===
-                                                      selectedCategoryIndex
-                                                          ? {
-                                                                ...singleCategory,
-                                                                questionList:
-                                                                    singleCategory.questionList.map(
-                                                                        singleQuestion =>
-                                                                            singleQuestion.key ===
-                                                                            selectedQuestionIndex
-                                                                                ? {
-                                                                                      ...singleQuestion,
-                                                                                      isDone: true,
-                                                                                  }
-                                                                                : singleQuestion
-                                                                    ),
-                                                            }
-                                                          : singleCategory
-                                              ),
-                                      }
-                                    : singleContent
-                            ),
-                            footer: { ...data.footer },
-                        })
-                    }}
+                    color={
+                        isDarkMode
+                            ? 'highlightedColor_dark'
+                            : 'highlightedColor'
+                    }
                 />
             )}
 
@@ -138,7 +83,11 @@ const SingleQuestion = ({
                 textDecorationLine={isDone ? 'line-through' : 'none'}
                 color={
                     isQuestionLinkAvailable
-                        ? 'highlightedColor'
+                        ? isDarkMode
+                            ? 'highlightedColor_dark'
+                            : 'highlightedColor'
+                        : isDarkMode
+                        ? 'defaultColor_dark'
                         : 'defaultColor'
                 }
                 noOfLines={[2, 3]}
@@ -176,8 +125,42 @@ const SingleQuestion = ({
                 ml={6}
                 display={{ base: 'none', md: 'flex' }}
             >
-                {isNoted ? <Notes /> : <NoNotes />}
-                {isBookmarked ? <Bookmark ml={4} /> : <NoBookmark ml={4} />}
+                {isNoted ? (
+                    <Notes
+                        color={
+                            isDarkMode
+                                ? 'indianFlag1Color_dark'
+                                : 'indianFlag1Color'
+                        }
+                    />
+                ) : (
+                    <NoNotes
+                        color={
+                            isDarkMode
+                                ? 'indianFlag1Color_dark'
+                                : 'indianFlag1Color'
+                        }
+                    />
+                )}
+                {isBookmarked ? (
+                    <Bookmark
+                        ml={4}
+                        color={
+                            isDarkMode
+                                ? 'indianFlag3Color_dark'
+                                : 'indianFlag3Color'
+                        }
+                    />
+                ) : (
+                    <NoBookmark
+                        ml={4}
+                        color={
+                            isDarkMode
+                                ? 'indianFlag3Color_dark'
+                                : 'indianFlag3Color'
+                        }
+                    />
+                )}
             </Flex>
         </Flex>
     )

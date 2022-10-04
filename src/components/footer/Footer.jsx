@@ -1,10 +1,11 @@
 import { Flex, Link, Text } from '@chakra-ui/react'
 
-const Footer = ({
-    originalDsaSheetLink,
-    originalAuthorLinkedInLink,
-    gitHubLink,
-}) => {
+const Footer = ({ data }) => {
+    const originalDsaSheetLink = data.data.footer.originalDsaSheetLink
+    const originalAuthorLinkedInLink =
+        data.data.footer.originalAuthorLinkedInLink
+    const gitHubLink = data.data.footer.gitHubLink
+
     return (
         <Flex
             className={'footer'}

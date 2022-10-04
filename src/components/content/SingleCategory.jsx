@@ -8,6 +8,7 @@ const SingleCategory = ({
     selectedContentIndex,
     selectedCategoryIndex,
 }) => {
+    const isDarkMode = data.data.header.darkMode
     const current =
         data.data.content[selectedContentIndex].categoryList[
             selectedCategoryIndex
@@ -27,22 +28,22 @@ const SingleCategory = ({
             >
                 <Text
                     h={'100%'}
-                    fontWeight={'xl'}
+                    fontWeight={'lg'}
                     fontSize={{ base: 'sm', md: 'lg' }}
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'textColor'}
+                    color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}
                     whiteSpace={'nowrap'}
                 >
                     {'Step ' + categoryId + '.'}
                 </Text>
                 <Text
                     ml={{ base: 1, md: 2 }}
-                    fontWeight={'xl'}
+                    fontWeight={'lg'}
                     fontSize={{ base: 'sm', md: 'lg' }}
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
-                    color={'textColor'}
+                    color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}
                     textDecorationLine={isCompleted ? 'line-through' : 'none'}
                 >
                     {categoryName}

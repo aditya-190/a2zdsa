@@ -6,6 +6,7 @@ import SingleCategory from './SingleCategory.jsx'
 import SingleTopic from './SingleTopic.jsx'
 
 const Content = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
+    const isDarkMode = data.data.header.darkMode
     const listOfTopics = data.data.content
     const listOfCategory = data.data.content[selectedContentIndex].categoryList
 
@@ -16,7 +17,7 @@ const Content = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
             w={'80vw'}
             flexGrow={'1'}
             flexDirection={'column'}
-            borderColor={'defaultColor'}
+            borderColor={isDarkMode ? 'borderColor_dark' : 'borderColor'}
             borderWidth={'2px'}
             borderRadius={'6px'}
             p={2}

@@ -2,15 +2,30 @@ import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { Icon } from '@chakra-ui/react'
 
 const DarkModeToggle = ({ data, setData, toShow }) => {
+    function changeTheme(toDarkMode) {
+        setData(prevState => ({
+            data: {
+                ...prevState.data,
+                header: {
+                    ...prevState.data.header,
+                    darkMode: toDarkMode,
+                },
+            },
+        }))
+    }
+
     return data.data.header.darkMode ? (
         <SunIcon
             w={6}
             h={6}
-            color={'#F35523'}
+            color={'#F3C623'}
             stroke={'black'}
             visibility={toShow ? 'visible' : 'hidden'}
             cursor={'pointer'}
             display={{ base: 'none', md: 'flex' }}
+            onClick={() => {
+                changeTheme(false)
+            }}
         />
     ) : (
         <MoonIcon
@@ -21,6 +36,9 @@ const DarkModeToggle = ({ data, setData, toShow }) => {
             visibility={toShow ? 'visible' : 'hidden'}
             cursor={'pointer'}
             display={{ base: 'none', md: 'flex' }}
+            onClick={() => {
+                changeTheme(true)
+            }}
         />
     )
 }
@@ -30,8 +48,8 @@ const NoNotes = props => (
         <g fill={'none'}>
             <path
                 d="M18.7143 17.4286H26V3.28571C26 2.57321 25.4268 2 24.7143 2H3.28571C2.57321 2 2 2.57321 2 3.28571V24.7143C2 25.4268 2.57321 26 3.28571 26H17.4286V18.7143C17.4286 18.0071 18.0071 17.4286 18.7143 17.4286ZM25.625 20.375L20.375 25.625C20.1339 25.8661 19.8071 26 19.4643 26H19.1429V19.1429H26V19.4696C26 19.8071 25.8661 20.1339 25.625 20.375Z"
-                stroke="#FF9933"
-                strokeWidth="3"
+                stroke="currentColor"
+                strokeWidth="2"
             />
         </g>
     </Icon>
@@ -42,8 +60,8 @@ const NoBookmark = props => (
         <g fill={'none'}>
             <path
                 d="M21.5789 2H6.42105C3.98316 2 2 3.884 2 6.2V26L10.8421 21.8L19.6842 26V15.2H26V6.2C26 3.884 24.0168 2 21.5789 2ZM23.4737 12.8H19.6842V6.2C19.6842 5.2076 20.5343 4.4 21.5789 4.4C22.6236 4.4 23.4737 5.2076 23.4737 6.2V12.8Z"
-                stroke="#138808"
-                strokeWidth="3"
+                stroke="currentColor"
+                strokeWidth="2"
             />
         </g>
     </Icon>
@@ -53,7 +71,7 @@ const Notes = props => (
         <g fill={'none'}>
             <path
                 d="M16.7143 15.4286H24V1.28571C24 0.573214 23.4268 0 22.7143 0H1.28571C0.573214 0 0 0.573214 0 1.28571V22.7143C0 23.4268 0.573214 24 1.28571 24H15.4286V16.7143C15.4286 16.0071 16.0071 15.4286 16.7143 15.4286ZM23.625 18.375L18.375 23.625C18.1339 23.8661 17.8071 24 17.4643 24H17.1429V17.1429H24V17.4696C24 17.8071 23.8661 18.1339 23.625 18.375Z"
-                fill="#FF9933"
+                fill="currentColor"
             />
         </g>
     </Icon>
@@ -64,7 +82,7 @@ const Bookmark = props => (
         <g fill={'none'}>
             <path
                 d="M19.5789 0H4.42105C1.98316 0 0 1.884 0 4.2V24L8.8421 19.8L17.6842 24V13.2H24V4.2C24 1.884 22.0168 0 19.5789 0ZM21.4737 10.8H17.6842V4.2C17.6842 3.2076 18.5343 2.4 19.5789 2.4C20.6236 2.4 21.4737 3.2076 21.4737 4.2V10.8Z"
-                fill="#138808"
+                fill="currentColor"
             />
         </g>
     </Icon>
@@ -75,7 +93,7 @@ const Tick = props => (
         <g fill={'white'}>
             <path
                 d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM9.6 18L3.6 12L5.292 10.308L9.6 14.604L18.708 5.496L20.4 7.2L9.6 18Z"
-                fill="#3090EA"
+                fill="currentColor"
             />
         </g>
     </Icon>
@@ -83,10 +101,10 @@ const Tick = props => (
 
 const UnTick = props => (
     <Icon viewBox="0 0 26 26" {...props}>
-        <g fill={'white'}>
+        <g fill={'none'}>
             <path
                 d="M13 25C19.6274 25 25 19.6274 25 13C25 6.37258 19.6274 1 13 1C6.37258 1 1 6.37258 1 13C1 19.6274 6.37258 25 13 25Z"
-                stroke="#3090EA"
+                stroke="currentColor"
                 strokeWidth="2"
             />
         </g>

@@ -1,6 +1,7 @@
 import { Flex, Text } from '@chakra-ui/react'
 
 const TotalProgressBar = ({ data }) => {
+    const isDarkMode = data.data.header.darkMode
     const completedQuestions = data.data.header.completedQuestions
     const percentageCompleted = (
         (data.data.header.completedQuestions /
@@ -21,7 +22,7 @@ const TotalProgressBar = ({ data }) => {
                 fontSize={'lg'}
                 fontFamily={'customFamily'}
                 fontStyle={'normal'}
-                color={'defaultColor'}
+                color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}
             >
                 Total Question Solved:{' '}
                 {completedQuestions + ' (' + percentageCompleted + '% Done)'}
@@ -29,13 +30,13 @@ const TotalProgressBar = ({ data }) => {
 
             <Flex
                 mt={2}
-                bg={'totalColor'}
+                bg={isDarkMode ? 'totalColor_dark' : 'totalColor'}
                 borderRadius={16}
                 minH={'12px'}
                 w={'calc(60vw)'}
             >
                 <Flex
-                    bg={'completedColor'}
+                    bg={isDarkMode ? 'completedColor_dark' : 'completedColor'}
                     borderRadius={16}
                     w={percentageCompleted + '%'}
                 />

@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 const SingleTopic = ({ data, selectedContentIndex }) => {
     const [isHovering, setHover] = useState(false)
 
+    const isDarkMode = data.data.header.darkMode
     const current = data.data.content[selectedContentIndex]
     const completedQuestion = current.contentCompletedQuestions
     const totalQuestion = current.contentTotalQuestions
@@ -28,7 +29,15 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                 flexDirection={'row'}
                 justifyContent={'space-between'}
                 alignItems={'center'}
-                background={isStarted ? 'topicProgressBg' : 'topicStillBg'}
+                background={
+                    isStarted
+                        ? isDarkMode
+                            ? 'topicProgressBg_dark'
+                            : 'topicProgressBg'
+                        : isDarkMode
+                        ? 'topicStillBg_dark'
+                        : 'topicStillBg'
+                }
                 p={2}
                 minH={'100px'}
                 borderRadius={16}
@@ -52,7 +61,9 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                         fontSize={'2xl'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'defaultColor'}
+                        color={
+                            isDarkMode ? 'defaultColor_dark' : 'defaultColor'
+                        }
                     >
                         {contentHeading}
                     </Text>
@@ -61,7 +72,9 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                         fontSize={'xs'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'defaultColor'}
+                        color={
+                            isDarkMode ? 'defaultColor_dark' : 'defaultColor'
+                        }
                     >
                         {contentSubHeading}
                     </Text>
@@ -73,11 +86,23 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                         size={'70px'}
                         thickness={'8px'}
                         role={'progressbar'}
-                        color={'completedColor'}
-                        trackColor={'totalColor'}
+                        color={
+                            isDarkMode
+                                ? 'completedColor_dark'
+                                : 'completedColor'
+                        }
+                        trackColor={
+                            isDarkMode ? 'totalColor_dark' : 'totalColor'
+                        }
                         value={completedPercentage}
                     >
-                        <CircularProgressLabel>
+                        <CircularProgressLabel
+                            color={
+                                isDarkMode
+                                    ? 'defaultColor_dark'
+                                    : 'defaultColor'
+                            }
+                        >
                             {completedQuestion + '/' + totalQuestion}
                         </CircularProgressLabel>
                     </CircularProgress>
@@ -88,9 +113,9 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                         ml={6}
                         px={4}
                         py={1}
-                        bg={'startNowBg'}
+                        bg={isDarkMode ? 'startNowBg_dark' : 'startNowBg'}
                         borderRadius={'16px'}
-                        fontWeight={'xl'}
+                        fontWeight={'md'}
                         fontSize={'xs'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}

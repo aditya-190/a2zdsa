@@ -2,6 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 
 const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
+    const isDarkMode = data.data.header.darkMode
     const contentHeading =
         data.data.content[selectedContentIndex].contentHeading
     const subtitle = data.data.header.subtitle
@@ -32,7 +33,11 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                             fontSize={'lg'}
                             fontFamily={'customFamily'}
                             fontStyle={'normal'}
-                            color={'highlightedColor'}
+                            color={
+                                isDarkMode
+                                    ? 'highlightedColor_dark'
+                                    : 'highlightedColor'
+                            }
                             cursor={'pointer'}
                             _hover={{ textDecorationLine: 'underline' }}
                         >
@@ -45,7 +50,7 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                         fontSize={'lg'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'textColor'}
+                        color={isDarkMode ? 'textColor_dark' : 'textColor'}
                     >
                         {'/' + contentHeading}
                     </Text>
@@ -58,7 +63,9 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                         fontSize={'lg'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'defaultColor'}
+                        color={
+                            isDarkMode ? 'defaultColor_dark' : 'defaultColor'
+                        }
                     >
                         {subtitle}
                     </Text>
@@ -69,7 +76,7 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                         fontSize={'sm'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
-                        color={'textColor'}
+                        color={isDarkMode ? 'textColor_dark' : 'textColor'}
                     >
                         {'" ' +
                             motivationalQuotes[randomQuoteIndex].quote +

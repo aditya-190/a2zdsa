@@ -1,14 +1,15 @@
 import { Flex, Text } from '@chakra-ui/react'
 
-const Ads = () => {
+const Ads = ({ data }) => {
+    const isDarkMode = data.data.header.darkMode
     return (
         <Flex
             className={'ads'}
-            display={'none'}
+            display={'flex'}
             w={'100vw'}
             py={1}
             px={4}
-            bg={'adsBg'}
+            bg={isDarkMode ? 'adsBg_dark' : 'adsBg'}
             alignItems={'center'}
             justifyContent={'center'}
         >
@@ -16,7 +17,7 @@ const Ads = () => {
                 fontSize={'xs'}
                 fontFamily={'customFamily'}
                 fontWeight={'md'}
-                color={'textColor'}
+                color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}
             >
                 Ads Goes Here...
             </Text>
