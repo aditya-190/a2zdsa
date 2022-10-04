@@ -426,6 +426,7 @@ const ultimateData = {
                 contentPath: '/basics',
                 contentHeading: 'Basics',
                 contentSubHeading: '',
+                contentUserNotes: '',
                 contentTotalQuestions: '30',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -878,6 +879,7 @@ const ultimateData = {
                 contentPath: '/sorting_techniques',
                 contentHeading: 'Sorting Techniques',
                 contentSubHeading: '',
+                contentUserNotes: '',
                 contentTotalQuestions: '7',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -992,6 +994,7 @@ const ultimateData = {
                 contentPath: '/array',
                 contentHeading: 'Arrays',
                 contentSubHeading: 'Easy -> Medium -> Hard',
+                contentUserNotes: '',
                 contentTotalQuestions: '41',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -1636,6 +1639,7 @@ const ultimateData = {
                 contentPath: '/binary_search',
                 contentHeading: 'Binary Search',
                 contentSubHeading: '1D, 2D Arrays, Space Search',
+                contentUserNotes: '',
                 contentTotalQuestions: '31',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -2105,6 +2109,7 @@ const ultimateData = {
                 contentPath: '/strings_part_1',
                 contentHeading: 'Strings',
                 contentSubHeading: 'Basic and Medium',
+                contentUserNotes: '',
                 contentTotalQuestions: '15',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -2339,6 +2344,7 @@ const ultimateData = {
                 contentPath: '/linked_list',
                 contentHeading: 'Linked List',
                 contentSubHeading: 'Single/Double LL, Medium, Hard',
+                contentUserNotes: '',
                 contentTotalQuestions: '31',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -2832,6 +2838,7 @@ const ultimateData = {
                 contentPath: '/recursion',
                 contentHeading: 'Recursion',
                 contentSubHeading: 'Pattern Wise',
+                contentUserNotes: '',
                 contentTotalQuestions: '25',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -3208,6 +3215,7 @@ const ultimateData = {
                 contentPath: '/bit_manipulation',
                 contentHeading: 'Bit Manipulation',
                 contentSubHeading: 'Concepts & Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '18',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -3482,6 +3490,7 @@ const ultimateData = {
                 contentPath: '/stack_n_queue',
                 contentHeading: 'Stack & Queue',
                 contentSubHeading: 'Pre-In-Post Fix, Monotonic Stack',
+                contentUserNotes: '',
                 contentTotalQuestions: '32',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -3957,6 +3966,7 @@ const ultimateData = {
                 contentPath: '/two_pointers',
                 contentHeading: 'Two Pointers',
                 contentSubHeading: 'Combined Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '12',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -4146,6 +4156,7 @@ const ultimateData = {
                 contentPath: '/heaps',
                 contentHeading: 'Heaps',
                 contentSubHeading: 'Learning, Medium, Hard Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '17',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -4403,6 +4414,7 @@ const ultimateData = {
                 contentPath: '/greedy',
                 contentHeading: 'Greedy Algorithms',
                 contentSubHeading: 'Easy -> Medium -> Hard',
+                contentUserNotes: '',
                 contentTotalQuestions: '16',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -4644,6 +4656,7 @@ const ultimateData = {
                 contentPath: '/binary_tree',
                 contentHeading: 'Binary Tree',
                 contentSubHeading: 'Traversals, Medium and Hard Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '39',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -5259,6 +5272,7 @@ const ultimateData = {
                 contentPath: '/binary_search_tree',
                 contentHeading: 'Binary Search Tree',
                 contentSubHeading: 'Concept and Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '16',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -5505,6 +5519,7 @@ const ultimateData = {
                 contentPath: '/graphs',
                 contentHeading: 'Graphs',
                 contentSubHeading: 'Concepts and Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '54',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -6280,6 +6295,7 @@ const ultimateData = {
                 contentPath: '/dp',
                 contentHeading: 'Dynamic Programming',
                 contentSubHeading: 'Patterns and Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '56',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -7210,6 +7226,7 @@ const ultimateData = {
                 contentPath: '/tries',
                 contentHeading: 'Tries',
                 contentSubHeading: 'Concepts and Problems',
+                contentUserNotes: '',
                 contentTotalQuestions: '7',
                 contentCompletedQuestions: '0',
                 categoryList: [
@@ -7343,6 +7360,7 @@ const ultimateData = {
                 contentPath: '/strings_part_2',
                 contentHeading: 'Strings',
                 contentSubHeading: 'Hard Problems and Standard Algorithms',
+                contentUserNotes: '',
                 contentTotalQuestions: '9',
                 contentCompletedQuestions: '0',
                 categoryList: [
