@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react'
 
 import NotesEditor from '../content/NotesEditor'
-import { Bookmark, Notes } from '../icons/ProjectIcons.jsx'
+import { Bookmark, NoBookmark, NoNotes, Notes } from '../icons/ProjectIcons.jsx'
 
 const SearchBar = ({ data, setData, selectedContentIndex }) => {
     const {
@@ -17,10 +17,13 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
         onClose: onCloseNotes,
     } = useDisclosure()
 
-    const isDarkMode = data.data.header.darkMode
     const current = data.data.content[selectedContentIndex]
     const contentCompletedQuestions = current.contentCompletedQuestions
     const contentTotalQuestions = current.contentTotalQuestions
+
+    const isDarkMode = data.data.header.darkMode
+    const isNotes = current.contentUserNotes.trim() !== ''
+    const isBookmark = data.data.header.isBookmarkFilterRequired
 
     function getRandomQuestion() {
         const randomCategory =
@@ -72,14 +75,25 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                     display={{ base: 'none', md: 'flex' }}
                     onClick={onOpenNotes}
                 >
-                    <Notes
-                        fontSize={'16px'}
-                        color={
-                            isDarkMode
-                                ? 'indianFlag1Color_dark'
-                                : 'indianFlag1Color'
-                        }
-                    />
+                    {isNotes ? (
+                        <Notes
+                            fontSize={'16px'}
+                            color={
+                                isDarkMode
+                                    ? 'indianFlag1Color_dark'
+                                    : 'indianFlag1Color'
+                            }
+                        />
+                    ) : (
+                        <NoNotes
+                            fontSize={'16px'}
+                            color={
+                                isDarkMode
+                                    ? 'indianFlag1Color_dark'
+                                    : 'indianFlag1Color'
+                            }
+                        />
+                    )}
                 </Flex>
 
                 <Flex
@@ -215,15 +229,37 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                         isDarkMode ? 'indianFlag3Bg_dark' : 'indianFlag3Bg'
                     }
                     display={{ base: 'none', md: 'flex' }}
+                    onClick={() => {
+                        setData(prevState => ({
+                            data: {
+                                ...prevState.data,
+                                header: {
+                                    ...prevState.data.header,
+                                    isBookmarkFilterRequired: !isBookmark,
+                                },
+                            },
+                        }))
+                    }}
                 >
-                    <Bookmark
-                        fontSize={'16px'}
-                        color={
-                            isDarkMode
-                                ? 'indianFlag3Color_dark'
-                                : 'indianFlag3Color'
-                        }
-                    />
+                    {isBookmark ? (
+                        <Bookmark
+                            fontSize={'16px'}
+                            color={
+                                isDarkMode
+                                    ? 'indianFlag3Color_dark'
+                                    : 'indianFlag3Color'
+                            }
+                        />
+                    ) : (
+                        <NoBookmark
+                            fontSize={'16px'}
+                            color={
+                                isDarkMode
+                                    ? 'indianFlag3Color_dark'
+                                    : 'indianFlag3Color'
+                            }
+                        />
+                    )}
                 </Flex>
             </Flex>
             <NotesEditor

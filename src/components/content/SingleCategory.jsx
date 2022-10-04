@@ -18,6 +18,7 @@ const SingleCategory = ({
     const listOfQuestion = current.questionList
     const isCompleted =
         current.categoryTotalQuestions === current.categoryCompletedQuestions
+    const isBookmark = data.data.header.isBookmarkFilterRequired
 
     return (
         <Flex className={'singleCategory'} p={2} flexDirection={'column'}>
@@ -56,18 +57,26 @@ const SingleCategory = ({
                 alignItems={'start'}
                 justifyContent={'center'}
             >
-                {listOfQuestion.map((questionData, index) => {
-                    return (
-                        <SingleQuestion
-                            data={data}
-                            setData={setData}
-                            selectedContentIndex={selectedContentIndex}
-                            selectedCategoryIndex={selectedCategoryIndex}
-                            selectedQuestionIndex={index}
-                            key={index}
-                        />
+                {listOfQuestion
+                    .filter(
+                        singleQuestion =>
+                            (isBookmark && singleQuestion.isBookmarked) ||
+                            !isBookmark
                     )
-                })}
+                    .map((questionData, index) => {
+                        return (
+                            <SingleQuestion
+                                data={data}
+                                setData={setData}
+                                selectedContentIndex={selectedContentIndex}
+                                selectedCategoryIndex={selectedCategoryIndex}
+                                selectedQuestionIndex={
+                                    questionData.questionIndex
+                                }
+                                key={index}
+                            />
+                        )
+                    })}
             </Flex>
         </Flex>
     )
