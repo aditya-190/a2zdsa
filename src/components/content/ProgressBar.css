@@ -10,3 +10,19 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.blink {
+    animation: blinkingBackground 1s infinite;
+}
+@keyframes blinkingBackground {
+    0%      { background-color: #ffffff;}
+    100%    { background-color: rgba(146, 195, 250, 0.24);}
+}
+
+.blink_dark {
+    animation: blinkingBackgroundDark 1s infinite;
+}
+@keyframes blinkingBackgroundDark {
+    0%		{ background-color: #0d1117;}
+    100%	{ background-color: #1e2228;}
+}

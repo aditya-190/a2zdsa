@@ -14,6 +14,27 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
     const contentCompletedQuestions = current.contentCompletedQuestions
     const contentTotalQuestions = current.contentTotalQuestions
 
+    function getRandomQuestion() {
+        const randomCategory =
+            current.categoryList[
+                Math.floor(Math.random() * current.categoryList.length)
+            ]
+
+        const randomQuestion =
+            randomCategory.questionList[
+                Math.floor(Math.random() * randomCategory.questionList.length)
+            ]
+
+        const element = document.getElementById(randomQuestion.questionId)
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' })
+
+        const classToAdd = isDarkMode ? 'blink_dark' : 'blink'
+        element.classList.add(classToAdd)
+        setTimeout(() => {
+            element.classList.remove(classToAdd)
+        }, 1000)
+    }
+
     return (
         <Flex
             className={'searchBar'}
@@ -66,6 +87,7 @@ const SearchBar = ({ data, setData, selectedContentIndex }) => {
                 justifyContent={'center'}
                 background={isDarkMode ? 'indianFlag1Bg_dark' : 'indianFlag1Bg'}
                 display={{ base: 'none', md: 'flex' }}
+                onClick={() => getRandomQuestion()}
             >
                 <Text
                     align={'center'}

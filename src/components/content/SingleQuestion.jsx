@@ -42,6 +42,7 @@ const SingleQuestion = ({
 
     return (
         <Flex
+            id={current[selectedQuestionIndex].questionId}
             w={'full'}
             py={1}
             px={{ base: 1, md: 2 }}

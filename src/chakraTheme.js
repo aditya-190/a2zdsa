@@ -7,6 +7,8 @@ const config = {
 
 const theme = extendTheme({
     config,
+
+    // If you want to change color on Pick Random Click, Check ProgressBar.css.
     colors: {
         fullPageColor: '#FFFFFF',
         adsBg: '#D9D9D9',
