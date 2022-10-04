@@ -36,7 +36,7 @@ const SingleQuestion = ({
     const gfgLink = current[selectedQuestionIndex].gfgLink
     const leetCodeLink = current[selectedQuestionIndex].leetCodeLink
     const youTubeLink = current[selectedQuestionIndex].youTubeLink
-    const userNotes = current[selectedQuestionIndex].userNotes
+    const userNotes = current[selectedQuestionIndex].userNotes.trim()
 
     const isDarkMode = data.data.header.darkMode
     const isDone = current[selectedQuestionIndex].isDone
@@ -46,6 +46,116 @@ const SingleQuestion = ({
     const isGfgLinkAvailable = gfgLink !== ''
     const isLeetCodeLinkAvailable = leetCodeLink !== ''
     const isYouTubeLinkAvailable = youTubeLink !== ''
+
+    function onQuestionTickClicked(isQuestionCompleted) {
+        const completedQuestion = isQuestionCompleted
+            ? data.data.header['completedQuestions'] + 1
+            : data.data.header['completedQuestions'] - 1
+
+        const contentCompletedQuestions = isQuestionCompleted
+            ? data.data.content[selectedContentIndex][
+                  'contentCompletedQuestions'
+              ] + 1
+            : data.data.content[selectedContentIndex][
+                  'contentCompletedQuestions'
+              ] - 1
+
+        const categoryCompletedQuestions = isQuestionCompleted
+            ? data.data.content[selectedContentIndex].categoryList[
+                  selectedCategoryIndex
+              ]['categoryCompletedQuestions'] + 1
+            : data.data.content[selectedContentIndex].categoryList[
+                  selectedCategoryIndex
+              ]['categoryCompletedQuestions'] - 1
+
+        setData({
+            data: {
+                header: {
+                    ...data.data.header,
+                    completedQuestions: completedQuestion,
+                },
+                content: [
+                    ...data.data.content.map((singleContent, contentIndex) =>
+                        contentIndex === selectedContentIndex
+                            ? {
+                                  ...singleContent,
+                                  contentCompletedQuestions:
+                                      contentCompletedQuestions,
+                                  categoryList: singleContent.categoryList.map(
+                                      (singleCategory, categoryIndex) =>
+                                          categoryIndex ===
+                                          selectedCategoryIndex
+                                              ? {
+                                                    ...singleCategory,
+                                                    categoryCompletedQuestions:
+                                                        categoryCompletedQuestions,
+                                                    questionList:
+                                                        singleCategory.questionList.map(
+                                                            (
+                                                                singleQuestion,
+                                                                questionIndex
+                                                            ) =>
+                                                                questionIndex ===
+                                                                selectedQuestionIndex
+                                                                    ? {
+                                                                          ...singleQuestion,
+                                                                          isDone: isQuestionCompleted,
+                                                                      }
+                                                                    : singleQuestion
+                                                        ),
+                                                }
+                                              : singleCategory
+                                  ),
+                              }
+                            : singleContent
+                    ),
+                ],
+                footer: { ...data.data.footer },
+            },
+        })
+    }
+
+    function onBookmarkClicked(isBookmarked) {
+        setData({
+            data: {
+                header: { ...data.data.header },
+                content: [
+                    ...data.data.content.map((singleContent, contentIndex) =>
+                        contentIndex === selectedContentIndex
+                            ? {
+                                  ...singleContent,
+                                  categoryList: singleContent.categoryList.map(
+                                      (singleCategory, categoryIndex) =>
+                                          categoryIndex ===
+                                          selectedCategoryIndex
+                                              ? {
+                                                    ...singleCategory,
+                                                    questionList:
+                                                        singleCategory.questionList.map(
+                                                            (
+                                                                singleQuestion,
+                                                                questionIndex
+                                                            ) =>
+                                                                questionIndex ===
+                                                                selectedQuestionIndex
+                                                                    ? {
+                                                                          ...singleQuestion,
+                                                                          isBookmarked:
+                                                                              isBookmarked,
+                                                                      }
+                                                                    : singleQuestion
+                                                        ),
+                                                }
+                                              : singleCategory
+                                  ),
+                              }
+                            : singleContent
+                    ),
+                ],
+                footer: { ...data.data.footer },
+            },
+        })
+    }
 
     return (
         <>
@@ -73,6 +183,7 @@ const SingleQuestion = ({
                                 ? 'highlightedColor_dark'
                                 : 'highlightedColor'
                         }
+                        onClick={() => onQuestionTickClicked(false)}
                     />
                 ) : (
                     <UnTick
@@ -81,6 +192,7 @@ const SingleQuestion = ({
                                 ? 'highlightedColor_dark'
                                 : 'highlightedColor'
                         }
+                        onClick={() => onQuestionTickClicked(true)}
                     />
                 )}
 
@@ -173,6 +285,7 @@ const SingleQuestion = ({
                                     ? 'indianFlag3Color_dark'
                                     : 'indianFlag3Color'
                             }
+                            onClick={() => onBookmarkClicked(false)}
                         />
                     ) : (
                         <NoBookmark
@@ -182,6 +295,7 @@ const SingleQuestion = ({
                                     ? 'indianFlag3Color_dark'
                                     : 'indianFlag3Color'
                             }
+                            onClick={() => onBookmarkClicked(true)}
                         />
                     )}
                 </Flex>

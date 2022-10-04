@@ -18,7 +18,7 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
     const totalQuestion = current.contentTotalQuestions
     const completedPercentage = (completedQuestion / totalQuestion) * 100
     const topicLink = current.contentPath
-    const isStarted = current.contentCompletedQuestions !== '0'
+    const isStarted = current.contentCompletedQuestions !== 0
     const contentHeading = current.contentHeading
     const contentSubHeading = current.contentSubHeading
 

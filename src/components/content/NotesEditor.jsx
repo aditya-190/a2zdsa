@@ -29,8 +29,8 @@ const NotesEditor = ({
         : data.data.content[selectedContentIndex]
 
     const notes = openedByQuestion
-        ? current.userNotes
-        : current.contentUserNotes
+        ? current.userNotes.trim()
+        : current.contentUserNotes.trim()
     const heading = openedByQuestion
         ? current.questionHeading
         : current.contentHeading
@@ -43,19 +43,67 @@ const NotesEditor = ({
     }
 
     function saveChanges() {
-        console.log({
-            data: {
-                header: { ...data.data.header },
-                content: {
-                    ...data.data.content.map((singleContent, index) =>
-                        index === selectedContentIndex
-                            ? { ...singleContent, contentUserNotes: value }
-                            : singleContent
-                    ),
-                },
-                footer: { ...data.data.footer },
-            },
-        })
+        openedByQuestion
+            ? setData({
+                  data: {
+                      header: { ...data.data.header },
+                      content: [
+                          ...data.data.content.map(
+                              (singleContent, contentIndex) =>
+                                  contentIndex === selectedContentIndex
+                                      ? {
+                                            ...singleContent,
+                                            categoryList:
+                                                singleContent.categoryList.map(
+                                                    (
+                                                        singleCategory,
+                                                        categoryIndex
+                                                    ) =>
+                                                        categoryIndex ===
+                                                        selectedCategoryIndex
+                                                            ? {
+                                                                  ...singleCategory,
+                                                                  questionList:
+                                                                      singleCategory.questionList.map(
+                                                                          (
+                                                                              singleQuestion,
+                                                                              questionIndex
+                                                                          ) =>
+                                                                              questionIndex ===
+                                                                              selectedQuestionIndex
+                                                                                  ? {
+                                                                                        ...singleQuestion,
+                                                                                        userNotes:
+                                                                                            value,
+                                                                                    }
+                                                                                  : singleQuestion
+                                                                      ),
+                                                              }
+                                                            : singleCategory
+                                                ),
+                                        }
+                                      : singleContent
+                          ),
+                      ],
+                      footer: { ...data.data.footer },
+                  },
+              })
+            : setData({
+                  data: {
+                      header: { ...data.data.header },
+                      content: [
+                          ...data.data.content.map((singleContent, index) =>
+                              index === selectedContentIndex
+                                  ? {
+                                        ...singleContent,
+                                        contentUserNotes: value,
+                                    }
+                                  : singleContent
+                          ),
+                      ],
+                      footer: { ...data.data.footer },
+                  },
+              })
     }
 
     return (
@@ -87,7 +135,10 @@ const NotesEditor = ({
                         colorScheme={'twitter'}
                         variant={'solid'}
                         mr={3}
-                        onClick={saveChanges}
+                        onClick={() => {
+                            onCloseNotes()
+                            saveChanges()
+                        }}
                     >
                         Save
                     </Button>

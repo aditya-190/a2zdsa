@@ -427,15 +427,15 @@ const ultimateData = {
                 contentHeading: 'Basics',
                 contentSubHeading: '',
                 contentUserNotes: '',
-                contentTotalQuestions: '30',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 30,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName:
                             'Things to know in C++ /Java /Python or any language',
-                        categoryTotalQuestions: '9',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 9,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'User Input/ Output',
@@ -548,8 +548,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Build Up Logical Thinking',
-                        categoryTotalQuestions: '1',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 1,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Do all these patterns',
@@ -569,8 +569,8 @@ const ultimateData = {
                         categoryId: 3,
                         categoryName:
                             'Learn STL /Java Collection or similar thing in your language',
-                        categoryTotalQuestions: '2',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 2,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'C++ STL',
@@ -601,8 +601,8 @@ const ultimateData = {
                     {
                         categoryId: 4,
                         categoryName: 'Know Basic Maths',
-                        categoryTotalQuestions: '7',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 7,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Count Digits',
@@ -703,8 +703,8 @@ const ultimateData = {
                     {
                         categoryId: 5,
                         categoryName: 'Learn Basic Recursion',
-                        categoryTotalQuestions: '9',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 9,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -840,8 +840,8 @@ const ultimateData = {
                     {
                         categoryId: 6,
                         categoryName: 'Learn Basic Hashing',
-                        categoryTotalQuestions: '2',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 2,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -880,14 +880,14 @@ const ultimateData = {
                 contentHeading: 'Sorting Techniques',
                 contentSubHeading: '',
                 contentUserNotes: '',
-                contentTotalQuestions: '7',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 7,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Sorting-I',
-                        categoryTotalQuestions: '3',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 3,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Selection Sort',
@@ -933,8 +933,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Sorting-II',
-                        categoryTotalQuestions: '4',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 4,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Merge Sort',
@@ -995,14 +995,14 @@ const ultimateData = {
                 contentHeading: 'Arrays',
                 contentSubHeading: 'Easy -> Medium -> Hard',
                 contentUserNotes: '',
-                contentTotalQuestions: '41',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 41,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Easy',
-                        categoryTotalQuestions: '16',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 16,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Largest Element in an Array',
@@ -1240,8 +1240,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Medium',
-                        categoryTotalQuestions: '13',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 13,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: '2Sum Problem',
@@ -1446,8 +1446,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Hard',
-                        categoryTotalQuestions: '12',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 12,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Pascal’s Triangle',
@@ -1640,14 +1640,14 @@ const ultimateData = {
                 contentHeading: 'Binary Search',
                 contentSubHeading: '1D, 2D Arrays, Space Search',
                 contentUserNotes: '',
-                contentTotalQuestions: '31',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 31,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Learning BS on 1D Arrays',
-                        categoryTotalQuestions: '14',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 14,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -1858,8 +1858,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Applying BS on 2D Arrays',
-                        categoryTotalQuestions: '3',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 3,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Search in a 2D matrix ',
@@ -1905,8 +1905,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Final Answers by BS in Search Space',
-                        categoryTotalQuestions: '14',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 14,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -2110,14 +2110,14 @@ const ultimateData = {
                 contentHeading: 'Strings',
                 contentSubHeading: 'Basic and Medium',
                 contentUserNotes: '',
-                contentTotalQuestions: '15',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 15,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Basic and Easy String Problems',
-                        categoryTotalQuestions: '7',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 7,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Remove outermost Paranthesis',
@@ -2223,8 +2223,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Medium String Problems',
-                        categoryTotalQuestions: '8',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 8,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Sort Characters by frequency',
@@ -2345,14 +2345,14 @@ const ultimateData = {
                 contentHeading: 'Linked List',
                 contentSubHeading: 'Single/Double LL, Medium, Hard',
                 contentUserNotes: '',
-                contentTotalQuestions: '31',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 31,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Learn 1D Linked List',
-                        categoryTotalQuestions: '5',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 5,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -2427,8 +2427,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Learn Doubly Linked List',
-                        categoryTotalQuestions: '4',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 4,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -2484,8 +2484,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Medium Problems on Linked List',
-                        categoryTotalQuestions: '15',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 15,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -2718,8 +2718,8 @@ const ultimateData = {
                     {
                         categoryId: 4,
                         categoryName: 'Medium Problems on Doubly Linked List',
-                        categoryTotalQuestions: '3',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 3,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -2766,8 +2766,8 @@ const ultimateData = {
                     {
                         categoryId: 5,
                         categoryName: 'Hard Problems on Linked List',
-                        categoryTotalQuestions: '4',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 4,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -2839,14 +2839,14 @@ const ultimateData = {
                 contentHeading: 'Recursion',
                 contentSubHeading: 'Pattern Wise',
                 contentUserNotes: '',
-                contentTotalQuestions: '25',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 25,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Get a Strong Hold',
-                        categoryTotalQuestions: '5',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 5,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -2920,8 +2920,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Subsequences Pattern',
-                        categoryTotalQuestions: '12',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 12,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Generate all binary strings',
@@ -3092,8 +3092,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Try out all Combos /Hard',
-                        categoryTotalQuestions: '8',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 8,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Palindrome Partitioning',
@@ -3216,14 +3216,14 @@ const ultimateData = {
                 contentHeading: 'Bit Manipulation',
                 contentSubHeading: 'Concepts & Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '18',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 18,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Learn Bit Manipulation',
-                        categoryTotalQuestions: '8',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 8,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -3338,8 +3338,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Interview Problems',
-                        categoryTotalQuestions: '5',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 5,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -3416,8 +3416,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Advanced Maths',
-                        categoryTotalQuestions: '5',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 5,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -3491,14 +3491,14 @@ const ultimateData = {
                 contentHeading: 'Stack & Queue',
                 contentSubHeading: 'Pre-In-Post Fix, Monotonic Stack',
                 contentUserNotes: '',
-                contentTotalQuestions: '32',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 32,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Learning',
-                        categoryTotalQuestions: '8',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 8,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Implement Stack using Arrays',
@@ -3624,8 +3624,8 @@ const ultimateData = {
                         categoryId: 2,
                         categoryName:
                             'Prefix, Infix, Postfix Conversion Problems',
-                        categoryTotalQuestions: '6',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 6,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -3706,8 +3706,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Monotonic Stack /Queue Problem [Imp]',
-                        categoryTotalQuestions: '12',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 12,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Next Greater Element',
@@ -3871,8 +3871,8 @@ const ultimateData = {
                     {
                         categoryId: 4,
                         categoryName: 'Implementation Problems',
-                        categoryTotalQuestions: '6',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 6,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Sliding Window maximum',
@@ -3967,14 +3967,14 @@ const ultimateData = {
                 contentHeading: 'Two Pointers',
                 contentSubHeading: 'Combined Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '12',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 12,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Medium Problems',
-                        categoryTotalQuestions: '8',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 8,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -4091,8 +4091,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Hard Problems',
-                        categoryTotalQuestions: '4',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 4,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -4157,14 +4157,14 @@ const ultimateData = {
                 contentHeading: 'Heaps',
                 contentSubHeading: 'Learning, Medium, Hard Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '17',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 17,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Learning',
-                        categoryTotalQuestions: '4',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 4,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -4223,8 +4223,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Medium Problems',
-                        categoryTotalQuestions: '7',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 7,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -4325,8 +4325,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Hard Problems',
-                        categoryTotalQuestions: '6',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 6,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Design twitter',
@@ -4415,14 +4415,14 @@ const ultimateData = {
                 contentHeading: 'Greedy Algorithms',
                 contentSubHeading: 'Easy -> Medium -> Hard',
                 contentUserNotes: '',
-                contentTotalQuestions: '16',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 16,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Easy Problems',
-                        categoryTotalQuestions: '5',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 5,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Assign Cookies',
@@ -4496,8 +4496,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Medium /Hard Problems',
-                        categoryTotalQuestions: '11',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 11,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'N meetings in one room',
@@ -4657,14 +4657,14 @@ const ultimateData = {
                 contentHeading: 'Binary Tree',
                 contentSubHeading: 'Traversals, Medium and Hard Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '39',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 39,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Traversals',
-                        categoryTotalQuestions: '13',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 13,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Introduction to Trees',
@@ -4865,8 +4865,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Medium Problems',
-                        categoryTotalQuestions: '12',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 12,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Height of a Binary Tree',
@@ -5050,8 +5050,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Hard Problems',
-                        categoryTotalQuestions: '14',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 14,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -5273,14 +5273,14 @@ const ultimateData = {
                 contentHeading: 'Binary Search Tree',
                 contentSubHeading: 'Concept and Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '16',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 16,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Concepts',
-                        categoryTotalQuestions: '3',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 3,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -5326,8 +5326,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Practice Problems',
-                        categoryTotalQuestions: '13',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 13,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Ceil in a Binary Search Tree',
@@ -5520,14 +5520,14 @@ const ultimateData = {
                 contentHeading: 'Graphs',
                 contentSubHeading: 'Concepts and Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '54',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 54,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Learning',
-                        categoryTotalQuestions: '6',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 6,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Graph and Types',
@@ -5612,8 +5612,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Problems on BFS /DFS',
-                        categoryTotalQuestions: '14',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 14,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -5825,8 +5825,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: 'Topo Sort and Problems',
-                        categoryTotalQuestions: '7',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 7,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Topo Sort',
@@ -5923,8 +5923,8 @@ const ultimateData = {
                     {
                         categoryId: 4,
                         categoryName: 'Shortest Path Algorithms and Problems',
-                        categoryTotalQuestions: '13',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 13,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -6101,8 +6101,8 @@ const ultimateData = {
                         categoryId: 5,
                         categoryName:
                             'Minimum Spanning Tree / Disjoint Set Problems',
-                        categoryTotalQuestions: '11',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 11,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Minimum Spanning Tree',
@@ -6247,8 +6247,8 @@ const ultimateData = {
                     {
                         categoryId: 6,
                         categoryName: 'Other Algorithms',
-                        categoryTotalQuestions: '3',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 3,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Bridges in Graph',
@@ -6296,14 +6296,14 @@ const ultimateData = {
                 contentHeading: 'Dynamic Programming',
                 contentSubHeading: 'Patterns and Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '56',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 56,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Introduction to DP',
-                        categoryTotalQuestions: '1',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 1,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -6324,8 +6324,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: '1D DP',
-                        categoryTotalQuestions: '5',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 5,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Climbing Stars',
@@ -6404,8 +6404,8 @@ const ultimateData = {
                     {
                         categoryId: 3,
                         categoryName: '2D /3D DP and DP on Grids',
-                        categoryTotalQuestions: '7',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 7,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'Ninja’s Training (DP 7)',
@@ -6521,8 +6521,8 @@ const ultimateData = {
                     {
                         categoryId: 4,
                         categoryName: 'DP on Subsequence',
-                        categoryTotalQuestions: '11',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 11,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -6697,8 +6697,8 @@ const ultimateData = {
                     {
                         categoryId: 5,
                         categoryName: 'DP on Strings',
-                        categoryTotalQuestions: '10',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 10,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -6860,8 +6860,8 @@ const ultimateData = {
                     {
                         categoryId: 6,
                         categoryName: 'DP on Stocks',
-                        categoryTotalQuestions: '6',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 6,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -6958,8 +6958,8 @@ const ultimateData = {
                     {
                         categoryId: 7,
                         categoryName: 'DP on LIS',
-                        categoryTotalQuestions: '7',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 7,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -7069,8 +7069,8 @@ const ultimateData = {
                     {
                         categoryId: 8,
                         categoryName: 'MCM DP | Partition DP',
-                        categoryTotalQuestions: '7',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 7,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -7184,8 +7184,8 @@ const ultimateData = {
                     {
                         categoryId: 9,
                         categoryName: 'DP on Squares',
-                        categoryTotalQuestions: '2',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 2,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -7227,14 +7227,14 @@ const ultimateData = {
                 contentHeading: 'Tries',
                 contentSubHeading: 'Concepts and Problems',
                 contentUserNotes: '',
-                contentTotalQuestions: '7',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 7,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Theory',
-                        categoryTotalQuestions: '1',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 1,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -7258,8 +7258,8 @@ const ultimateData = {
                     {
                         categoryId: 2,
                         categoryName: 'Problems',
-                        categoryTotalQuestions: '6',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 6,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
@@ -7361,14 +7361,14 @@ const ultimateData = {
                 contentHeading: 'Strings',
                 contentSubHeading: 'Hard Problems and Standard Algorithms',
                 contentUserNotes: '',
-                contentTotalQuestions: '9',
-                contentCompletedQuestions: '0',
+                contentTotalQuestions: 9,
+                contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName: 'Hard Problems',
-                        categoryTotalQuestions: '9',
-                        categoryCompletedQuestions: '0',
+                        categoryTotalQuestions: 9,
+                        categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading:
