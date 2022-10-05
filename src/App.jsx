@@ -5,10 +5,13 @@ import DSA from './components/index.jsx'
 import ultimateData from './components/ultimateData.js'
 
 function App() {
-    const [data, setData] = useState(ultimateData)
+    let fetchData = localStorage.getItem('A2Z_Archive')
+    fetchData = fetchData === null ? ultimateData : JSON.parse(fetchData)
+    const [data, setData] = useState(fetchData)
 
     useEffect(() => {
-        console.log('Test Data Changed.', data)
+        console.log(data)
+        localStorage.setItem('A2Z_Archive', JSON.stringify(data))
     }, [data])
 
     return (
