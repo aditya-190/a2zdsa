@@ -10,7 +10,6 @@ function App() {
     const [data, setData] = useState(fetchData)
 
     useEffect(() => {
-        console.log(data)
         localStorage.setItem('A2Z_Archive', JSON.stringify(data))
     }, [data])
 
