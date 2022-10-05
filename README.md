@@ -19,14 +19,19 @@ ADD A THUMBNAIL IMAGE HERE
 
 #### A2Z DSA Sheet doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
 
-#### More details on how [A2Z DSA Sheet] can help you -> [here].
+#### More details on how _[A2Z DSA Sheet]_ can help you -> _[Here]_.
 
 ## Dependencies 🗃
 
-- [React] - **Frontend Framework**
+- _[React]_ - **Frontend Framework**
+- _[Chakra UI]_ - **Component Library**
 
 ## 🌎 Deployed Website:
 https://a2z-dsa-sheet.pages.dev/
+
+## 📽 Sample Demo:
+
+https://user-images.githubusercontent.com/63164037/193985341-85f57456-6057-4444-b2c9-51f1ccd9dc83.mp4
 
 ## Run Locally 💻
 
@@ -60,25 +65,26 @@ https://a2z-dsa-sheet.pages.dev/
 
 ## Credits 🙏🏻
 
-#### Curated list of question in [450dsa] is based on _[A2Z DSA Cracker Sheet]_ by [Striver]
-### Design ideas and motivation to build a website like same is based on _[450]_ by [V Asish Raju]
+#### Curated list of question in _[A2Z]_ is based on _[A2Z DSA Cracker Sheet]_ by _[Striver]_
+#### Design ideas and motivation to build a website like same is based on _[450]_ by _[V Asish Raju]_
 
 ## 👦 Developed By:
 
 <h2 align="center">Aditya Bhardwaj</h2>
 <p align="center">
-  <a href="https://github.com/aditya-190"><img src="https://avatars.githubusercontent.com/u/63164037?v=4" width=150px height=150px /></a> 
+  <a href="https://github.com/aditya-190"><img src="https://avatars.githubusercontent.com/u/63164037?v=4" width=150px height=150px  alt="Aditya Bhardwaj"/></a> 
 
 <p align="center">
-  <a target="_blank"href="https://www.linkedin.com/in/adi-bhardwaj/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;
-  <a href="mailto:aadi.bbhardwaj@gmail.com?subject=Hello%20Aditya,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a target="_blank" href="https://www.linkedin.com/in/adi-bhardwaj/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"  alt="Aditya Bhardwaj"/></a>&nbsp;&nbsp;&nbsp;
+  <a href="mailto:aadi.bbhardwaj@gmail.com?subject=Hello%20Aditya,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white"  alt="Aditya Bhardwaj"/></a>
 </p>
 
 [here]: https://www.youtube.com/watch?v=rHn9af16O_E
 [A2Z DSA Sheet]: https://a2z-dsa-sheet.pages.dev/
+[A2Z]: https://a2z-dsa-sheet.pages.dev/
 [striver]: https://in.linkedin.com/in/rajarvp
 [a2z dsa cracker sheet]: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 [react]: https://reactjs.org/
-[chakra]: https://chakra-ui.com/
+[chakra ui]: https://chakra-ui.com/
 [450]: https://450dsa.com/
 [V Asish Raju]: https://www.linkedin.com/in/asishraju/
