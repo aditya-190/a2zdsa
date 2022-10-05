@@ -62,9 +62,9 @@ const SingleCategory = ({
                 {isSearchable
                     ? listOfQuestion
                           .filter(singleQuestion =>
-                              singleQuestion.questionHeading.includes(
-                                  searchValue
-                              )
+                              singleQuestion.questionHeading
+                                  .toLowerCase()
+                                  .includes(searchValue.toLowerCase())
                           )
                           .map((questionData, index) => {
                               return (
