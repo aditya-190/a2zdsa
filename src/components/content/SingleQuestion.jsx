@@ -231,7 +231,7 @@ const SingleQuestion = ({
 
                 <Flex flexDirection={'row'} ml={{ base: 3, md: 6 }}>
                     <YouTube
-                        href={youTubeLink}
+                        href={isYouTubeLinkAvailable ? youTubeLink : '/play'}
                         cursor={'pointer'}
                         visibility={
                             isYouTubeLinkAvailable ? 'visible' : 'hidden'
@@ -239,13 +239,13 @@ const SingleQuestion = ({
                     />
                     <GfG
                         ml={{ base: 2, md: 4 }}
-                        href={gfgLink}
+                        href={isGfgLinkAvailable ? gfgLink : '/play'}
                         cursor={'pointer'}
                         visibility={isGfgLinkAvailable ? 'visible' : 'hidden'}
                     />
                     <LeetCode
                         ml={{ base: 2, md: 4 }}
-                        href={leetCodeLink}
+                        href={isLeetCodeLinkAvailable ? leetCodeLink : '/play'}
                         cursor={'pointer'}
                         visibility={
                             isLeetCodeLinkAvailable ? 'visible' : 'hidden'
