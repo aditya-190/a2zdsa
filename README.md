@@ -1,7 +1,7 @@
-# A2Z-DSA Sheet 🚀
+# a2zdsa 🚀
 
 [![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://a2z-dsa-sheet.pages.dev/)
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://a2zdsa.pages.dev/)
 
 ## Overview 👀
 
@@ -29,7 +29,7 @@ ADD A THUMBNAIL IMAGE HERE
 - _[Chakra UI]_ - **Component Library**
 
 ## Deployed Website 🌎
-https://a2z-dsa-sheet.pages.dev/
+https://a2zdsa.pages.dev/
 
 ## Sample Demo 📽
 
@@ -41,10 +41,10 @@ https://user-images.githubusercontent.com/63164037/193985341-85f57456-6057-4444-
 > Clone the repo
     >> For Windows: Git Bash
     >> For Linux: Terminal
-    >> git clone https://github.com/aditya-190/A2Z-DSA-Tracker.git
+    >> git clone https://github.com/aditya-190/a2zdsa.git
     
 > Change the folder location to your source Code Folder
-    >> cd A2Z-DSA-Tracker/src
+    >> cd a2zdsa/src
     
 > Install the dependencies
     >> yarn install
@@ -52,13 +52,13 @@ https://user-images.githubusercontent.com/63164037/193985341-85f57456-6057-4444-
 > Start the server
     >> yarn dev
     
-> A2Z-DSA-Tracker runs on port 3000 of your Local Machine
+> a2zdsa runs on port 3000 of your Local Machine
 ```
 
 ## How to Contribute 💥
-[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/aditya-190/A2Z-DSA-Tracker/pulls)
+[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/aditya-190/a2zdsa/pulls)
 
-- Take a look at the Existing [Issues](https://github.com/aditya-190/A2Z-DSA-Tracker/issues) or create your
+- Take a look at the Existing [Issues](https://github.com/aditya-190/a2zdsa/issues) or create your
   own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working upon.
@@ -82,8 +82,8 @@ https://user-images.githubusercontent.com/63164037/193985341-85f57456-6057-4444-
 </p>
 
 [here]: https://www.youtube.com/watch?v=rHn9af16O_E
-[A2Z DSA Sheet]: https://a2z-dsa-sheet.pages.dev/
-[A2Z]: https://a2z-dsa-sheet.pages.dev/
+[A2Z DSA Sheet]: https://a2zdsa.pages.dev/
+[A2Z]: https://a2zdsa.sheet.pages.dev/
 [striver]: https://in.linkedin.com/in/rajarvp
 [a2z dsa cracker sheet]: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 [react]: https://reactjs.org/

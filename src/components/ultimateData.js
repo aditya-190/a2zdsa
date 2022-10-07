@@ -7948,7 +7948,7 @@ const ultimateData = {
             },
         ],
         footer: {
-            gitHubLink: 'https://github.com/aditya-190/A2Z-DSA-Tracker',
+            gitHubLink: 'https://github.com/aditya-190/a2zdsa',
             originalDsaSheetLink:
                 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/',
             originalAuthorLinkedInLink: 'https://in.linkedin.com/in/rajarvp',
