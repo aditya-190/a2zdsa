@@ -83,7 +83,7 @@ https://user-images.githubusercontent.com/63164037/193985341-85f57456-6057-4444-
 
 [here]: https://www.youtube.com/watch?v=rHn9af16O_E
 [A2Z DSA Sheet]: https://a2zdsa.pages.dev/
-[A2Z]: https://a2zdsa.sheet.pages.dev/
+[A2Z]: https://a2zdsa.pages.dev/
 [striver]: https://in.linkedin.com/in/rajarvp
 [a2z dsa cracker sheet]: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
 [react]: https://reactjs.org/
