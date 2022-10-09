@@ -5,15 +5,16 @@
 
 ## Overview 👀
 
-ADD A THUMBNAIL IMAGE HERE
+![cover](https://user-images.githubusercontent.com/63164037/194750460-b42c8096-dbc9-43c0-aaa0-5e581b357c4a.png)
 
 - **Topic wise question search 🔍**
 - **Random question picker😉**
-- **Topic wise & question wise notes 😇**
+- **question wise notes 😇**
 - **Topic wise progress 🧐**
 - **Complete local storage 📂**
 - **Mobile first design ✌🏻**
 - **Clean UI ⚡**
+- **[Stress Relief Game] 🎮**
 
 ## What is A2Z-DSA Tracker 🤔
 
@@ -86,6 +87,7 @@ https://user-images.githubusercontent.com/63164037/193985341-85f57456-6057-4444-
 [A2Z]: https://a2zdsa.pages.dev/
 [striver]: https://in.linkedin.com/in/rajarvp
 [a2z dsa cracker sheet]: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
+[Stress Relief Game]: https://a2zdsa.pages.dev/play
 [react]: https://reactjs.org/
 [chakra ui]: https://chakra-ui.com/
 [450]: https://450dsa.com/
