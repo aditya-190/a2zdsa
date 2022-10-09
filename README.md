@@ -1,4 +1,4 @@
-# A2Z-DSA Sheet 🚀
+# A2Z-DSA Tracker 🚀
 
 [![React Badge](http://img.shields.io/badge/Powered%20By-React-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://a2zdsa.pages.dev/)
@@ -15,13 +15,13 @@ ADD A THUMBNAIL IMAGE HERE
 - **Mobile first design ✌🏻**
 - **Clean UI ⚡**
 
-## What is A2Z-DSA Sheet 🤔
+## What is A2Z-DSA Tracker 🤔
 
-#### A2Z DSA Sheet is a comprehensive list of 450+ topic wise questions to build your confidence in data structure and algorithms and prepare yourself for placements.
+#### A2Z DSA Tracker is a comprehensive list of 450+ topic wise questions to build your confidence in data structure and algorithms and prepare yourself for placements.
 
-#### A2Z DSA Sheet doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
+#### A2Z DSA Tracker doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
 
-#### More details on how _[A2Z DSA Sheet]_ can help you -> _[Here]_.
+#### More details on how _[A2Z DSA Tracker]_ can help you -> _[Here]_.
 
 ## Dependencies 🗃
 
@@ -82,7 +82,7 @@ https://user-images.githubusercontent.com/63164037/193985341-85f57456-6057-4444-
 </p>
 
 [here]: https://www.youtube.com/watch?v=rHn9af16O_E
-[A2Z DSA Sheet]: https://a2zdsa.pages.dev/
+[A2Z DSA Tracker]: https://a2zdsa.pages.dev/
 [A2Z]: https://a2zdsa.pages.dev/
 [striver]: https://in.linkedin.com/in/rajarvp
 [a2z dsa cracker sheet]: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/

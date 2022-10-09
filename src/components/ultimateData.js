@@ -1,7 +1,7 @@
 const ultimateData = {
     data: {
         header: {
-            heading: 'A2Z DSA Course/ Sheet',
+            heading: 'A2Z DSA Tracker',
             subtitle: 'Learn DSA from scratch ⭐',
             motivationalQuotes: [
                 {
