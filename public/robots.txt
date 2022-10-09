@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://a2zdsa.pages.dev/sitemap.xml
