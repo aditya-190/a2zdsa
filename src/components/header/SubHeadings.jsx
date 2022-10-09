@@ -5,7 +5,7 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
     const isDarkMode = data.data.header.darkMode
     const contentHeading =
         data.data.content[selectedContentIndex].contentHeading
-    const subtitle = data.data.header.subtitle
+    const subtitle = 'Learn DSA from scratch ⭐'
     const motivationalQuotes = data.data.header.motivationalQuotes
     const randomQuoteIndex = Math.floor(
         Math.random() * motivationalQuotes.length - 1

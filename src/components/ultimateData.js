@@ -1,8 +1,6 @@
 const ultimateData = {
     data: {
         header: {
-            heading: 'A2Z DSA Tracker',
-            subtitle: 'Learn DSA from scratch ⭐',
             motivationalQuotes: [
                 {
                     quote: 'Life isn’t about getting and having, it’s about giving and being.',
@@ -7947,12 +7945,6 @@ const ultimateData = {
                 ],
             },
         ],
-        footer: {
-            gitHubLink: 'https://github.com/aditya-190/a2zdsa',
-            originalDsaSheetLink:
-                'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/',
-            originalAuthorLinkedInLink: 'https://in.linkedin.com/in/rajarvp',
-        },
     },
 }
 
