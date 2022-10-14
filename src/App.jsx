@@ -2,11 +2,8 @@ import { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import DSA from './components/index.jsx'
-import ultimateData from './components/ultimateData.js'
 
-function App() {
-    let fetchData = localStorage.getItem('A2Z_Archive')
-    fetchData = fetchData === null ? ultimateData : JSON.parse(fetchData)
+function App({ fetchData }) {
     const [data, setData] = useState(fetchData)
 
     useEffect(() => {
