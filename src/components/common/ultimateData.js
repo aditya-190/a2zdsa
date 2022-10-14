@@ -1,4 +1,5 @@
 const ultimateData = {
+    // Any additional content should be added to the last. Else will create problem to users progress.
     data: {
         header: {
             motivationalQuotes: [
@@ -417,7 +418,7 @@ const ultimateData = {
             ],
             darkMode: false,
             isBookmarkFilterRequired: false,
-            totalQuestions: 200,
+            totalQuestions: 456,
             completedQuestions: 0,
         },
         content: [
@@ -426,22 +427,22 @@ const ultimateData = {
                 contentHeading: 'Basics',
                 contentSubHeading: '',
                 contentUserNotes: '',
-                contentTotalQuestions: 70,
+                contentTotalQuestions: 30,
                 contentCompletedQuestions: 0,
                 categoryList: [
                     {
                         categoryId: 1,
                         categoryName:
                             'Things to know in C++ /Java /Python or any language',
-                        categoryTotalQuestions: 5,
+                        categoryTotalQuestions: 9,
                         categoryCompletedQuestions: 0,
                         questionList: [
                             {
                                 questionHeading: 'User Input/ Output',
-                                questionLink: 'asdasd',
-                                gfgLink: 'asdsad',
-                                leetCodeLink: 'asdasd',
-                                youTubeLink: 'asdsad',
+                                questionLink: '',
+                                gfgLink: '',
+                                leetCodeLink: '',
+                                youTubeLink: '',
                                 isDone: false,
                                 isBookmarked: false,
                                 userNotes: '',
@@ -550,20 +551,6 @@ const ultimateData = {
                                 questionIndex: 8,
                                 questionId:
                                     '8_time_complexity_[learn_basics,_and_then_analyse_in_next_steps]',
-                            },
-                            {
-                                questionHeading:
-                                    'asda',
-                                questionLink: 'asd',
-                                gfgLink: 'asdas',
-                                leetCodeLink: 'sad',
-                                youTubeLink: 'asd',
-                                isDone: false,
-                                isBookmarked: false,
-                                userNotes: '',
-                                questionIndex: 9,
-                                questionId:
-                                    '9_time_complexity_[learn_basics,_and_then_analyse_in_next_steps]',
                             },
                         ],
                     },
@@ -913,30 +900,6 @@ const ultimateData = {
                                 questionIndex: 1,
                                 questionId:
                                     '1_find_the_highest/lowest_frequency_element',
-                            },
-                        ],
-                    },
-                    {
-                        categoryId: 7,
-                        categoryName: 'asd',
-                        categoryTotalQuestions: 1,
-                        categoryCompletedQuestions: 0,
-                        questionList: [
-                            {
-                                questionHeading:
-                                    'asds',
-                                questionLink:
-                                    'https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/',
-                                gfgLink:
-                                    'https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0',
-                                leetCodeLink: '',
-                                youTubeLink: '',
-                                isDone: false,
-                                isBookmarked: false,
-                                userNotes: '',
-                                questionIndex: 0,
-                                questionId:
-                                    '0_count_frequencies_of_array_elements',
                             },
                         ],
                     },
@@ -7977,54 +7940,6 @@ const ultimateData = {
                                 questionIndex: 8,
                                 questionId:
                                     '8_count_palindromic_subsequence_in_given_string',
-                            },
-                        ],
-                    },
-                ],
-            },
-            {
-                contentPath: '/asd',
-                contentHeading: 'asd',
-                contentSubHeading: 'Hard Problems and Standard Algorithms',
-                contentUserNotes: '',
-                contentTotalQuestions: 2,
-                contentCompletedQuestions: 0,
-                categoryList: [
-                    {
-                        categoryId: 1,
-                        categoryName: 'Hard Problems',
-                        categoryTotalQuestions: 2,
-                        categoryCompletedQuestions: 0,
-                        questionList: [
-                            {
-                                questionHeading:
-                                    'Minimum number of bracket reversals needed to make an expression balanced',
-                                questionLink: '',
-                                gfgLink:
-                                    'https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1',
-                                leetCodeLink:
-                                    'https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/',
-                                youTubeLink: '',
-                                isDone: false,
-                                isBookmarked: false,
-                                userNotes: '',
-                                questionIndex: 0,
-                                questionId:
-                                    '0_minimum_number_of_bracket_reversals_needed_to_make_an_expression_balanced',
-                            },
-                            {
-                                questionHeading: 'Count and say',
-                                questionLink: '',
-                                gfgLink:
-                                    'https://practice.geeksforgeeks.org/problems/decode-the-pattern1138/1',
-                                leetCodeLink:
-                                    'https://leetcode.com/problems/count-and-say/',
-                                youTubeLink: '',
-                                isDone: false,
-                                isBookmarked: false,
-                                userNotes: '',
-                                questionIndex: 1,
-                                questionId: '1_count_and_say',
                             },
                         ],
                     },
