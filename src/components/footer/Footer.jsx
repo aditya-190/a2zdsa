@@ -54,7 +54,7 @@ const Footer = () => {
                 href={gitHubLink}
                 target={'_blank'}
                 _hover={{}}
-                display={{ base: 'none', md: 'block' }}
+                display={{ base: 'none', md: 'none' }}
             >
                 <Text
                     w={'fit-content'}
