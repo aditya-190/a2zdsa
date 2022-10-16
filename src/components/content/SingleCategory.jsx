@@ -22,8 +22,24 @@ const SingleCategory = ({
     const isBookmark = data.data.header.isBookmarkFilterRequired
     const isSearchable = searchValue !== ''
 
+    const filteredListOfQuestions = () => {
+        const filteredData = listOfQuestion.filter(singleQuestion =>
+            isSearchable
+                ? singleQuestion.questionHeading
+                      .toLowerCase()
+                      .includes(searchValue.toLowerCase())
+                : (isBookmark && singleQuestion.isBookmarked) || !isBookmark
+        )
+        return [filteredData, filteredData.length !== 0]
+    }
+
     return (
-        <Flex className={'singleCategory'} p={2} flexDirection={'column'}>
+        <Flex
+            className={'singleCategory'}
+            p={2}
+            flexDirection={'column'}
+            display={filteredListOfQuestions()[1] ? 'flex' : 'none'}
+        >
             <Flex
                 flexDirection={'row'}
                 justifyContent={'start'}
@@ -59,55 +75,18 @@ const SingleCategory = ({
                 alignItems={'start'}
                 justifyContent={'center'}
             >
-                {isSearchable
-                    ? listOfQuestion
-                          .filter(singleQuestion =>
-                              singleQuestion.questionHeading
-                                  .toLowerCase()
-                                  .includes(searchValue.toLowerCase())
-                          )
-                          .map((questionData, index) => {
-                              return (
-                                  <SingleQuestion
-                                      data={data}
-                                      setData={setData}
-                                      selectedContentIndex={
-                                          selectedContentIndex
-                                      }
-                                      selectedCategoryIndex={
-                                          selectedCategoryIndex
-                                      }
-                                      selectedQuestionIndex={
-                                          questionData.questionIndex
-                                      }
-                                      key={index}
-                                  />
-                              )
-                          })
-                    : listOfQuestion
-                          .filter(
-                              singleQuestion =>
-                                  (isBookmark && singleQuestion.isBookmarked) ||
-                                  !isBookmark
-                          )
-                          .map((questionData, index) => {
-                              return (
-                                  <SingleQuestion
-                                      data={data}
-                                      setData={setData}
-                                      selectedContentIndex={
-                                          selectedContentIndex
-                                      }
-                                      selectedCategoryIndex={
-                                          selectedCategoryIndex
-                                      }
-                                      selectedQuestionIndex={
-                                          questionData.questionIndex
-                                      }
-                                      key={index}
-                                  />
-                              )
-                          })}
+                {filteredListOfQuestions()[0].map((questionData, index) => {
+                    return (
+                        <SingleQuestion
+                            data={data}
+                            setData={setData}
+                            selectedContentIndex={selectedContentIndex}
+                            selectedCategoryIndex={selectedCategoryIndex}
+                            selectedQuestionIndex={questionData.questionIndex}
+                            key={index}
+                        />
+                    )
+                })}
             </Flex>
         </Flex>
     )
