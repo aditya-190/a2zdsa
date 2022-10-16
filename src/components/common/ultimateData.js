@@ -416,7 +416,7 @@ const ultimateData = {
                     author: 'Steve Jobs',
                 },
             ],
-            darkMode: false,
+            darkMode: true,
             isBookmarkFilterRequired: false,
             totalQuestions: 456,
             completedQuestions: 0,

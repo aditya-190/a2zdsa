@@ -201,7 +201,7 @@ const SingleQuestion = ({
                     flexGrow={1}
                     vertical-align={'middle'}
                     fontWeight={'md'}
-                    fontSize={{ base: 'sm', md: 'md' }}
+                    fontSize={{ base: 'xs', md: 'md' }}
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
                     textDecorationLine={isDone ? 'line-through' : 'none'}
@@ -229,8 +229,13 @@ const SingleQuestion = ({
                     )}
                 </Text>
 
-                <Flex flexDirection={'row'} ml={{ base: 3, md: 6 }}>
+                <Flex
+                    flexDirection={'row'}
+                    alignItems={'center'}
+                    ml={{ base: 3, md: 6 }}
+                >
                     <YouTube
+                        fontSize={'lg'}
                         href={isYouTubeLinkAvailable ? youTubeLink : '/play'}
                         cursor={'pointer'}
                         visibility={
@@ -238,12 +243,14 @@ const SingleQuestion = ({
                         }
                     />
                     <GfG
+                        fontSize={'lg'}
                         ml={{ base: 2, md: 4 }}
                         href={isGfgLinkAvailable ? gfgLink : '/play'}
                         cursor={'pointer'}
                         visibility={isGfgLinkAvailable ? 'visible' : 'hidden'}
                     />
                     <LeetCode
+                        fontSize={'lg'}
                         ml={{ base: 2, md: 4 }}
                         href={isLeetCodeLinkAvailable ? leetCodeLink : '/play'}
                         cursor={'pointer'}
@@ -257,9 +264,11 @@ const SingleQuestion = ({
                     ml={6}
                     display={{ base: 'none', md: 'flex' }}
                     cursor={'pointer'}
+                    alignItems={'center'}
                 >
                     {isNoted ? (
                         <Notes
+                            fontSize={'lg'}
                             color={
                                 isDarkMode
                                     ? 'indianFlag1Color_dark'
@@ -269,6 +278,7 @@ const SingleQuestion = ({
                         />
                     ) : (
                         <NoNotes
+                            fontSize={'lg'}
                             color={
                                 isDarkMode
                                     ? 'indianFlag1Color_dark'
@@ -280,6 +290,7 @@ const SingleQuestion = ({
                     {isBookmarked ? (
                         <Bookmark
                             ml={4}
+                            fontSize={'lg'}
                             color={
                                 isDarkMode
                                     ? 'indianFlag3Color_dark'
@@ -290,6 +301,7 @@ const SingleQuestion = ({
                     ) : (
                         <NoBookmark
                             ml={4}
+                            fontSize={'lg'}
                             color={
                                 isDarkMode
                                     ? 'indianFlag3Color_dark'

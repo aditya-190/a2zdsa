@@ -14,7 +14,7 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
     return (
         <Flex
             mt={0.5}
-            w={'80vw'}
+            w={'90vw'}
             className={'subHeadings'}
             flexDirection={'column'}
             alignItems={'center'}
@@ -30,7 +30,7 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                         <Text
                             align={'center'}
                             fontWeight={'md'}
-                            fontSize={'lg'}
+                            fontSize={'xl'}
                             fontFamily={'customFamily'}
                             fontStyle={'normal'}
                             color={
@@ -47,7 +47,7 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                     <Text
                         align={'center'}
                         fontWeight={'md'}
-                        fontSize={'lg'}
+                        fontSize={'xl'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
                         color={isDarkMode ? 'textColor_dark' : 'textColor'}
@@ -60,7 +60,7 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                     <Text
                         align={'center'}
                         fontWeight={'md'}
-                        fontSize={'lg'}
+                        fontSize={'xl'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
                         color={
@@ -73,7 +73,8 @@ const SubHeadings = ({ data, selectedContentIndex, showBreadCrumbs }) => {
                         mt={2}
                         align={'center'}
                         fontWeight={'md'}
-                        fontSize={'sm'}
+                        fontSize={'md'}
+                        display={{ base: 'none', md: 'flex' }}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
                         color={isDarkMode ? 'textColor_dark' : 'textColor'}

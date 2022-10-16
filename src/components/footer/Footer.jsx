@@ -1,9 +1,9 @@
 import { Flex, Link, Text } from '@chakra-ui/react'
 
 const Footer = () => {
-    const originalDsaSheetLink = 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/'
-    const originalAuthorLinkedInLink =
-        'https://in.linkedin.com/in/rajarvp'
+    const originalDsaSheetLink =
+        'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/'
+    const originalAuthorLinkedInLink = 'https://in.linkedin.com/in/rajarvp'
     const gitHubLink = 'https://github.com/aditya-190/a2zdsa'
 
     return (
@@ -54,7 +54,7 @@ const Footer = () => {
                 href={gitHubLink}
                 target={'_blank'}
                 _hover={{}}
-                display={{ base: 'none', md: 'none' }}
+                display={{ base: 'none', md: 'flex' }}
             >
                 <Text
                     w={'fit-content'}

@@ -20,14 +20,21 @@ const Content = ({
         <Flex
             className={'content'}
             my={2}
-            w={'80vw'}
+            w={'90vw'}
             flexGrow={'1'}
             flexDirection={'column'}
-            borderColor={isDarkMode ? 'borderColor_dark' : 'borderColor'}
+            borderColor={
+                isHomeScreen
+                    ? 'transparent'
+                    : isDarkMode
+                    ? 'borderColor_dark'
+                    : 'borderColor'
+            }
             borderWidth={'2px'}
             borderRadius={'6px'}
             p={2}
             overflowY={'scroll'}
+            overflowX={'hidden'}
         >
             {isHomeScreen ? (
                 <>

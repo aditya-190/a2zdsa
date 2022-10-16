@@ -39,7 +39,7 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                         : 'topicStillBg'
                 }
                 p={2}
-                minH={'100px'}
+                minH={'120px'}
                 borderRadius={16}
                 cursor={'pointer'}
                 onMouseEnter={() => {
@@ -53,7 +53,7 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
             >
                 <Flex
                     flexDirection={'column'}
-                    justifyContent={'center'}
+                    justifyContent={'space-around'}
                     alignItems={'start'}
                 >
                     <Text
@@ -68,6 +68,7 @@ const SingleTopic = ({ data, selectedContentIndex }) => {
                         {contentHeading}
                     </Text>
                     <Text
+                        mt={1}
                         fontWeight={'md'}
                         fontSize={'xs'}
                         fontFamily={'customFamily'}

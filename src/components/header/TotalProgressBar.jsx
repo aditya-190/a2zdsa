@@ -11,7 +11,6 @@ const TotalProgressBar = ({ data }) => {
     return (
         <Flex
             className={'totalProgressBar'}
-            w={'100%'}
             mt={4}
             flexDirection={'column'}
             alignItems={'center'}
@@ -19,7 +18,7 @@ const TotalProgressBar = ({ data }) => {
             <Text
                 align={'center'}
                 fontWeight={'lg'}
-                fontSize={'lg'}
+                fontSize={{ base: 'sm', md: 'xl' }}
                 fontFamily={'customFamily'}
                 fontStyle={'normal'}
                 color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}
@@ -33,7 +32,7 @@ const TotalProgressBar = ({ data }) => {
                 bg={isDarkMode ? 'totalColor_dark' : 'totalColor'}
                 borderRadius={16}
                 minH={'12px'}
-                w={'calc(60vw)'}
+                w={'70vw'}
             >
                 <Flex
                     bg={isDarkMode ? 'completedColor_dark' : 'completedColor'}

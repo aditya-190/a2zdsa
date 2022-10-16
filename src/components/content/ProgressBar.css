@@ -3,12 +3,18 @@
 }
 
 .content::-webkit-scrollbar {
-    display: none;
+    width: 5px;
 }
 
-.content {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+.content::-webkit-scrollbar-track {
+    background: none;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #36363677;
+    border-radius: 16px;
+    height: 10px;
+    border: 3px solid #4e4e4e73;
 }
 
 .blink {
@@ -16,7 +22,7 @@
 }
 @keyframes blinkingBackground {
     0%      { background-color: #ffffff;}
-    100%    { background-color: rgba(146, 195, 250, 0.24);}
+    100%    { background-color: #92c3fa3d;}
 }
 
 .blink_dark {

@@ -20,7 +20,7 @@ const Headings = ({ data, setData }) => {
                 flexGrow={1}
                 align={'center'}
                 fontWeight={'lg'}
-                fontSize={'2xl'}
+                fontSize={'5xl'}
                 fontFamily={'customFamily'}
                 fontStyle={'normal'}
                 color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}

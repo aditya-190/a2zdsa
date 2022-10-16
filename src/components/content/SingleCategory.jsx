@@ -32,7 +32,7 @@ const SingleCategory = ({
                 <Text
                     h={'100%'}
                     fontWeight={'lg'}
-                    fontSize={{ base: 'sm', md: 'lg' }}
+                    fontSize={{ base: 'sm', md: 'xl' }}
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
                     color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}
@@ -43,7 +43,7 @@ const SingleCategory = ({
                 <Text
                     ml={{ base: 1, md: 2 }}
                     fontWeight={'lg'}
-                    fontSize={{ base: 'sm', md: 'lg' }}
+                    fontSize={{ base: 'sm', md: 'xl' }}
                     fontFamily={'customFamily'}
                     fontStyle={'normal'}
                     color={isDarkMode ? 'defaultColor_dark' : 'defaultColor'}

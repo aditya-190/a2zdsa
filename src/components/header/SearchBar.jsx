@@ -1,4 +1,4 @@
-import { Flex, Input, Text, useDisclosure } from '@chakra-ui/react'
+import { Flex, Input, Text, Tooltip, useDisclosure } from '@chakra-ui/react'
 
 import NotesEditor from '../content/NotesEditor'
 import { Bookmark, NoBookmark, NoNotes, Notes } from '../icons/ProjectIcons.jsx'
@@ -23,6 +23,8 @@ const SearchBar = ({
     const isDarkMode = data.data.header.darkMode
     const isNotes = current.contentUserNotes.trim() !== ''
     const isBookmark = data.data.header.isBookmarkFilterRequired
+
+    const heading = data.data.content[selectedContentIndex].contentHeading
 
     let handleInputChange = e => {
         setSearchValue(e.target.value)
@@ -53,51 +55,57 @@ const SearchBar = ({
         <>
             <Flex
                 className={'searchBar'}
-                w={'calc(80vw)'}
+                w={'90vw'}
                 mt={4}
                 flexDirection={'row'}
                 alignItems={'center'}
                 justifyContent={'center'}
             >
-                <Flex
-                    h={'full'}
-                    borderWidth={'2px'}
-                    borderColor={
-                        isDarkMode
-                            ? 'indianFlag1BorderColor_dark'
-                            : 'indianFlag1BorderColor'
-                    }
-                    borderRadius={'6px'}
-                    p={2}
-                    cursor={'pointer'}
-                    alignItems={'center'}
-                    justifyContent={'center'}
-                    background={
-                        isDarkMode ? 'indianFlag1Bg_dark' : 'indianFlag1Bg'
-                    }
-                    display={{ base: 'none', md: 'flex' }}
-                    onClick={onOpenNotes}
+                <Tooltip
+                    hasArrow
+                    placement={'top-end'}
+                    label={'Notes for ' + heading}
                 >
-                    {isNotes ? (
-                        <Notes
-                            fontSize={'16px'}
-                            color={
-                                isDarkMode
-                                    ? 'indianFlag1Color_dark'
-                                    : 'indianFlag1Color'
-                            }
-                        />
-                    ) : (
-                        <NoNotes
-                            fontSize={'16px'}
-                            color={
-                                isDarkMode
-                                    ? 'indianFlag1Color_dark'
-                                    : 'indianFlag1Color'
-                            }
-                        />
-                    )}
-                </Flex>
+                    <Flex
+                        h={'full'}
+                        borderWidth={'2px'}
+                        borderColor={
+                            isDarkMode
+                                ? 'indianFlag1BorderColor_dark'
+                                : 'indianFlag1BorderColor'
+                        }
+                        borderRadius={'6px'}
+                        p={2}
+                        cursor={'pointer'}
+                        alignItems={'center'}
+                        justifyContent={'center'}
+                        background={
+                            isDarkMode ? 'indianFlag1Bg_dark' : 'indianFlag1Bg'
+                        }
+                        display={{ base: 'none', md: 'flex' }}
+                        onClick={onOpenNotes}
+                    >
+                        {isNotes ? (
+                            <Notes
+                                fontSize={'16px'}
+                                color={
+                                    isDarkMode
+                                        ? 'indianFlag1Color_dark'
+                                        : 'indianFlag1Color'
+                                }
+                            />
+                        ) : (
+                            <NoNotes
+                                fontSize={'16px'}
+                                color={
+                                    isDarkMode
+                                        ? 'indianFlag1Color_dark'
+                                        : 'indianFlag1Color'
+                                }
+                            />
+                        )}
+                    </Flex>
+                </Tooltip>
 
                 <Flex
                     h={'full'}
@@ -159,7 +167,7 @@ const SearchBar = ({
                         h={'full'}
                         align={'center'}
                         fontWeight={'lg'}
-                        fontSize={'xs'}
+                        fontSize={'sm'}
                         textAlign={'center'}
                         fontFamily={'customFamily'}
                         fontStyle={'normal'}
@@ -215,56 +223,62 @@ const SearchBar = ({
                     </Text>
                 </Flex>
 
-                <Flex
-                    h={'full'}
-                    borderWidth={'2px'}
-                    borderColor={
-                        isDarkMode
-                            ? 'indianFlag3BorderColor_dark'
-                            : 'indianFlag3BorderColor'
-                    }
-                    borderRadius={'6px'}
-                    p={2}
-                    ml={1}
-                    cursor={'pointer'}
-                    alignItems={'center'}
-                    justifyContent={'center'}
-                    background={
-                        isDarkMode ? 'indianFlag3Bg_dark' : 'indianFlag3Bg'
-                    }
-                    display={{ base: 'none', md: 'flex' }}
-                    onClick={() => {
-                        setData(prevState => ({
-                            data: {
-                                ...prevState.data,
-                                header: {
-                                    ...prevState.data.header,
-                                    isBookmarkFilterRequired: !isBookmark,
-                                },
-                            },
-                        }))
-                    }}
+                <Tooltip
+                    hasArrow
+                    placement={'top-start'}
+                    label={'Bookmarks for ' + heading}
                 >
-                    {isBookmark ? (
-                        <Bookmark
-                            fontSize={'16px'}
-                            color={
-                                isDarkMode
-                                    ? 'indianFlag3Color_dark'
-                                    : 'indianFlag3Color'
-                            }
-                        />
-                    ) : (
-                        <NoBookmark
-                            fontSize={'16px'}
-                            color={
-                                isDarkMode
-                                    ? 'indianFlag3Color_dark'
-                                    : 'indianFlag3Color'
-                            }
-                        />
-                    )}
-                </Flex>
+                    <Flex
+                        h={'full'}
+                        borderWidth={'2px'}
+                        borderColor={
+                            isDarkMode
+                                ? 'indianFlag3BorderColor_dark'
+                                : 'indianFlag3BorderColor'
+                        }
+                        borderRadius={'6px'}
+                        p={2}
+                        ml={1}
+                        cursor={'pointer'}
+                        alignItems={'center'}
+                        justifyContent={'center'}
+                        background={
+                            isDarkMode ? 'indianFlag3Bg_dark' : 'indianFlag3Bg'
+                        }
+                        display={{ base: 'none', md: 'flex' }}
+                        onClick={() => {
+                            setData(prevState => ({
+                                data: {
+                                    ...prevState.data,
+                                    header: {
+                                        ...prevState.data.header,
+                                        isBookmarkFilterRequired: !isBookmark,
+                                    },
+                                },
+                            }))
+                        }}
+                    >
+                        {isBookmark ? (
+                            <Bookmark
+                                fontSize={'16px'}
+                                color={
+                                    isDarkMode
+                                        ? 'indianFlag3Color_dark'
+                                        : 'indianFlag3Color'
+                                }
+                            />
+                        ) : (
+                            <NoBookmark
+                                fontSize={'16px'}
+                                color={
+                                    isDarkMode
+                                        ? 'indianFlag3Color_dark'
+                                        : 'indianFlag3Color'
+                                }
+                            />
+                        )}
+                    </Flex>
+                </Tooltip>
             </Flex>
             <NotesEditor
                 data={data}

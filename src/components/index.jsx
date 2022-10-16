@@ -38,7 +38,7 @@ const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
                         selectedContentIndex={selectedContentIndex}
                         searchValue={searchValue}
                     />
-                    <Footer />
+                    <Footer data={data} />
                 </>
             )}
         </Flex>
