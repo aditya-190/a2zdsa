@@ -1,102 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://a2zdsa.pages.dev</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/array</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/basics</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/binary_search</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/binary_search_tree</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/binary_tree</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/bit_manipulation</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/dp</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/graphs</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/greedy</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/heaps</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/linked_list</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/play</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/recursion</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/sorting_techniques</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/stack_n_queue</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/strings_part_1</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/strings_part_2</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/tries</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://a2zdsa.pages.dev/two_pointers</loc>
+        <lastmod>2022-10-17T18:11:36+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
