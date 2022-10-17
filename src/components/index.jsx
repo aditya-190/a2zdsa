@@ -4,9 +4,8 @@ import { useState } from 'react'
 import Content from './content/Content.jsx'
 import Footer from './footer/Footer.jsx'
 import Header from './header/Header.jsx'
-import { Reacteroids } from './NotFound/Reacteroids'
 
-const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
+const DSA = ({ data, setData, isHomeScreen, selectedContentIndex }) => {
     let [searchValue, setSearchValue] = useState('')
     const isDarkMode = data.data.header.darkMode
     return (
@@ -19,28 +18,22 @@ const DSA = ({ data, setData, isHomeScreen, selectedContentIndex, is404 }) => {
             justifyContent={'space-between'}
             bg={isDarkMode ? 'fullPageColor_dark' : 'fullPageColor'}
         >
-            {is404 ? (
-                <Reacteroids />
-            ) : (
-                <>
-                    <Header
-                        data={data}
-                        setData={setData}
-                        isHomeScreen={isHomeScreen}
-                        selectedContentIndex={selectedContentIndex}
-                        searchValue={searchValue}
-                        setSearchValue={setSearchValue}
-                    />
-                    <Content
-                        data={data}
-                        setData={setData}
-                        isHomeScreen={isHomeScreen}
-                        selectedContentIndex={selectedContentIndex}
-                        searchValue={searchValue}
-                    />
-                    <Footer data={data} />
-                </>
-            )}
+            <Header
+                data={data}
+                setData={setData}
+                isHomeScreen={isHomeScreen}
+                selectedContentIndex={selectedContentIndex}
+                searchValue={searchValue}
+                setSearchValue={setSearchValue}
+            />
+            <Content
+                data={data}
+                setData={setData}
+                isHomeScreen={isHomeScreen}
+                selectedContentIndex={selectedContentIndex}
+                searchValue={searchValue}
+            />
+            <Footer data={data} />
         </Flex>
     )
 }

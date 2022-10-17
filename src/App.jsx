@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import DSA from './components/index.jsx'
+import { Flex } from '@chakra-ui/react'
+import { Reacteroids } from './components/NotFound/Reacteroids.jsx'
 
 function App({ fetchData }) {
     const [data, setData] = useState(fetchData)
@@ -20,7 +22,6 @@ function App({ fetchData }) {
                         setData={setData}
                         isHomeScreen={true}
                         selectedContentIndex={0}
-                        is404={false}
                     />
                 }
             />
@@ -35,22 +36,17 @@ function App({ fetchData }) {
                                 setData={setData}
                                 isHomeScreen={false}
                                 selectedContentIndex={index}
-                                is404={false}
                             />
                         }
                     />
                 )
             })}
             <Route
-                path="*"
+                path={'/play'}
                 element={
-                    <DSA
-                        data={data}
-                        setData={setData}
-                        isHomeScreen={true}
-                        selectedContentIndex={0}
-                        is404={true}
-                    />
+                    <Flex w={'100vw'} h={'100vh'}>
+                        <Reacteroids />
+                    </Flex>
                 }
             />
         </Routes>
