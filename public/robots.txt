@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
-Sitemap: https://a2zdsa.pages.dev/sitemap_index.xml
+Allow: /
+
+Sitemap: https://a2zdsa.pages.dev/sitemap.xml
