@@ -4599,7 +4599,7 @@ const ultimateData = {
                                     'Connect `n` ropes with minimal cost',
                                 questionLink: '',
                                 gfgLink:
-                                    'https://practice.geeksforgeeks.org/problems/rod-cutting0840/1',
+                                    'https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1',
                                 leetCodeLink: '',
                                 youTubeLink: '',
                                 isDone: false,
