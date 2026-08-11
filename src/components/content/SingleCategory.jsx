@@ -27,8 +27,6 @@ const SingleCategory = ({
     const isBookmark = data.data.header.isBookmarkFilterRequired
     const isSearchable = searchValue !== ''
     const isCategoryDone = current.questionList.every(q => q.isDone)
-    const isCategoryPartiallyDone =
-        current.questionList.some(q => q.isDone) && !isCategoryDone
 
     const filteredListOfQuestions = () => {
         const filteredData = listOfQuestion.filter(singleQuestion =>
