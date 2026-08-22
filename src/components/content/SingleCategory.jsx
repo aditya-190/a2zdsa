@@ -2,6 +2,11 @@ import { Flex, Text } from '@chakra-ui/react'
 
 import SingleQuestion from './SingleQuestion.jsx'
 
+import {
+    Tick,
+    UnTick,
+} from '../icons/ProjectIcons'
+
 const SingleCategory = ({
     data,
     setData,
@@ -12,7 +17,7 @@ const SingleCategory = ({
     const isDarkMode = data.data.header.darkMode
     const current =
         data.data.content[selectedContentIndex].categoryList[
-            selectedCategoryIndex
+        selectedCategoryIndex
         ]
     const categoryId = current.categoryId
     const categoryName = current.categoryName
@@ -21,18 +26,63 @@ const SingleCategory = ({
         current.categoryTotalQuestions === current.categoryCompletedQuestions
     const isBookmark = data.data.header.isBookmarkFilterRequired
     const isSearchable = searchValue !== ''
+    const isCategoryDone = current.questionList.every(q => q.isDone)
 
     const filteredListOfQuestions = () => {
         const filteredData = listOfQuestion.filter(singleQuestion =>
             isSearchable
                 ? singleQuestion.questionHeading
-                      .toLowerCase()
-                      .includes(searchValue.toLowerCase())
+                    .toLowerCase()
+                    .includes(searchValue.toLowerCase())
                 : (isBookmark && singleQuestion.isBookmarked) || !isBookmark
         )
         return [filteredData, filteredData.length !== 0]
     }
 
+    function onCategoryTickClicked(nextState) {
+        const totalQuestions = current.questionList.length
+        const completedQuestions = current.questionList.filter(q => q.isDone).length
+
+        const delta = nextState
+            ? totalQuestions - completedQuestions
+            : -completedQuestions
+
+        setData({
+            data: {
+                header: {
+                    ...data.data.header,
+                    completedQuestions: data.data.header.completedQuestions + delta,
+                },
+                content: data.data.content.map((singleContent, contentIndex) =>
+                    contentIndex !== selectedContentIndex
+                        ? singleContent
+                        : {
+                            ...singleContent,
+                            contentCompletedQuestions:
+                                singleContent.contentCompletedQuestions + delta,
+                            categoryList: singleContent.categoryList.map(
+                                (singleCategory, categoryIndex) =>
+                                    categoryIndex !== selectedCategoryIndex
+                                        ? singleCategory
+                                        : {
+                                            ...singleCategory,
+                                            categoryCompletedQuestions: nextState
+                                                ? totalQuestions
+                                                : 0,
+                                            questionList: singleCategory.questionList.map(
+                                                singleQuestion => ({
+                                                    ...singleQuestion,
+                                                    isDone: nextState,
+                                                })
+                                            ),
+                                        }
+                            ),
+                        }
+                ),
+                footer: { ...data.data.footer },
+            },
+        })
+    }
     return (
         <Flex
             className={'singleCategory'}
@@ -45,7 +95,27 @@ const SingleCategory = ({
                 justifyContent={'start'}
                 alignItems={'center'}
             >
+                {isCategoryDone ? (
+                    <Tick
+                        color={
+                            isDarkMode
+                                ? 'highlightedColor_dark'
+                                : 'highlightedColor'
+                        }
+                        onClick={() => onCategoryTickClicked(false)}
+                    />
+                ) : (
+                    <UnTick
+                        color={
+                            isDarkMode
+                                ? 'highlightedColor_dark'
+                                : 'highlightedColor'
+                        }
+                        onClick={() => onCategoryTickClicked(true)}
+                    />
+                )}
                 <Text
+                    ml={{ base: 1, md: 2 }}
                     h={'100%'}
                     fontWeight={'lg'}
                     fontSize={{ base: 'sm', md: 'xl' }}
